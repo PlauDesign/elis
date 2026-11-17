@@ -28,7 +28,7 @@ Use Node 20 ou mais novo (veja `.nvmrc`). Na primeira vez: `npm install` e `npx 
 
 Este repositório é público. A fonte ELiS é distribuída sob a OFL (`OFL.txt`, igual a `dist/downloads/OFL.txt`).
 
-Odisseia e Compasso são fontes comerciais da Plau e não podem entrar no repositório, nem no histórico. Os quatro arquivos (`dist/fonts/Compasso*.woff2` e `dist/fonts/Odisseia*.woff2`) estão no `.gitignore` e existem só no servidor; para atualizá-los, envie os arquivos direto ao servidor. `tests/build/test_repo.py` falha se alguma fonte que não seja a ELiS for rastreada pelo git.
+Odisseia e Compasso são fontes comerciais da Plau e não podem entrar no repositório, nem no histórico. Os quatro arquivos (`dist/fonts/Compasso*.woff2` e `dist/fonts/Odisseia*.woff2`) estão no `.gitignore`. `tests/build/test_repo.py` falha se alguma fonte que não seja a ELiS for rastreada pelo git.
 
 Sem esses arquivos (no CI ou em um clone novo), o site usa as fontes de reserva e os testes de navegador ignoram o 404 deles; o teste das aspas penduradas, que mede a Compasso, é pulado.
 
