@@ -1,0 +1,1522 @@
+{
+"ELiS – Guia de uso da fonte": {
+"en": "ELiS – Font user guide",
+"es": "ELiS – Guía de uso de la fuente"
+},
+"Escrita das": {
+"en": "Writing of",
+"es": "Escritura de las"
+},
+"Línguas de Sinais": {
+"en": "Sign Languages",
+"es": "Lenguas de Señas"
+},
+"Experimente": {
+"en": "Try it",
+"es": "Prueba"
+},
+"Mapa de teclas": {
+"en": "Key map",
+"es": "Mapa de teclas"
+},
+"Combinações": {
+"en": "Combinations",
+"es": "Combinaciones"
+},
+"Corpo e glifos": {
+"en": "Body and glyphs",
+"es": "Cuerpo y glifos"
+},
+"Baixar a ELiS": {
+"en": "Download ELiS",
+"es": "Descargar ELiS"
+},
+"Quem criou": {
+"en": "Who created it",
+"es": "Quién la creó"
+},
+"ELiS: Guia Interativo": {
+"en": "ELiS: Interactive Guide",
+"es": "ELiS: Guía interactiva"
+},
+"Fonte 2.004": {
+"en": "Font 2.004",
+"es": "Fuente 2.004"
+},
+"ELiS – ESCRITA DAS LÍNGUAS DE SINAIS": {
+"en": "ELiS – WRITING OF SIGN LANGUAGES",
+"es": "ELiS – ESCRITURA DE LAS LENGUAS DE SEÑAS"
+},
+"As línguas de sinais": {
+"en": "Sign languages",
+"es": "Las lenguas de señas"
+},
+"também se ": {
+"en": "can also be ",
+"es": "también se "
+},
+"escrevem.": {
+"en": "written.",
+"es": "escriben."
+},
+"A ELiS – Escrita das Línguas de Sinais – é um sistema criado em 1998 por ": {
+"en": "ELiS – Escrita das Línguas de Sinais, or Writing of Sign Languages – is a system created in 1998 by ",
+"es": "La ELiS – Escrita das Línguas de Sinais, o Escritura de las Lenguas de Señas – es un sistema creado en 1998 por "
+},
+" para registrar por escrito línguas de sinais como a Libras.": {
+"en": " to record sign languages such as Libras (Brazilian Sign Language) in writing.",
+"es": " para registrar por escrito lenguas de señas como la Libras (Lengua de Señas Brasileña)."
+},
+"A fonte ELiS leva esse sistema ao computador. Neste guia, você pode experimentar a escrita, consultar as teclas e explorar a relação entre os glifos e o corpo.": {
+"en": "The ELiS font brings this system to the computer. In this guide, you can try the writing, look up the keys and explore how the glyphs relate to the body.",
+"es": "La fuente ELiS lleva este sistema a la computadora. En esta guía puedes probar la escritura, consultar las teclas y explorar la relación entre los glifos y el cuerpo."
+},
+"O sistema tem 95 visografemas básicos, organizados em quatro grupos.": {
+"en": "The system has 95 basic visographemes, organized into four groups.",
+"es": "El sistema tiene 95 visografemas básicos, organizados en cuatro grupos."
+},
+"Configuração de dedos": {
+"en": "Finger configuration",
+"es": "Configuración de dedos"
+},
+"Como os dedos se configuram.": {
+"en": "How the fingers are shaped.",
+"es": "Cómo se configuran los dedos."
+},
+"Orientação da palma": {
+"en": "Palm orientation",
+"es": "Orientación de la palma"
+},
+"Para onde a palma se orienta.": {
+"en": "Which way the palm faces.",
+"es": "Hacia dónde se orienta la palma."
+},
+"Ponto de articulação": {
+"en": "Point of articulation",
+"es": "Punto de articulación"
+},
+"Onde o sinal é articulado.": {
+"en": "Where the sign is articulated.",
+"es": "Dónde se articula la seña."
+},
+"Movimento": {
+"en": "Movement",
+"es": "Movimiento"
+},
+"Movimentos com e sem as mãos.": {
+"en": "Movements with and without the hands.",
+"es": "Movimientos con y sin las manos."
+},
+"01 / LABORATÓRIO DE ESCRITA": {
+"en": "01 / WRITING LAB",
+"es": "01 / LABORATORIO DE ESCRITURA"
+},
+"Experimente a escrita.": {
+"en": "Try the writing.",
+"es": "Prueba la escritura."
+},
+"Tamanho ": {
+"en": "Size ",
+"es": "Tamaño "
+},
+"Fixar digitação": {
+"en": "Pin typing area",
+"es": "Fijar escritura"
+},
+"Restaurar exemplo": {
+"en": "Restore example",
+"es": "Restaurar ejemplo"
+},
+"O QUE VOCÊ DIGITA": {
+"en": "WHAT YOU TYPE",
+"es": "LO QUE ESCRIBES"
+},
+"COMO APARECE EM ELiS": {
+"en": "HOW IT LOOKS IN ELiS",
+"es": "CÓMO SE VE EN ELiS"
+},
+"Digite no campo acima ou escolha uma tecla no mapa.": {
+"en": "Type in the field above or choose a key in the map.",
+"es": "Escribe en el campo de arriba o elige una tecla en el mapa."
+},
+"5 caracteres": {
+"en": "5 characters",
+"es": "5 caracteres"
+},
+"O exemplo é um teste de digitação, sem significado de sinal atribuído. A fonte não traduz palavras em português para Libras.": {
+"en": "The example is a typing test, with no sign meaning assigned. The font does not translate Portuguese words into Libras.",
+"es": "El ejemplo es una prueba de escritura, sin significado de seña atribuido. La fuente no traduce palabras del portugués a Libras."
+},
+"02 / CONSULTA": {
+"en": "02 / REFERENCE",
+"es": "02 / CONSULTA"
+},
+"Entradas organizadas conforme “teclas detalhadas beta”. Todos os desenhos usam os arquivos ELiS, versão 2.004.": {
+"en": "Inputs organized according to the “teclas detalhadas beta” chart. All drawings use the ELiS files, version 2.004.",
+"es": "Entradas organizadas según el cuadro “teclas detalhadas beta”. Todos los dibujos usan los archivos ELiS, versión 2.004."
+},
+"Detalhes do glifo": {
+"en": "Glyph details",
+"es": "Detalles del glifo"
+},
+"Fechar": {
+"en": "Close",
+"es": "Cerrar"
+},
+"Ver no corpo": {
+"en": "See on the body",
+"es": "Ver en el cuerpo"
+},
+"ENTRADA": {
+"en": "INPUT",
+"es": "ENTRADA"
+},
+"Inserir no laboratório": {
+"en": "Insert in the lab",
+"es": "Insertar en el laboratorio"
+},
+"Copiar entrada": {
+"en": "Copy input",
+"es": "Copiar entrada"
+},
+"Configure o teclado e confira as combinações": {
+"en": "Set up the keyboard and check the combinations",
+"es": "Configura el teclado y revisa las combinaciones"
+},
+"Para consultar os caracteres instalados, pesquise ": {
+"en": "To look up the installed characters, search for ",
+"es": "Para consultar los caracteres instalados, busca "
+},
+"Mapa de Caracteres": {
+"en": "Character Map",
+"es": "Mapa de caracteres"
+},
+" no menu Iniciar, abra o aplicativo e selecione ELiS. Escolha o símbolo, clique em Selecionar e depois em Copiar. Cole no editor com ": {
+"en": " in the Start menu, open the app and select ELiS. Choose the symbol, click Select and then Copy. Paste it in the editor with ",
+"es": " en el menú Inicio, abre la aplicación y selecciona ELiS. Elige el símbolo, haz clic en Seleccionar y luego en Copiar. Pégalo en el editor con "
+},
+"Os códigos Alt desta consulta usam Windows-1252, com zero inicial e teclado numérico. Mantenha Alt pressionado, digite os números e solte Alt. Ative Num Lock. A configuração regional e o aplicativo podem alterar o resultado; sem teclado numérico, use o Mapa de Caracteres ou copie aqui.": {
+"en": "The Alt codes in this reference use Windows-1252, with a leading zero and the numeric keypad. Hold Alt, type the numbers and release Alt. Turn on Num Lock. Regional settings and the application can change the result; without a numeric keypad, use Character Map or copy from here.",
+"es": "Los códigos Alt de esta consulta usan Windows-1252, con cero inicial y teclado numérico. Mantén pulsado Alt, escribe los números y suelta Alt. Activa Bloq Num. La configuración regional y la aplicación pueden cambiar el resultado; sin teclado numérico, usa el Mapa de caracteres o copia desde aquí."
+},
+"Abra ": {
+"en": "Open ",
+"es": "Abre "
+},
+"Editar → Emoji e Símbolos": {
+"en": "Edit → Emoji & Symbols",
+"es": "Edición → Emoji y símbolos"
+},
+" ou pressione ": {
+"en": " or press ",
+"es": " o presiona "
+},
+"Control + Command + Espaço": {
+"en": "Control + Command + Space",
+"es": "Control + Comando + Espacio"
+},
+". No Visualizador de Caracteres, pesquise o código Unicode exibido nesta consulta, selecione o caractere e aplique ELiS ao texto.": {
+"en": ". In the Character Viewer, search for the Unicode code shown in this reference, select the character and apply ELiS to the text.",
+"es": ". En el Visor de caracteres, busca el código Unicode que aparece en esta consulta, selecciona el carácter y aplica ELiS al texto."
+},
+"Para descobrir atalhos do seu layout, abra o ": {
+"en": "To find shortcuts for your layout, open the ",
+"es": "Para descubrir los atajos de tu distribución, abre el "
+},
+"Visualizador de Teclado": {
+"en": "Keyboard Viewer",
+"es": "Visor de teclado"
+},
+" no menu de entrada da barra de menus. Pressione Option e Shift para ver as alternativas. Se o menu não aparecer, ative-o em Ajustes do Sistema → Teclado → Entrada de Texto → Editar.": {
+"en": " from the input menu in the menu bar. Press Option and Shift to see the alternatives. If the menu does not appear, turn it on in System Settings → Keyboard → Text Input → Edit.",
+"es": " desde el menú de entrada de la barra de menús. Presiona Opción y Mayús para ver las alternativas. Si el menú no aparece, actívalo en Ajustes del Sistema → Teclado → Entrada de texto → Editar."
+},
+"Uma tecla, uma sequência ou uma variante?": {
+"en": "A key, a sequence or a variant?",
+"es": "¿Una tecla, una secuencia o una variante?"
+},
+"Cada caractere é uma entrada": {
+"en": "Each character is an input",
+"es": "Cada carácter es una entrada"
+},
+"Maiúsculas e minúsculas são diferentes: ": {
+"en": "Capital and lowercase letters are different: ",
+"es": "Mayúsculas y minúsculas son diferentes: "
+},
+" e ": {
+"en": " and ",
+"es": " y "
+},
+" não se trocam.": {
+"en": " are not interchangeable.",
+"es": " no se intercambian."
+},
+"Acentos também contam: ": {
+"en": "Accents count too: ",
+"es": "Los acentos también cuentan: "
+},
+" difere de ": {
+"en": " differs from ",
+"es": " es distinto de "
+},
+"Símbolos parecidos também: ": {
+"en": "So do similar symbols: ",
+"es": "Los símbolos parecidos también: "
+},
+"Use o caractere completo mostrado no mapa.": {
+"en": "Use the complete character shown in the map.",
+"es": "Usa el carácter completo que aparece en el mapa."
+},
+"Combinações e variantes": {
+"en": "Combinations and variants",
+"es": "Combinaciones y variantes"
+},
+"Combinações como ": {
+"en": "Combinations such as ",
+"es": "Combinaciones como "
+},
+" são digitadas em sequência, sem espaços, no Windows e no Mac.": {
+"en": " are typed in sequence, without spaces, on Windows and Mac.",
+"es": " se escriben en secuencia, sin espacios, en Windows y en Mac."
+},
+"Elas não têm um código Unicode próprio.": {
+"en": "They do not have their own Unicode code.",
+"es": "No tienen un código Unicode propio."
+},
+"As variantes automáticas do filtro Todos nem sempre correspondem a uma tecla.": {
+"en": "The automatic variants in the All filter do not always match a key.",
+"es": "Las variantes automáticas del filtro Todos no siempre corresponden a una tecla."
+},
+"Base: mapa de caracteres dos arquivos ELiS. Instruções: ": {
+"en": "Source: character map of the ELiS files. Instructions: ",
+"es": "Base: mapa de caracteres de los archivos ELiS. Instrucciones: "
+},
+"códigos no Word": {
+"en": "codes in Word",
+"es": "códigos en Word"
+},
+"Mapa de Caracteres e códigos Alt": {
+"en": "Character Map and Alt codes",
+"es": "Mapa de caracteres y códigos Alt"
+},
+"atalhos do Mac": {
+"en": "Mac shortcuts",
+"es": "atajos de Mac"
+},
+"03 / RECURSOS DA FONTE": {
+"en": "03 / FONT FEATURES",
+"es": "03 / RECURSOS DE LA FUENTE"
+},
+"Pequenas sequências.": {
+"en": "Short sequences.",
+"es": "Pequeñas secuencias."
+},
+"Novos desenhos.": {
+"en": "New drawings.",
+"es": "Nuevos dibujos."
+},
+"Sublinhados de contato": {
+"en": "Contact underlines",
+"es": "Subrayados de contacto"
+},
+"No ponto de articulação, indicam contato com a região representada: simples ou de passagem (um traço), dois toques (dois traços), três ou mais (três traços). ": {
+"en": "At the point of articulation, they indicate contact with the region represented: single or passing (one stroke), two touches (two strokes), three or more (three strokes). ",
+"es": "En el punto de articulación, indican contacto con la región representada: simple o de paso (un trazo), dos toques (dos trazos), tres o más (tres trazos). "
+},
+"Experimente no corpo.": {
+"en": "Try it on the body.",
+"es": "Pruébalo en el cuerpo."
+},
+"Digite apóstrofo simples ": {
+"en": "Type a straight apostrophe ",
+"es": "Escribe un apóstrofo simple "
+},
+", o número ": {
+"en": ", the number ",
+"es": ", el número "
+},
+" ou ": {
+"en": " or ",
+"es": " o "
+},
+" e uma entrada compatível, sem espaços.": {
+"en": " and a compatible input, without spaces.",
+"es": " y una entrada compatible, sin espacios."
+},
+"Entradas compatíveis": {
+"en": "Compatible inputs",
+"es": "Entradas compatibles"
+},
+"A–Z, Ç, x, *, #, \\, _, @, &amp;, $ e %. As regras também aceitam apóstrofos curvos ‘ e ’, além de ª e º nos lugares de A e O.": {
+"en": "A–Z, Ç, x, *, #, \\, _, @, &amp;, $ and %. The rules also accept curly apostrophes ‘ and ’, as well as ª and º in place of A and O.",
+"es": "A–Z, Ç, x, *, #, \\, _, @, &amp;, $ y %. Las reglas también aceptan apóstrofos curvos ‘ y ’, además de ª y º en lugar de A y O."
+},
+"Letras repetidas": {
+"en": "Repeated letters",
+"es": "Letras repetidas"
+},
+"As sequências abaixo se combinam automaticamente em um único desenho. Digite as letras seguidas, sem espaços.": {
+"en": "The sequences below combine automatically into a single drawing. Type the letters one after another, without spaces.",
+"es": "Las secuencias de abajo se combinan automáticamente en un único dibujo. Escribe las letras seguidas, sin espacios."
+},
+"São demonstrações tipográficas. O uso linguístico de cada combinação segue as regras da ELiS.": {
+"en": "These are typographic demonstrations. The linguistic use of each combination follows the rules of ELiS.",
+"es": "Son demostraciones tipográficas. El uso lingüístico de cada combinación sigue las reglas de ELiS."
+},
+"A combinação não se formou?": {
+"en": "Did the combination not form?",
+"es": "¿La combinación no se formó?"
+},
+"Confira a sequência e o suporte às substituições contextuais OpenType do seu editor. A fonte usa os recursos rclt e calt; o resultado pode variar entre aplicativos.": {
+"en": "Check the sequence and your editor’s support for OpenType contextual substitutions. The font uses the rclt and calt features; the result can vary between applications.",
+"es": "Revisa la secuencia y el soporte de tu editor para las sustituciones contextuales OpenType. La fuente usa las funciones rclt y calt; el resultado puede variar entre aplicaciones."
+},
+"04 / EXPLORAÇÃO VISUAL": {
+"en": "04 / VISUAL EXPLORATION",
+"es": "04 / EXPLORACIÓN VISUAL"
+},
+"Onde o sinal acontece.": {
+"en": "Where the sign happens.",
+"es": "Dónde sucede la seña."
+},
+"Explore 28 referências de cabeça, tronco e membros. Escolha uma região e veja sua entrada em ELiS.": {
+"en": "Explore 28 references on the head, trunk and limbs. Choose a region and see its ELiS input.",
+"es": "Explora 28 referencias de cabeza, tronco y extremidades. Elige una región y ve su entrada en ELiS."
+},
+"Rosto": {
+"en": "Face",
+"es": "Rostro"
+},
+"Corpo": {
+"en": "Body",
+"es": "Cuerpo"
+},
+"Os botões mostram os glifos da região. Toque para ver o nome e a tecla. Figura de apoio gerada por IA. A marcação localiza uma região; não demonstra a execução de um sinal nem define o lado do corpo.": {
+"en": "The buttons show the glyphs for each region. Tap to see the name and the key. Supporting figure generated by AI. The marking locates a region; it does not demonstrate how a sign is produced or define the side of the body.",
+"es": "Los botones muestran los glifos de la región. Toca para ver el nombre y la tecla. Figura de apoyo generada por IA. La marca ubica una región; no demuestra la ejecución de una seña ni define el lado del cuerpo."
+},
+"Digite ": {
+"en": "Type ",
+"es": "Escribe "
+},
+"Como representar o contato": {
+"en": "How to represent contact",
+"es": "Cómo representar el contacto"
+},
+" Forma base": {
+"en": " Base form",
+"es": " Forma base"
+},
+" Um traço": {
+"en": " One stroke",
+"es": " Un trazo"
+},
+" Dois traços": {
+"en": " Two strokes",
+"es": " Dos trazos"
+},
+" Três traços": {
+"en": " Three strokes",
+"es": " Tres trazos"
+},
+"Este teste mostra apenas o ponto de articulação e seu contato. Um sinal também pode exigir configuração de dedos, orientação da palma e movimento.": {
+"en": "This test shows only the point of articulation and its contact. A sign may also require finger configuration, palm orientation and movement.",
+"es": "Esta prueba muestra solo el punto de articulación y su contacto. Una seña también puede requerir configuración de dedos, orientación de la palma y movimiento."
+},
+"UM SINAL, QUATRO GRUPOS": {
+"en": "ONE SIGN, FOUR GROUPS",
+"es": "UNA SEÑA, CUATRO GRUPOS"
+},
+"Leia a palavra “BONITO” em ELiS.": {
+"en": "Read the word “BONITO” (beautiful) in ELiS.",
+"es": "Lee la palabra “BONITO” (bonito) en ELiS."
+},
+"Uma leitura animada do exemplo apresentado por Barros (2016). A sequência reúne configuração de dedos, orientação da palma, ponto de articulação e movimento.": {
+"en": "An animated reading of the example presented by Barros (2016). The sequence brings together finger configuration, palm orientation, point of articulation and movement.",
+"es": "Una lectura animada del ejemplo presentado por Barros (2016). La secuencia reúne configuración de dedos, orientación de la palma, punto de articulación y movimiento."
+},
+"01 · Dedos": {
+"en": "01 · Fingers",
+"es": "01 · Dedos"
+},
+"02 · Palma": {
+"en": "02 · Palm",
+"es": "02 · Palma"
+},
+"03 · Articulação": {
+"en": "03 · Articulation",
+"es": "03 · Articulación"
+},
+"04 · Movimento": {
+"en": "04 · Movement",
+"es": "04 · Movimiento"
+},
+"Reproduzir leitura": {
+"en": "Play reading",
+"es": "Reproducir lectura"
+},
+"Experimentar este exemplo": {
+"en": "Try this example",
+"es": "Probar este ejemplo"
+},
+"Esta animação acompanha a escrita; não demonstra a execução do sinal com as mãos. Para isso, é necessária uma referência gestual validada. ": {
+"en": "This animation follows the writing; it does not demonstrate how the sign is made with the hands. That requires a validated signed reference. ",
+"es": "Esta animación acompaña la escritura; no demuestra la ejecución de la seña con las manos. Para eso se necesita una referencia gestual validada. "
+},
+"Ver o exemplo na publicação de Barros.": {
+"en": "See the example in Barros’s publication.",
+"es": "Ver el ejemplo en la publicación de Barros."
+},
+"Região não é contato": {
+"en": "Region is not contact",
+"es": "Región no es contacto"
+},
+"Q corresponde ao rosto. No exemplo BONITO de Barros (2016), a mão fica ": {
+"en": "Q corresponds to the face. In Barros’s BONITO example (2016), the hand stays ",
+"es": "Q corresponde al rostro. En el ejemplo BONITO de Barros (2016), la mano queda "
+},
+"à frente do rosto": {
+"en": "in front of the face",
+"es": "delante del rostro"
+},
+". Marcar uma região na figura não significa tocar nela.": {
+"en": ". Marking a region on the figure does not mean touching it.",
+"es": ". Marcar una región en la figura no significa tocarla."
+},
+"O sublinhado informa o toque": {
+"en": "The underline indicates touch",
+"es": "El subrayado indica el toque"
+},
+"Na reunião do projeto, o traço simples indica contato simples ou de passagem; dois traços, dois toques; três, três ou mais. São glifos da fonte, não o botão de sublinhar do editor.": {
+"en": "In the project meeting, a single stroke indicates single or passing contact; two strokes, two touches; three, three or more. They are glyphs of the font, not the editor’s underline button.",
+"es": "En la reunión del proyecto, el trazo simple indica contacto simple o de paso; dos trazos, dos toques; tres, tres o más. Son glifos de la fuente, no el botón de subrayar del editor."
+},
+"Uma primeira associação": {
+"en": "A first association",
+"es": "Una primera asociación"
+},
+"Os nomes e as teclas seguem o quadro de 2016 e o mapa do projeto. As sete referências da mão continuam no mapa de teclas; precisam de vistas próprias para distinguir palma, dorso e dedos.": {
+"en": "The names and keys follow the 2016 chart and the project map. The seven hand references remain in the key map; they need their own views to tell palm, back and fingers apart.",
+"es": "Los nombres y las teclas siguen el cuadro de 2016 y el mapa del proyecto. Las siete referencias de la mano siguen en el mapa de teclas; necesitan vistas propias para distinguir palma, dorso y dedos."
+},
+"05 / INSTALAÇÃO E USO": {
+"en": "05 / INSTALLATION AND USE",
+"es": "05 / INSTALACIÓN Y USO"
+},
+"ELiS NO SEU COMPUTADOR E NO SEU SITE": {
+"en": "ELiS ON YOUR COMPUTER AND YOUR WEBSITE",
+"es": "ELiS EN TU COMPUTADORA Y EN TU SITIO"
+},
+"Leve a escrita para seus documentos.": {
+"en": "Take the writing to your documents.",
+"es": "Lleva la escritura a tus documentos."
+},
+"Regular, Negrito, Itálico e Negrito Itálico.": {
+"en": "Regular, Bold, Italic and Bold Italic.",
+"es": "Regular, Negrita, Cursiva y Negrita Cursiva."
+},
+"Versão 2.004: quatro TTF para Mac e Windows, quatro WOFF2 para sites e o guia de uso. Gratuita, sob a ": {
+"en": "Version 2.004: four TTF files for Mac and Windows, four WOFF2 files for websites and the user guide. Free, under the ",
+"es": "Versión 2.004: cuatro TTF para Mac y Windows, cuatro WOFF2 para sitios web y la guía de uso. Gratuita, bajo la "
+},
+"licença SIL Open Font License 1.1": {
+"en": "SIL Open Font License 1.1",
+"es": "licencia SIL Open Font License 1.1"
+},
+"Baixar ELiS ": {
+"en": "Download ELiS ",
+"es": "Descargar ELiS "
+},
+"ZIP · 4 estilos · TTF + WOFF2": {
+"en": "ZIP · 4 styles · TTF + WOFF2",
+"es": "ZIP · 4 estilos · TTF + WOFF2"
+},
+"Antes de instalar": {
+"en": "Before installing",
+"es": "Antes de instalar"
+},
+"Extraia o ZIP para acessar os arquivos.": {
+"en": "Extract the ZIP to access the files.",
+"es": "Extrae el ZIP para acceder a los archivos."
+},
+" instale os quatro arquivos ": {
+"en": " install the four ",
+"es": " instala los cuatro archivos "
+},
+". Se já tiver uma versão antiga da ELiS, remova-a antes para evitar conflitos e feche os programas em que vai usar a fonte.": {
+"en": " files. If you already have an older version of ELiS, remove it first to avoid conflicts, and close the programs where you will use the font.",
+"es": ". Si ya tienes una versión antigua de ELiS, quítala antes para evitar conflictos y cierra los programas en los que vas a usar la fuente."
+},
+"Para sites:": {
+"en": "For websites:",
+"es": "Para sitios web:"
+},
+" use os arquivos ": {
+"en": " use the ",
+"es": " usa los archivos "
+},
+" da pasta ": {
+"en": " files in the ",
+"es": " de la carpeta "
+},
+". Eles são fontes web e não devem ser instalados no computador.": {
+"en": " folder. They are web fonts and should not be installed on the computer.",
+"es": ". Son fuentes web y no deben instalarse en la computadora."
+},
+"Instale pelo Catálogo de Fontes.": {
+"en": "Install with Font Book.",
+"es": "Instala con el Catálogo Tipográfico."
+},
+"Abra o ": {
+"en": "Open ",
+"es": "Abre el "
+},
+"Catálogo de Fontes": {
+"en": "Font Book",
+"es": "Catálogo Tipográfico"
+},
+" (Font Book).": {
+"en": ".",
+"es": " (Font Book)."
+},
+"Arraste os quatro arquivos ": {
+"en": "Drag the four ",
+"es": "Arrastra los cuatro archivos "
+},
+" para a janela e confirme a instalação.": {
+"en": " files into the window and confirm the installation.",
+"es": " a la ventana y confirma la instalación."
+},
+"Reabra seu editor e selecione ": {
+"en": "Reopen your editor and select ",
+"es": "Vuelve a abrir tu editor y selecciona "
+},
+" no menu de fontes.": {
+"en": " in the font menu.",
+"es": " en el menú de fuentes."
+},
+"Também é possível dar dois cliques em cada TTF e clicar em ": {
+"en": "You can also double-click each TTF file and click ",
+"es": "También puedes hacer doble clic en cada TTF y hacer clic en "
+},
+"Instalar": {
+"en": "Install",
+"es": "Instalar"
+},
+"Instale os quatro estilos juntos.": {
+"en": "Install the four styles together.",
+"es": "Instala los cuatro estilos juntos."
+},
+"Selecione os quatro arquivos ": {
+"en": "Select the four extracted ",
+"es": "Selecciona los cuatro archivos "
+},
+" extraídos.": {
+"en": " files.",
+"es": " extraídos."
+},
+"Clique com o botão direito e escolha ": {
+"en": "Right-click and choose ",
+"es": "Haz clic con el botón derecho y elige "
+},
+"Instalar para todos os usuários": {
+"en": "Install for all users",
+"es": "Instalar para todos los usuarios"
+},
+". No Windows 11, abra ": {
+"en": ". In Windows 11, open ",
+"es": ". En Windows 11, abre "
+},
+"Mostrar mais opções": {
+"en": "Show more options",
+"es": "Mostrar más opciones"
+},
+" se necessário. Sem permissão de administrador, use ": {
+"en": " if needed. Without administrator permission, use ",
+"es": " si es necesario. Sin permiso de administrador, usa "
+},
+"Outra opção: arraste os TTF para ": {
+"en": "Another option: drag the TTF files to ",
+"es": "Otra opción: arrastra los TTF a "
+},
+"Configurações → Personalização → Fontes": {
+"en": "Settings → Personalization → Fonts",
+"es": "Configuración → Personalización → Fuentes"
+},
+"Escolha a fonte": {
+"en": "Choose the font",
+"es": "Elige la fuente"
+},
+"No Word, Pages ou outro editor com suporte a fontes locais, aplique ": {
+"en": "In Word, Pages or another editor that supports local fonts, apply ",
+"es": "En Word, Pages u otro editor compatible con fuentes locales, aplica "
+},
+" ao trecho que deseja escrever. Para português, escolha outra fonte.": {
+"en": " to the passage you want to write. For other languages, choose another font.",
+"es": " al fragmento que quieres escribir. Para el texto en portugués o español, elige otra fuente."
+},
+"Digite as entradas": {
+"en": "Type the inputs",
+"es": "Escribe las entradas"
+},
+"Use o teclado comum e consulte o ": {
+"en": "Use your regular keyboard and check the ",
+"es": "Usa el teclado común y consulta el "
+},
+"mapa de teclas": {
+"en": "key map",
+"es": "mapa de teclas"
+},
+". Maiúsculas, minúsculas e acentos representam entradas diferentes. A fonte desenha os sinais; não traduz português para Libras.": {
+"en": ". Capital letters, lowercase letters and accents are different inputs. The font draws the signs; it does not translate Portuguese into Libras.",
+"es": ". Mayúsculas, minúsculas y acentos son entradas diferentes. La fuente dibuja las señas; no traduce del portugués a Libras."
+},
+"Revise e compartilhe": {
+"en": "Review and share",
+"es": "Revisa y comparte"
+},
+"Use os estilos de negrito e itálico do editor. Para compartilhar a aparência, exporte um PDF com as fontes incorporadas e confira o resultado. Quem editar o documento também precisa da fonte.": {
+"en": "Use the editor’s bold and italic styles. To share the look, export a PDF with embedded fonts and check the result. Anyone who edits the document also needs the font.",
+"es": "Usa los estilos de negrita y cursiva del editor. Para compartir el aspecto, exporta un PDF con las fuentes incrustadas y revisa el resultado. Quien edite el documento también necesita la fuente."
+},
+"Cuidados para preservar os desenhos e as combinações": {
+"en": "How to preserve the drawings and combinations",
+"es": "Cuidados para preservar los dibujos y las combinaciones"
+},
+"Mantenha o espaçamento entre letras em zero.": {
+"en": "Keep letter spacing at zero.",
+"es": "Mantén el espaciado entre letras en cero."
+},
+"Deixe ativados os recursos OpenType contextuais e as ligaduras.": {
+"en": "Keep contextual OpenType features and ligatures turned on.",
+"es": "Deja activadas las funciones OpenType contextuales y las ligaduras."
+},
+"Evite a formatação “Tudo em maiúsculas” e versaletes, que podem mudar os visografemas.": {
+"en": "Avoid “All caps” and small caps formatting, which can change the visographemes.",
+"es": "Evita el formato “Todo en mayúsculas” y las versalitas, que pueden cambiar los visografemas."
+},
+"Desative a autocorreção e o corretor no trecho em ELiS.": {
+"en": "Turn off autocorrect and spell check in the ELiS passage.",
+"es": "Desactiva la autocorrección y el corrector en el fragmento en ELiS."
+},
+"Se uma combinação não aparecer, confira a sequência, o espaçamento e as opções OpenType do editor, e compare com o laboratório deste site.": {
+"en": "If a combination does not appear, check the sequence, the spacing and the editor’s OpenType options, and compare with the lab on this site.",
+"es": "Si una combinación no aparece, revisa la secuencia, el espaciado y las opciones OpenType del editor, y compara con el laboratorio de este sitio."
+},
+"A fonte não aparece no programa?": {
+"en": "The font does not show up in the program?",
+"es": "¿La fuente no aparece en el programa?"
+},
+"Feche e abra o programa novamente. No Mac, confira se a família está ativa no Catálogo de Fontes. No Windows, tente instalar para todos os usuários. Aplicativos web podem exigir um recurso próprio para enviar ou acessar fontes locais.": {
+"en": "Close the program and open it again. On a Mac, check that the family is active in Font Book. On Windows, try installing for all users. Web apps may need their own feature to upload or access local fonts.",
+"es": "Cierra el programa y vuelve a abrirlo. En Mac, comprueba que la familia esté activa en el Catálogo Tipográfico. En Windows, intenta instalar para todos los usuarios. Las aplicaciones web pueden requerir una función propia para subir o acceder a fuentes locales."
+},
+"QUEM CRIOU A ELiS": {
+"en": "WHO CREATED ELiS",
+"es": "QUIÉN CREÓ LA ELiS"
+},
+"Pesquisadora, professora e criadora de uma escrita para as línguas de sinais.": {
+"en": "Researcher, professor and creator of a writing system for sign languages.",
+"es": "Investigadora, profesora y creadora de una escritura para las lenguas de señas."
+},
+"Mariângela Estelita Barros é professora da Faculdade de Letras da Universidade Federal de Goiás. Criou a ELiS em 1998, durante sua pesquisa de mestrado, e aprofundou o sistema no doutorado, concluído em 2008.": {
+"en": "Mariângela Estelita Barros is a professor at the School of Letters of the Federal University of Goiás (UFG), Brazil. She created ELiS in 1998, during her master’s research, and developed the system further in her doctorate, completed in 2008.",
+"es": "Mariângela Estelita Barros es profesora de la Facultad de Letras de la Universidad Federal de Goiás (UFG), en Brasil. Creó la ELiS en 1998, durante su investigación de maestría, y profundizó el sistema en el doctorado, concluido en 2008."
+},
+"Seu trabalho também aproxima a escrita da literatura: traduziu contos dos irmãos Grimm para ELiS, entre eles ": {
+"en": "Her work also brings the writing closer to literature: she translated Grimm brothers’ tales into ELiS, among them ",
+"es": "Su trabajo también acerca la escritura a la literatura: tradujo cuentos de los hermanos Grimm a ELiS, entre ellos "
+},
+"O príncipe sapo": {
+"en": "The Frog Prince",
+"es": "El príncipe rana"
+},
+"Os doze caçadores": {
+"en": "The Twelve Huntsmen",
+"es": "Los doce cazadores"
+},
+"Os sete corvos": {
+"en": "The Seven Ravens",
+"es": "Los siete cuervos"
+},
+", publicados em uma coleção digital em 2021.": {
+"en": ", published in a digital collection in 2021.",
+"es": ", publicados en una colección digital en 2021."
+},
+"Saiba mais: ": {
+"en": "Learn more: ",
+"es": "Más información: "
+},
+"Princípios básicos da ELiS, por Mariângela (2016)": {
+"en": "Princípios básicos da ELiS, by Mariângela (2016, in Portuguese)",
+"es": "Princípios básicos da ELiS, de Mariângela (2016, en portugués)"
+},
+"Literatura em ELiS no Jornal UFG (2025)": {
+"en": "Literature in ELiS in Jornal UFG (2025, in Portuguese)",
+"es": "Literatura en ELiS en el Jornal UFG (2025, en portugués)"
+},
+"Foto: Samanta Nascimento / ": {
+"en": "Photo: Samanta Nascimento / ",
+"es": "Foto: Samanta Nascimento / "
+},
+"PARA CONTINUAR APRENDENDO": {
+"en": "TO KEEP LEARNING",
+"es": "PARA SEGUIR APRENDIENDO"
+},
+"Da escrita de sinais à construção de textos.": {
+"en": "From writing signs to building texts.",
+"es": "De la escritura de señas a la construcción de textos."
+},
+"O artigo ": {
+"en": "The article ",
+"es": "El artículo "
+},
+", de Guilherme Freitas, Mariângela Estelita Barros e Eliane Marquez, apresenta os fundamentos da escrita e analisa uma carta-convite produzida em Libras/ELiS. O estudo ajuda a olhar para a ELiS como recurso de produção de textos e construção de sentidos.": {
+"en": ", by Guilherme Freitas, Mariângela Estelita Barros and Eliane Marquez (in Portuguese), presents the foundations of the writing and analyzes an invitation letter produced in Libras/ELiS. The study helps us see ELiS as a resource for producing texts and building meaning.",
+"es": ", de Guilherme Freitas, Mariângela Estelita Barros y Eliane Marquez (en portugués), presenta los fundamentos de la escritura y analiza una carta de invitación producida en Libras/ELiS. El estudio ayuda a ver la ELiS como recurso para producir textos y construir sentidos."
+},
+"Ler o artigo · Porto das Letras": {
+"en": "Read the article · Porto das Letras",
+"es": "Leer el artículo · Porto das Letras"
+},
+"Assistir à formação do NAS · ELiS e SignWriting": {
+"en": "Watch the NAS training · ELiS and SignWriting",
+"es": "Ver la formación del NAS · ELiS y SignWriting"
+},
+"Perguntas frequentes sobre a ELiS": {
+"en": "Frequently asked questions about ELiS",
+"es": "Preguntas frecuentes sobre la ELiS"
+},
+"ELiS, Libras e a fonte ELiS são a mesma coisa?": {
+"en": "Are ELiS, Libras and the ELiS font the same thing?",
+"es": "¿ELiS, Libras y la fuente ELiS son lo mismo?"
+},
+"Libras é a Língua Brasileira de Sinais. ELiS é um sistema de escrita das línguas de sinais. ELiS é a fonte que desenha os símbolos desse sistema no computador. Para escrever um sinal, é preciso conhecer sua representação em ELiS.": {
+"en": "Libras is Brazilian Sign Language. ELiS is a writing system for sign languages. ELiS is also the font that draws the symbols of that system on the computer. To write a sign, you need to know its representation in ELiS.",
+"es": "Libras es la Lengua de Señas Brasileña. ELiS es un sistema de escritura de las lenguas de señas. ELiS es también la fuente que dibuja los símbolos de ese sistema en la computadora. Para escribir una seña, hay que conocer su representación en ELiS."
+},
+"Mudar a fonte traduz uma palavra em português para Libras?": {
+"en": "Does changing the font translate a Portuguese word into Libras?",
+"es": "¿Cambiar la fuente traduce una palabra del portugués a Libras?"
+},
+"Não. A fonte troca os desenhos dos caracteres, mas não traduz palavras nem frases. Um texto em Libras/ELiS precisa ser escrito a partir da língua de sinais e das regras do sistema.": {
+"en": "No. The font changes how the characters are drawn, but it does not translate words or sentences. A text in Libras/ELiS has to be written from the sign language and the rules of the system.",
+"es": "No. La fuente cambia el dibujo de los caracteres, pero no traduce palabras ni frases. Un texto en Libras/ELiS debe escribirse a partir de la lengua de señas y de las reglas del sistema."
+},
+"Preciso instalar a fonte para usar este site?": {
+"en": "Do I need to install the font to use this site?",
+"es": "¿Necesito instalar la fuente para usar este sitio?"
+},
+"Não. A fonte já carrega no navegador. Para escrever em um editor no seu computador, ": {
+"en": "No. The font already loads in the browser. To write in an editor on your computer, ",
+"es": "No. La fuente ya se carga en el navegador. Para escribir en un editor en tu computadora, "
+},
+"baixe a família ELiS": {
+"en": "download the ELiS family",
+"es": "descarga la familia ELiS"
+},
+", extraia o ZIP e instale os quatro arquivos TTF. Reabra o editor se a família ainda não aparecer no menu de fontes.": {
+"en": ", extract the ZIP and install the four TTF files. Reopen the editor if the family does not appear in the font menu yet.",
+"es": ", extrae el ZIP e instala los cuatro archivos TTF. Vuelve a abrir el editor si la familia todavía no aparece en el menú de fuentes."
+},
+"Como encontro a tecla de um símbolo?": {
+"en": "How do I find the key for a symbol?",
+"es": "¿Cómo encuentro la tecla de un símbolo?"
+},
+"Consulte o ": {
+"en": "Check the ",
+"es": "Consulta el "
+},
+": busque pelo nome ou filtre por grupo. Clique no cartão para inserir no laboratório ou copiar a entrada. No seu editor, aplique ELiS ao trecho.": {
+"en": ": search by name or filter by group. Click the card to insert it in the lab or copy the input. In your editor, apply ELiS to the passage.",
+"es": ": busca por nombre o filtra por grupo. Haz clic en la tarjeta para insertarla en el laboratorio o copiar la entrada. En tu editor, aplica ELiS al fragmento."
+},
+"Por que aparecem letras ou quadradinhos no lugar dos glifos?": {
+"en": "Why do letters or little boxes appear instead of the glyphs?",
+"es": "¿Por qué aparecen letras o cuadraditos en lugar de los glifos?"
+},
+"Confirme se ELiS está aplicada ao trecho e se a fonte foi instalada. No site, aguarde o carregamento ou recarregue a página. Letras indicam que outra fonte pode estar sendo usada; quadradinhos podem indicar um caractere ausente. Confira a entrada no mapa.": {
+"en": "Make sure ELiS is applied to the passage and that the font is installed. On the site, wait for it to load or reload the page. Letters mean another font may be in use; little boxes may mean a missing character. Check the input in the map.",
+"es": "Comprueba que ELiS esté aplicada al fragmento y que la fuente esté instalada. En el sitio, espera a que cargue o recarga la página. Las letras indican que puede estar usándose otra fuente; los cuadraditos pueden indicar un carácter ausente. Revisa la entrada en el mapa."
+},
+"Como digito acentos e símbolos no Windows ou no Mac?": {
+"en": "How do I type accents and symbols on Windows or Mac?",
+"es": "¿Cómo escribo acentos y símbolos en Windows o en Mac?"
+},
+"O ": {
+"en": "The ",
+"es": "El "
+},
+" reúne os 182 caracteres codificados na fonte. No Windows, oferece códigos e orientações para o Mapa de Caracteres; no Mac, orienta a consulta pelo Visualizador de Caracteres. Atalhos com AltGr ou Option dependem do layout do teclado.": {
+"en": " brings together the 182 characters encoded in the font. On Windows, it offers codes and guidance for Character Map; on a Mac, it explains how to look them up in the Character Viewer. Shortcuts with AltGr or Option depend on the keyboard layout.",
+"es": " reúne los 182 caracteres codificados en la fuente. En Windows, ofrece códigos y orientaciones para el Mapa de caracteres; en Mac, orienta la consulta con el Visor de caracteres. Los atajos con AltGr u Opción dependen de la distribución del teclado."
+},
+"Maiúsculas, acentos e símbolos parecidos fazem diferença?": {
+"en": "Do capital letters, accents and similar symbols make a difference?",
+"es": "¿Las mayúsculas, los acentos y los símbolos parecidos hacen diferencia?"
+},
+"Sim. ": {
+"en": "Yes. ",
+"es": "Sí. "
+},
+", assim como ": {
+"en": ", just like ",
+"es": ", así como "
+},
+", têm entradas diferentes. O grau ": {
+"en": ", have different inputs. The degree sign ",
+"es": ", tienen entradas diferentes. El grado "
+},
+" é U+00B0; o ordinal ": {
+"en": " is U+00B0; the ordinal ",
+"es": " es U+00B0; el ordinal "
+},
+" é U+00BA. Copie a entrada exata do mapa quando houver dúvida.": {
+"en": " is U+00BA. Copy the exact input from the map when in doubt.",
+"es": " es U+00BA. Copia la entrada exacta del mapa cuando tengas dudas."
+},
+"Como faço os sublinhados de contato?": {
+"en": "How do I make contact underlines?",
+"es": "¿Cómo hago los subrayados de contacto?"
+},
+"Digite apóstrofo simples, o número de traços e uma entrada compatível, sem espaços: ": {
+"en": "Type a straight apostrophe, the number of strokes and a compatible input, without spaces: ",
+"es": "Escribe un apóstrofo simple, el número de trazos y una entrada compatible, sin espacios: "
+},
+", por exemplo. É uma combinação da fonte, não o comando de sublinhar do editor. Consulte ": {
+"en": ", for example. It is a combination built into the font, not the editor’s underline command. See ",
+"es": ", por ejemplo. Es una combinación de la fuente, no el comando de subrayar del editor. Consulta "
+},
+" para os significados e as exceções de uso.": {
+"en": " for the meanings and usage exceptions.",
+"es": " para los significados y las excepciones de uso."
+},
+"Por que uma combinação não se forma no meu editor?": {
+"en": "Why doesn’t a combination form in my editor?",
+"es": "¿Por qué una combinación no se forma en mi editor?"
+},
+"Confira os caracteres e retire espaços entre eles. Use os arquivos atuais da ELiS. O editor precisa aplicar as substituições contextuais OpenType da fonte; o suporte varia entre aplicativos. Compare a mesma sequência no laboratório deste site.": {
+"en": "Check the characters and remove any spaces between them. Use the current ELiS files. The editor has to apply the font’s OpenType contextual substitutions; support varies between applications. Compare the same sequence in this site’s lab.",
+"es": "Revisa los caracteres y quita los espacios entre ellos. Usa los archivos actuales de ELiS. El editor debe aplicar las sustituciones contextuales OpenType de la fuente; el soporte varía entre aplicaciones. Compara la misma secuencia en el laboratorio de este sitio."
+},
+"Posso misturar português e ELiS no mesmo documento?": {
+"en": "Can I mix another language and ELiS in the same document?",
+"es": "¿Puedo mezclar español y ELiS en el mismo documento?"
+},
+"Sim. Aplique ELiS apenas aos trechos escritos em ELiS. Use uma fonte de texto para o português. Ao copiar e colar, confira a fonte do trecho, pois alguns aplicativos preservam apenas os caracteres.": {
+"en": "Yes. Apply ELiS only to the passages written in ELiS. Use a text font for the rest. When copying and pasting, check the font of the passage, because some applications keep only the characters.",
+"es": "Sí. Aplica ELiS solo a los fragmentos escritos en ELiS. Usa una fuente de texto para el español. Al copiar y pegar, revisa la fuente del fragmento, porque algunas aplicaciones conservan solo los caracteres."
+},
+"Como compartilho um texto sem perder os desenhos?": {
+"en": "How do I share a text without losing the drawings?",
+"es": "¿Cómo comparto un texto sin perder los dibujos?"
+},
+"Para compartilhar a aparência, exporte um PDF com as fontes incorporadas, quando o editor permitir, e confira o resultado. Para enviar um arquivo editável, a outra pessoa precisa ter a fonte e um editor compatível. Uma imagem preserva a aparência, mas não mantém o texto editável.": {
+"en": "To share the look, export a PDF with embedded fonts, when the editor allows it, and check the result. To send an editable file, the other person needs the font and a compatible editor. An image keeps the look, but the text is no longer editable.",
+"es": "Para compartir el aspecto, exporta un PDF con las fuentes incrustadas, cuando el editor lo permita, y revisa el resultado. Para enviar un archivo editable, la otra persona necesita la fuente y un editor compatible. Una imagen conserva el aspecto, pero el texto deja de ser editable."
+},
+"Por que Todos mostra mais glifos que os grupos do sistema?": {
+"en": "Why does All show more glyphs than the system’s groups?",
+"es": "¿Por qué Todos muestra más glifos que los grupos del sistema?"
+},
+"O inventário da fonte inclui caracteres de apoio, combinações e variantes automáticas. Os 404 glifos não são 404 visografemas básicos. Os filtros do mapa reúnem 182 caracteres codificados; algumas sequências acionam outros desenhos automaticamente.": {
+"en": "The font’s inventory includes support characters, combinations and automatic variants. The 404 glyphs are not 404 basic visographemes. The map filters bring together 182 encoded characters; some sequences trigger other drawings automatically.",
+"es": "El inventario de la fuente incluye caracteres de apoyo, combinaciones y variantes automáticas. Los 404 glifos no son 404 visografemas básicos. Los filtros del mapa reúnen 182 caracteres codificados; algunas secuencias activan otros dibujos automáticamente."
+},
+"O corpo e a animação ensinam a executar um sinal?": {
+"en": "Do the body and the animation teach how to make a sign?",
+"es": "¿El cuerpo y la animación enseñan a ejecutar una seña?"
+},
+"A figura ajuda a localizar pontos de articulação. A animação de BONITO acompanha a leitura da escrita. Nenhuma das duas substitui uma demonstração gestual ou o estudo de Libras e ELiS. Use as ": {
+"en": "The figure helps locate points of articulation. The BONITO animation follows the reading of the writing. Neither replaces a signed demonstration or the study of Libras and ELiS. Use the ",
+"es": "La figura ayuda a ubicar puntos de articulación. La animación de BONITO acompaña la lectura de la escritura. Ninguna de las dos sustituye una demostración gestual o el estudio de Libras y ELiS. Usa las "
+},
+"referências do guia": {
+"en": "guide’s references",
+"es": "referencias de la guía"
+},
+" para aprofundar o aprendizado.": {
+"en": " to learn more.",
+"es": " para profundizar el aprendizaje."
+},
+"Referências deste guia": {
+"en": "References for this guide",
+"es": "Referencias de esta guía"
+},
+", páginas impressas 348–350: contexto e quadros atribuídos a Barros (2016). ": {
+"en": ", printed pages 348–350: context and charts attributed to Barros (2016). ",
+"es": ", páginas impresas 348–350: contexto y cuadros atribuidos a Barros (2016). "
+},
+": organização das entradas. Arquivos ELiS Regular, Bold, Italic e BoldItalic, versão 2.004: desenhos e recursos da fonte.": {
+"en": ": organization of the inputs. ELiS Regular, Bold, Italic and BoldItalic files, version 2.004: drawings and features of the font.",
+"es": ": organización de las entradas. Archivos ELiS Regular, Bold, Italic y BoldItalic, versión 2.004: dibujos y recursos de la fuente."
+},
+"Os exemplos de digitação não constituem validação linguística de sinais.": {
+"en": "The typing examples do not constitute linguistic validation of signs.",
+"es": "Los ejemplos de escritura no constituyen validación lingüística de señas."
+},
+"Este site foi criado com auxílio de inteligência artificial (Claude) e pode conter erros. O conteúdo está sujeito a revisões.": {
+"en": "This site was created with the help of artificial intelligence (Claude) and may contain errors. The content is subject to revision.",
+"es": "Este sitio fue creado con ayuda de inteligencia artificial (Claude) y puede contener errores. El contenido está sujeto a revisiones."
+},
+"Colofão tipográfico": {
+"en": "Typographic colophon",
+"es": "Colofón tipográfico"
+},
+" · Símbolos e exemplos de escrita nos estilos Regular, Negrito, Itálico e Negrito Itálico. Versão 2.004.": {
+"en": " · Symbols and writing examples in the Regular, Bold, Italic and Bold Italic styles. Version 2.004.",
+"es": " · Símbolos y ejemplos de escritura en los estilos Regular, Negrita, Cursiva y Negrita Cursiva. Versión 2.004."
+},
+" · Fonte proporcional dos títulos, textos e interface, com a largura Condensed nos destaques. Desenhada pela Plau.": {
+"en": " · Proportional typeface for headings, text and interface, with the Condensed width for highlights. Designed by Plau.",
+"es": " · Fuente proporcional de los títulos, textos e interfaz, con el ancho Condensed en los destacados. Diseñada por Plau."
+},
+" · Fonte monoespaçada das teclas, códigos, legendas técnicas e campo de digitação. Desenhada pela Plau.": {
+"en": " · Monospaced typeface for keys, codes, technical captions and the typing field. Designed by Plau.",
+"es": " · Fuente monoespaciada de las teclas, códigos, leyendas técnicas y campo de escritura. Diseñada por Plau."
+},
+"A fonte ELiS é distribuída sob a ": {
+"en": "The ELiS font is distributed under the ",
+"es": "La fuente ELiS se distribuye bajo la "
+},
+", com o nome “ELiS” reservado.": {
+"en": ", with “ELiS” as a reserved font name.",
+"es": ", con el nombre “ELiS” reservado."
+},
+"Créditos do projeto": {
+"en": "Project credits",
+"es": "Créditos del proyecto"
+},
+"Criação do sistema ELiS": {
+"en": "Creator of the ELiS system",
+"es": "Creación del sistema ELiS"
+},
+"Desenvolvimento da fonte": {
+"en": "Font development",
+"es": "Desarrollo de la fuente"
+},
+"Desenho tipográfico": {
+"en": "Type design",
+"es": "Diseño tipográfico"
+},
+"Ana Laura Ferraz e Rodrigo Saiani": {
+"en": "Ana Laura Ferraz and Rodrigo Saiani",
+"es": "Ana Laura Ferraz y Rodrigo Saiani"
+},
+"Engenharia tipográfica": {
+"en": "Font engineering",
+"es": "Ingeniería tipográfica"
+},
+"Coordenação e atendimento": {
+"en": "Coordination and account management",
+"es": "Coordinación y atención"
+},
+"Guia interativo": {
+"en": "Interactive guide",
+"es": "Guía interactiva"
+},
+"Créditos do vídeo": {
+"en": "Video credits",
+"es": "Créditos del video"
+},
+"Roteiro, motion e produção": {
+"en": "Script, motion and production",
+"es": "Guion, motion y producción"
+},
+"Direção de arte": {
+"en": "Art direction",
+"es": "Dirección de arte"
+},
+"Design": {
+"en": "Design",
+"es": "Diseño"
+},
+"Head de animação": {
+"en": "Head of animation",
+"es": "Head de animación"
+},
+"Animação": {
+"en": "Animation",
+"es": "Animación"
+},
+"Fernando Vilella, Miguel Duarte e Judd Buchanan": {
+"en": "Fernando Vilella, Miguel Duarte and Judd Buchanan",
+"es": "Fernando Vilella, Miguel Duarte y Judd Buchanan"
+},
+"Roteiro": {
+"en": "Script",
+"es": "Guion"
+},
+"Gestão de projetos": {
+"en": "Project management",
+"es": "Gestión de proyectos"
+},
+"Head de relacionamento": {
+"en": "Head of client relations",
+"es": "Head de relaciones"
+},
+"Direção de operações": {
+"en": "Operations director",
+"es": "Dirección de operaciones"
+},
+"Libras": {
+"en": "Libras interpretation",
+"es": "Interpretación en Libras"
+},
+"Conheça as equipes": {
+"en": "Meet the teams",
+"es": "Conoce a los equipos"
+},
+"FONTE · VERSÃO 2.004": {
+"en": "FONT · VERSION 2.004",
+"es": "FUENTE · VERSIÓN 2.004"
+},
+"Explore o mapa de teclas e experimente os quatro estilos da fonte ELiS, Escrita das Línguas de Sinais.": {
+"en": "Explore the key map and try the four styles of the ELiS font, a writing system for sign languages.",
+"es": "Explora el mapa de teclas y prueba los cuatro estilos de la fuente ELiS, un sistema de escritura de las lenguas de señas."
+},
+"ELiS, início": {
+"en": "ELiS, home",
+"es": "ELiS, inicio"
+},
+"Seções do guia": {
+"en": "Guide sections",
+"es": "Secciones de la guía"
+},
+"Idioma": {
+"en": "Language",
+"es": "Idioma"
+},
+"ELiS – As línguas de sinais também se escrevem": {
+"en": "ELiS – Sign languages can also be written (video in Portuguese, with Libras interpretation)",
+"es": "ELiS – Las lenguas de señas también se escriben (video en portugués, con interpretación en Libras)"
+},
+"Estilo": {
+"en": "Style",
+"es": "Estilo"
+},
+"Negrito": {
+"en": "Bold",
+"es": "Negrita"
+},
+"Negrito (Ctrl+B ou ⌘B)": {
+"en": "Bold (Ctrl+B or ⌘B)",
+"es": "Negrita (Ctrl+B o ⌘B)"
+},
+"Itálico": {
+"en": "Italic",
+"es": "Cursiva"
+},
+"Itálico (Ctrl+I ou ⌘I)": {
+"en": "Italic (Ctrl+I or ⌘I)",
+"es": "Cursiva (Ctrl+I o ⌘I)"
+},
+"Visualização em ELiS da sequência qgçQà": {
+"en": "ELiS preview of the sequence qgçQà",
+"es": "Vista en ELiS de la secuencia qgçQà"
+},
+"Buscar por nome ou tecla": {
+"en": "Search by name or key",
+"es": "Buscar por nombre o tecla"
+},
+"Buscar símbolo por nome ou tecla": {
+"en": "Search for a symbol by name or key",
+"es": "Buscar símbolo por nombre o tecla"
+},
+"Grupos de símbolos": {
+"en": "Symbol groups",
+"es": "Grupos de símbolos"
+},
+"Fechar detalhes do glifo": {
+"en": "Close glyph details",
+"es": "Cerrar detalles del glifo"
+},
+"Sistema operacional": {
+"en": "Operating system",
+"es": "Sistema operativo"
+},
+"Vista anatômica": {
+"en": "Anatomical view",
+"es": "Vista anatómica"
+},
+"Ilustração frontal de uma pessoa, com os braços afastados do tronco e as palmas voltadas para frente.": {
+"en": "Front illustration of a person, with the arms away from the trunk and the palms facing forward.",
+"es": "Ilustración frontal de una persona, con los brazos separados del tronco y las palmas hacia adelante."
+},
+"BONITO em ELiS: tgçQÄ": {
+"en": "BONITO in ELiS: tgçQÄ",
+"es": "BONITO en ELiS: tgçQÄ"
+},
+"Etapas da leitura": {
+"en": "Reading steps",
+"es": "Pasos de la lectura"
+},
+"Retrato de Mariângela Estelita Barros": {
+"en": "Portrait of Mariângela Estelita Barros",
+"es": "Retrato de Mariângela Estelita Barros"
+},
+"Quadro do vídeo da ELiS: a palavra “cachorro” escrita em ELiS sobre a foto de um cachorro, com uma intérprete de Libras.": {
+"en": "Frame from the ELiS video: the word “cachorro” (dog) written in ELiS over a photo of a dog, with a Libras interpreter.",
+"es": "Cuadro del video de ELiS: la palabra “cachorro” (perro) escrita en ELiS sobre la foto de un perro, con una intérprete de Libras."
+},
+"Pular para o conteúdo": {
+"en": "Skip to content",
+"es": "Saltar al contenido"
+},
+"Os quatro grupos de visografemas": {
+"en": "The four groups of visographemes",
+"es": "Los cuatro grupos de visografemas"
+},
+"História": {
+"en": "Story",
+"es": "Historia"
+},
+"Leia a história da ELiS: como uma escrita feita à mão virou fonte": {
+"en": "Read the story of ELiS: how a handwritten script became a font",
+"es": "Lee la historia de ELiS: cómo una escritura hecha a mano se convirtió en fuente"
+},
+"Quadro do filme sobre a ELiS: a palavra “cachorro” escrita em ELiS sobre a foto de um cachorro, com uma intérprete de Libras.": {
+"en": "Still from the ELiS film: the word “dog” written in ELiS over a photo of a dog, with a Libras interpreter.",
+"es": "Fotograma de la película sobre ELiS: la palabra “perro” escrita en ELiS sobre la foto de un perro, con una intérprete de Libras."
+},
+"BONITO escrito em ELiS": {
+"en": "BONITO (beautiful) written in ELiS",
+"es": "BONITO (bonito) escrito en ELiS"
+},
+"dedos": {
+"en": "fingers",
+"es": "dedos"
+},
+"palma": {
+"en": "palm",
+"es": "palma"
+},
+"ponto: rosto": {
+"en": "place: face",
+"es": "punto: rostro"
+},
+"movimento": {
+"en": "movement",
+"es": "movimiento"
+},
+"BONITO, digitado num teclado comum como ": {
+"en": "BONITO (“beautiful”), typed on an ordinary keyboard as ",
+"es": "BONITO, escrito en un teclado común como "
+},
+". Exemplo de Barros (2016).": {
+"en": ". Example from Barros (2016).",
+"es": ". Ejemplo de Barros (2016)."
+},
+"Em 1990, uma estudante do terceiro ano de Letras em Goiânia viu uma movimentação no auditório da faculdade e foi ver o que era. No palco, um professor surdo sinalizava, e dois professores ouvintes se revezavam na tradução. Mas foi a plateia que a fisgou. Havia vários surdos sentados, que conversavam animadamente “sem som, com as mãos”, como ela pensou na época. Na semana seguinte, Mariângela Estelita Barros estava matriculada na primeira turma do primeiro curso de Libras de Goiás, promovido por Edson Franco Gomes, surdo e pioneiro do ensino de Libras no estado.": {
+"en": "In 1990, a third-year literature student in Goiânia, in central Brazil, noticed a commotion in her faculty’s auditorium and went to look. A Deaf teacher was signing on stage while two hearing colleagues took turns translating. But it was the audience that caught her. Rows of Deaf people were chatting animatedly, “without sound, with their hands”, as she thought of it then. The following week, Mariângela Estelita Barros enrolled in the first Libras course ever offered in the state of Goiás, run by Edson Franco Gomes, a Deaf pioneer of Libras teaching.",
+"es": "En 1990, una estudiante de tercer año de Letras en Goiânia, en el centro de Brasil, notó un movimiento en el auditorio de su facultad y fue a ver qué pasaba. En el escenario, un profesor sordo señaba mientras dos colegas oyentes se turnaban para traducir. Pero fue el público lo que la atrapó. Había muchas personas sordas sentadas que conversaban animadamente “sin sonido, con las manos”, como pensó entonces. A la semana siguiente, Mariângela Estelita Barros se inscribió en el primer curso de Libras del estado de Goiás, impartido por Edson Franco Gomes, sordo y pionero de la enseñanza de Libras."
+},
+"Ela já falava cinco línguas. A Libras a deixou desarmada. “Eu olhava e não via”, escreve. Não sabia o que era distintivo e o que não era.": {
+"en": "She already spoke five languages. Brazilian Sign Language left her lost. “I looked and didn’t see,” she writes. She didn’t know what made a difference in meaning and what didn’t.",
+"es": "Ya hablaba cinco idiomas. La Libras, la lengua de señas brasileña, la dejó desarmada. “Miraba y no veía”, escribe. No sabía qué cambiaba el significado y qué no."
+},
+"Essa pergunta guiaria os 35 anos seguintes. Porque a Libras, língua da comunidade surda brasileira, não tinha uma forma escrita que as pessoas de fato usassem.": {
+"en": "That question would shape the next 35 years of her life. Because Libras, the language of Brazil’s Deaf community, had no written form that people actually used.",
+"es": "Esa pregunta guiaría los 35 años siguientes. Porque la Libras, la lengua de la comunidad sorda brasileña, no tenía una forma escrita que la gente usara de verdad."
+},
+"Colagem de um manuscrito medieval, uma tábua cuneiforme e uma mão erguida, com uma intérprete de Libras no canto.": {
+"en": "Collage of a medieval manuscript, a cuneiform tablet and a raised hand, with a Libras interpreter in the corner.",
+"es": "Collage de un manuscrito medieval, una tablilla cuneiforme y una mano alzada, con una intérprete de Libras en la esquina."
+},
+"“Desde o início da humanidade, o corpo é a nossa primeira língua.”": {
+"en": "“Since the dawn of humanity, our bodies have been our first language.”",
+"es": "“Desde el inicio de la humanidad, el cuerpo es nuestra primera lengua.”"
+},
+"Quadro do filme da Noo Works, com interpretação em Libras da Etc Filmes.": {
+"en": "Still from the film by Noo Works, with Libras interpretation by Etc Filmes.",
+"es": "Fotograma de la película de Noo Works, con interpretación en Libras de Etc Filmes."
+},
+"O que significa falar uma língua que não se pode escrever? Significa aprender a ler na língua de outra pessoa. Significa histórias contadas com as mãos que desaparecem quando as mãos param. Significa que cada prova da escola e cada formulário no posto de saúde chegam numa língua que não é a sua.": {
+"en": "What does it mean to speak a language you cannot write? It means learning to read in someone else’s language. It means stories told with the hands that vanish when the hands stop. It means every school test and every form at a doctor’s office arrives in a language that is not your own.",
+"es": "¿Qué significa hablar una lengua que no se puede escribir? Significa aprender a leer en la lengua de otra persona. Significa historias contadas con las manos que desaparecen cuando las manos se detienen. Significa que cada examen escolar y cada formulario en el centro de salud llegan en una lengua que no es la tuya."
+},
+"Essa ainda é a realidade da maioria dos surdos no Brasil. Segundo o IBGE, o país tem de 2,3 a 2,5 milhões de pessoas com deficiência auditiva severa ou total. A Libras é reconhecida por lei desde 2002. Mas as crianças que sinalizam ainda aprendem a ler e escrever em português, uma língua feita de sons.": {
+"en": "That is still the reality for most Deaf people in Brazil. According to the country’s statistics institute, IBGE, between 2.3 and 2.5 million Brazilians are deaf or have great difficulty hearing. Libras has been recognised by law since 2002. But children who sign it are still taught to read and write in Portuguese, a language built on sound.",
+"es": "Esa sigue siendo la realidad de la mayoría de las personas sordas en Brasil. Según el instituto de estadística del país, el IBGE, entre 2,3 y 2,5 millones de brasileños tienen sordera severa o total. La Libras está reconocida por ley desde 2002. Pero los niños que la usan todavía aprenden a leer y escribir en portugués, una lengua hecha de sonidos."
+},
+"“Ela vive o mundo visualmente, e ": {
+"en": "“They experience the world visually, and ",
+"es": "“Viven el mundo de forma visual, y "
+},
+"o português não é uma língua visual.”": {
+"en": "Portuguese is not a visual language.”",
+"es": "el portugués no es una lengua visual.”"
+},
+"Mariângela Estelita Barros, linguista e professora da Universidade Federal de Goiás (UFG), no filme": {
+"en": "Mariângela Estelita Barros, linguist and professor at the Federal University of Goiás (UFG), in the film",
+"es": "Mariângela Estelita Barros, lingüista y profesora de la Universidad Federal de Goiás (UFG), en la película"
+},
+"Uma escrita feita à mão": {
+"en": "A script written by hand",
+"es": "Una escritura hecha a mano"
+},
+"No mestrado, ela decidiu descrever a língua: cada configuração de mão, cada movimento, cada ponto do corpo onde um sinal acontece. Fez tudo no papel. Só comprou o primeiro computador no fim do mestrado, a tempo de aprender a digitar a dissertação.": {
+"en": "As a master’s student she set out to describe the language: every handshape, every movement, every place on the body where a sign happens. She did all of it on paper. She only bought her first computer at the very end of her master’s, just in time to learn to type her dissertation.",
+"es": "En la maestría decidió describir la lengua: cada configuración de mano, cada movimiento, cada punto del cuerpo donde ocurre una seña. Lo hizo todo en papel. Recién compró su primera computadora al final de la maestría, a tiempo para aprender a escribir su tesis."
+},
+"Daqueles cadernos saiu uma ideia. Se todo sinal é feito de um conjunto limitado de partes, essas partes podiam ser escritas uma depois da outra, como letras. Em 1998, ela apresentou um sistema que fazia exatamente isso. O primeiro texto escrito nele foi o hino da Associação de Surdos de Goiânia. Hoje o sistema se chama ELiS, Escrita das Línguas de Sinais.": {
+"en": "Out of those notebooks came an idea. If every sign is made of a limited set of parts, those parts could be written, one after another, like letters. In 1998 she presented a writing system that did exactly that. The first text she ever wrote in it was the anthem of the Deaf Association of Goiânia. Today it is called ELiS, short for Escrita das Línguas de Sinais, “Writing of Sign Languages”.",
+"es": "De aquellos cuadernos salió una idea. Si toda seña está hecha de un conjunto limitado de partes, esas partes podían escribirse una tras otra, como letras. En 1998 presentó un sistema que hacía exactamente eso. El primer texto escrito en él fue el himno de la Asociación de Sordos de Goiânia. Hoy el sistema se llama ELiS, Escrita das Línguas de Sinais, “Escritura de las Lenguas de Señas”."
+},
+"visografemas": {
+"en": "visographemes",
+"es": "visografemas"
+},
+"configuração de dedos": {
+"en": "finger configuration",
+"es": "configuración de dedos"
+},
+"orientação da palma": {
+"en": "palm orientation",
+"es": "orientación de la palma"
+},
+"ponto de articulação": {
+"en": "point of articulation",
+"es": "punto de articulación"
+},
+"Estelita chama esses caracteres de visografemas. Escritos sempre nessa ordem, dedos, palma, ponto e movimento, eles formam um sinal.": {
+"en": "Barros calls its characters visographemes. Written in that fixed order, fingers, palm, place and movement, they spell a sign.",
+"es": "Estelita llama a estos caracteres visografemas. Escritos siempre en ese orden, dedos, palma, punto y movimiento, forman una seña."
+},
+"Para desenvolver a escrita, ela largou um emprego rentável em Goiânia e se mudou para Florianópolis com os dois filhos, vivendo de bolsa, até concluir o doutorado em 2008. No ano seguinte entrou para a Faculdade de Letras da UFG, onde ensina ELiS até hoje.": {
+"en": "To develop it further, she left a well-paid job in Goiânia and moved to Florianópolis with her two children, living on a research grant, to complete a doctorate in 2008. A year later she joined the Faculty of Letters at UFG, where she still teaches ELiS today.",
+"es": "Para desarrollar la escritura, dejó un empleo bien pagado en Goiânia y se mudó a Florianópolis con sus dos hijos, viviendo de una beca, hasta terminar el doctorado en 2008. Al año siguiente entró en la Facultad de Letras de la UFG, donde enseña ELiS hasta hoy."
+},
+"Criadora da ELiS, professora da Faculdade de Letras da UFG. Foto: Samanta Nascimento / Jornal UFG.": {
+"en": "Creator of ELiS, professor at the Faculty of Letters, UFG. Photo: Samanta Nascimento / Jornal UFG.",
+"es": "Creadora de ELiS, profesora de la Facultad de Letras de la UFG. Foto: Samanta Nascimento / Jornal UFG."
+},
+"Um sinal de cada vez": {
+"en": "Typing one sign at a time",
+"es": "Una seña a la vez"
+},
+"Para ensinar, ela precisava digitar. Uma amiga a apresentou a William Dimas, o Bill, servidor da Secretaria de Educação de Goiás. Ele topou fazer uma fonte ELiS de graça, com uma condição: que ela fosse sempre distribuída de graça. Ela aceitou na hora. No início de 2010, pôde digitar em ELiS pela primeira vez.": {
+"en": "To teach the script, she needed to type it. A friend put her in touch with William Dimas, known as Bill, a civil servant at the Goiás state education department. He agreed to make an ELiS font for free, on one condition: that it would always be given away for free. She agreed at once. By early 2010 she could type in ELiS for the first time.",
+"es": "Para enseñar, necesitaba escribir en la computadora. Una amiga le presentó a William Dimas, Bill, funcionario de la Secretaría de Educación de Goiás. Él aceptó hacer una fuente ELiS gratis, con una condición: que siempre se distribuyera gratis. Ella aceptó en el acto. A principios de 2010 pudo escribir en ELiS por primera vez."
+},
+"Mesmo assim, sonhou alto. Imaginou a Libras e os surdos entrando no mundo escrito e ocupando o seu lugar nele: literatura, dicionários, livros didáticos, livros infantis, traduções de tudo. Depois entendeu que não daria conta sozinha. “Escrita é um bem coletivo, social”, escreve. E passou a ensinar.": {
+"en": "She dreamed big anyway. She imagined Libras and Deaf people entering the written world and taking their place in it: literature, dictionaries, textbooks, children’s books, translations of everything. Then she realised she could not do it alone. “Writing is a collective, social good,” she writes. So she started teaching.",
+"es": "Aun así, soñó en grande. Imaginó la Libras y a las personas sordas entrando en el mundo escrito y ocupando su lugar en él: literatura, diccionarios, libros de texto, libros infantiles, traducciones de todo. Después entendió que no podría sola. “La escritura es un bien colectivo, social”, escribe. Y empezó a enseñar."
+},
+"Um teclado comum com visografemas da ELiS em cada tecla, uma fileira de caracteres de movimento destacada e uma intérprete de Libras no canto.": {
+"en": "An ordinary keyboard with ELiS visographemes on each key, a row of movement characters highlighted, and a Libras interpreter in the corner.",
+"es": "Un teclado común con visografemas de ELiS en cada tecla, una fila de caracteres de movimiento destacada y una intérprete de Libras en la esquina."
+},
+"Cada caractere da ELiS mora numa tecla de um teclado comum.": {
+"en": "Every ELiS character lives on a key of an ordinary keyboard.",
+"es": "Cada carácter de ELiS vive en una tecla de un teclado común."
+},
+"Livros que ninguém queria publicar": {
+"en": "Books that no one would publish",
+"es": "Libros que nadie quería publicar"
+},
+"Com os alunos, traduziu doze contos dos irmãos Grimm para a Libras escrita. As editoras recusaram: o público era pequeno demais, diziam, para ter apelo comercial. Então, em 2021, a filha dela, a designer Marília Barros, abriu uma pequena editora de impressão sob demanda, a Tutti Editora, só para publicar os livros. Os contos, de Rapunzel a O príncipe sapo, podem ser lidos de graça no site. Estelita espera que eles marquem uma geração de crianças surdas que vão crescer lendo histórias na sua primeira língua.": {
+"en": "With her students she translated twelve Grimm fairy tales into written Libras. Publishers turned them down: the audience was too small, they said, to be commercial. So in 2021 her daughter, the designer Marília Barros, opened a small print-on-demand publisher, Tutti Editora, just to get the books out. The tales, from Rapunzel to The Frog Prince, can now be read free online. Barros hopes they will shape a generation of Deaf children who grow up reading stories in their first language.",
+"es": "Con sus alumnos tradujo doce cuentos de los hermanos Grimm a la Libras escrita. Las editoriales los rechazaron: el público era demasiado pequeño, decían, para ser comercial. Entonces, en 2021, su hija, la diseñadora Marília Barros, abrió una pequeña editorial de impresión bajo demanda, Tutti Editora, solo para publicar los libros. Los cuentos, de Rapunzel a El príncipe rana, se pueden leer gratis en línea. Estelita espera que marquen a una generación de niños sordos que crecerán leyendo historias en su primera lengua."
+},
+"Aí a fonte antiga não deu mais conta. Os livros seguintes eram enormes: um curso de 700 páginas de língua de sinais americana escrito para brasileiros, e um dicionário Libras/ELiS–português que levou onze anos. Os programas de diagramação modernos não aceitavam a fonte antiga, e a diagramação do livro de ASL travou. Ela foi pesquisar quanto custaria uma fonte nova e leu que poderia passar de cem mil reais.": {
+"en": "Then the old font gave out. Her next books were enormous: a 700-page course in American Sign Language written for Brazilians, and a Libras/ELiS–Portuguese dictionary that had taken eleven years. Modern layout software could not handle the old font, and the layout of the ASL book stalled. She looked up what a new font would cost and read that it could run to more than R$100,000.",
+"es": "Entonces la fuente antigua ya no alcanzó. Los libros siguientes eran enormes: un curso de 700 páginas de lengua de señas estadounidense escrito para brasileños y un diccionario Libras/ELiS–portugués que llevó once años. Los programas de maquetación modernos no aceptaban la fuente antigua, y la maquetación del libro de ASL se detuvo. Buscó cuánto costaría una fuente nueva y leyó que podía superar los cien mil reales."
+},
+"“Novamente, ": {
+"en": "“Once again, ",
+"es": "“Una vez más, "
+},
+"vi-me de mãos atadas.”": {
+"en": "I found my hands tied.”",
+"es": "me vi con las manos atadas.”"
+},
+"Mariângela Estelita Barros, em seu memorial acadêmico": {
+"en": "Mariângela Estelita Barros, in her academic memorial (translated)",
+"es": "Mariângela Estelita Barros, en su memorial académico (traducido)"
+},
+"“Eu sou professora, não tenho como comprar uma fonte”": {
+"en": "“I’m a teacher. I can’t buy a font.”",
+"es": "“Soy profesora, no tengo cómo comprar una fuente”"
+},
+"Pesquisando na internet, ela encontrou a Plau, uma fundição tipográfica independente do Rio de Janeiro. Ela e sua equipe entraram em contato para explicar o que precisavam: uma fonte para escrever em Libras.": {
+"en": "Searching online, she found Plau, an independent type foundry in Rio de Janeiro. She and her team got in touch to explain what they needed: a font to write Libras.",
+"es": "Buscando en internet, encontró a Plau, una fundición tipográfica independiente de Río de Janeiro. Ella y su equipo se pusieron en contacto para explicar lo que necesitaban: una fuente para escribir en Libras."
+},
+"A reunião, online, foi em 5 de julho de 2024. Estelita e Luísa de Castro Freitas, que diagrama os livros dela pela Tutti Editora, explicaram o que não funcionava na fonte antiga. A Plau topou ali mesmo.": {
+"en": "They met online on 5 July 2024. Barros and Luísa de Castro Freitas, who lays out her books for Tutti Editora, explained what was wrong with the old font. Plau said yes on the spot.",
+"es": "La reunión, en línea, fue el 5 de julio de 2024. Estelita y Luísa de Castro Freitas, que maqueta sus libros para Tutti Editora, explicaron lo que no funcionaba en la fuente antigua. Plau aceptó ahí mismo."
+},
+"Estelita não entendeu. Insistiu que não era uma empresa, que era professora e não teria como comprar uma fonte. Foi então que ouviu que a Plau faria o trabalho pro bono.": {
+"en": "Barros didn’t understand. She insisted she was not a company, that she was a teacher and could never afford a font. Then Plau told her they would do it pro bono.",
+"es": "Estelita no entendió. Insistió en que no era una empresa, que era profesora y no podría comprar una fuente. Fue entonces cuando escuchó que Plau haría el trabajo pro bono."
+},
+"Aprender a ler uma escrita que você não entende": {
+"en": "Learning to read a script you don’t understand",
+"es": "Aprender a leer una escritura que no entiendes"
+},
+"Para quem não conhece a ELiS, seus caracteres são ininteligíveis: um quadrado, um traço inclinado ou um ponto podem representar um dedo, a palma ou um toque no corpo. A type designer Ana Laura Ferraz, da Plau, trabalhando com o fundador Rodrigo Saiani, não podia redesenhar um visografema sem saber o que ele significava. O trabalho virou uma longa conversa com Estelita.": {
+"en": "To anyone who doesn’t know ELiS, its characters are unreadable: a square, a slanted stroke or a dot can stand for a finger, a palm or a touch on the body. Plau type designer Ana Laura Ferraz, working with founder Rodrigo Saiani, couldn’t redraw a single character without knowing what it meant. So the work became a long conversation with Barros.",
+"es": "Para quien no conoce ELiS, sus caracteres son ininteligibles: un cuadrado, un trazo inclinado o un punto pueden representar un dedo, la palma o un toque en el cuerpo. La diseñadora tipográfica Ana Laura Ferraz, de Plau, trabajando con el fundador Rodrigo Saiani, no podía redibujar un visografema sin saber qué significaba. El trabajo se convirtió en una larga conversación con Estelita."
+},
+"Por que alguns visografemas de dedo são baixos e outros altos? Porque os baixos são o polegar, explicou Estelita, e a diferença tem de ser nítida; isso virou a altura de x e a altura das maiúsculas da fonte. Um traço sob uma parte do corpo indica que a mão toca ali: um traço para um toque, dois para dois, três para três ou mais. Estelita queria esse traço mais fino que o visografema, “mas não tão fino quanto é hoje no Word, porque, se a letra for muito pequena, ele nem aparece”. A Plau desenhou o sublinhado simples como se faz numa fonte cursiva, com versões diferentes para o início, o meio e o fim de uma sequência, trocadas automaticamente durante a digitação.": {
+"en": "Why are some finger characters short and others tall? Because the short ones are the thumb, Barros explained, and the difference must be obvious; that became the font’s x-height and cap height. A line under a body part means the hand touches it: one line for one touch, two for two, three for three or more. Barros wanted it thinner than the letter, “but not as thin as it is in Word today, because if the letter is very small it doesn’t even show”. Plau designed the single underline the way a cursive typeface joins its letters, with different versions for the start, middle and end of a row, swapped in automatically as you type.",
+"es": "¿Por qué algunos visografemas de dedo son bajos y otros altos? Porque los bajos son el pulgar, explicó Estelita, y la diferencia tiene que ser nítida; eso se convirtió en la altura de x y la altura de las mayúsculas de la fuente. Un trazo bajo una parte del cuerpo indica que la mano la toca: un trazo para un toque, dos para dos, tres para tres o más. Estelita quería ese trazo más fino que el visografema, “pero no tan fino como es hoy en Word, porque, si la letra es muy pequeña, ni siquiera aparece”. Plau dibujó el subrayado simple como se hace en una fuente cursiva, con versiones distintas para el inicio, el medio y el final de una secuencia, que se cambian automáticamente al escribir."
+},
+"um toque": {
+"en": "one touch",
+"es": "un toque"
+},
+"dois toques": {
+"en": "two touches",
+"es": "dos toques"
+},
+"três ou mais": {
+"en": "three or more",
+"es": "tres o más"
+},
+"A primeira versão completa chegou a Estelita no fim de julho de 2024. “A primeira impressão é que a fonte está bem mais aerada, o que é bastante positivo!”, ela respondeu. “Os visografemas estão bem mais distintos uns dos outros, não dão a impressão de estarem apinhados.” Em fevereiro de 2025, a nova fonte já funcionava, e a diagramação do livro de ASL foi retomada.": {
+"en": "The first complete version reached Barros in late July 2024. “The first impression is that the font is much airier, which is very positive!” she wrote back. “The visographemes are much more distinct from one another; they don’t look crammed together.” By February 2025 the new font was working, and the ASL book went back into layout.",
+"es": "La primera versión completa le llegó a Estelita a fines de julio de 2024. “¡La primera impresión es que la fuente está mucho más aireada, lo que es muy positivo!”, respondió. “Los visografemas son mucho más distintos entre sí, no dan la impresión de estar amontonados.” En febrero de 2025 la nueva fuente ya funcionaba, y se retomó la maquetación del libro de ASL."
+},
+"Fazer a fonte funcionar em todo lugar levou mais tempo. O PowerPoint no Windows ignorou as regras da fonte por mais de um ano. A poucos dias do lançamento final, depois de uma troca intensa de mensagens com Rainer Erich Scheichelbauer, cofundador do editor de fontes Glyphs, Rodrigo chegou à solução.": {
+"en": "Making it work everywhere took longer. Microsoft PowerPoint on Windows ignored the font’s rules for more than a year. Just days before the final release, after a close exchange with Rainer Erich Scheichelbauer, co-founder of the font editor Glyphs, Saiani found the fix.",
+"es": "Hacer que la fuente funcionara en todas partes llevó más tiempo. PowerPoint en Windows ignoró las reglas de la fuente durante más de un año. A pocos días del lanzamiento final, después de un intenso intercambio de mensajes con Rainer Erich Scheichelbauer, cofundador del editor de fuentes Glyphs, Rodrigo encontró la solución."
+},
+"Close do rosto de um cachorro com o sinal de cachorro escrito em ELiS por cima, a palavra cachorro embaixo e uma intérprete de Libras no canto.": {
+"en": "Close-up of a dog’s face with the Libras sign for dog written in ELiS across it, the Portuguese word cachorro below, and a Libras interpreter in the corner.",
+"es": "Primer plano de la cara de un perro con la seña de perro escrita en ELiS encima, la palabra portuguesa cachorro debajo y una intérprete de Libras en la esquina."
+},
+"CACHORRO escrito em ELiS.": {
+"en": "CACHORRO (“dog”) written in ELiS.",
+"es": "CACHORRO (“perro”) escrito en ELiS."
+},
+"Escrita para a próxima geração": {
+"en": "Written for the next generation",
+"es": "Escrita para la próxima generación"
+},
+"A nova ELiS tem quatro estilos, 404 glifos e um guia online gratuito, este site, onde qualquer pessoa pode escrever em ELiS no navegador, achar cada tecla e ver em que parte do corpo cada sinal acontece. As fontes são gratuitas, sob a licença SIL Open Font License, honrando a promessa que Estelita fez ao Bill há quinze anos. A Plau também encomendou um filme ao estúdio Noo Works, com interpretação em Libras, para contar a história. Todo o projeto foi pro bono.": {
+"en": "The new ELiS has four styles, 404 glyphs and a free online guide, this website, where anyone can type ELiS in the browser, find every key and see where each sign happens on the body. The fonts are free under the SIL Open Font License, honouring the promise Barros made to Bill fifteen years ago. Plau also commissioned a short film from the studio Noo Works, with Libras interpretation, to tell the story. The whole project was pro bono.",
+"es": "La nueva ELiS tiene cuatro estilos, 404 glifos y una guía en línea gratuita, este sitio, donde cualquier persona puede escribir en ELiS en el navegador, encontrar cada tecla y ver en qué parte del cuerpo ocurre cada seña. Las fuentes son gratuitas, bajo la licencia SIL Open Font License, cumpliendo la promesa que Estelita le hizo a Bill hace quince años. Plau también le encargó una película al estudio Noo Works, con interpretación en Libras, para contar la historia. Todo el proyecto fue pro bono."
+},
+"O próximo passo é maior que uma fonte. A ELiS descreve o corpo, e não palavras, por isso pode escrever qualquer língua de sinais; já foi testada em outras vinte, e só o Brasil tem 35 línguas indígenas de sinais, quase nenhuma registrada por escrito. A Plau e Estelita preparam uma proposta para incluir a ELiS no Unicode, o padrão que permite a todo celular e computador entender um texto. Hoje, só uma escrita de línguas de sinais, a SignWriting, faz parte dele.": {
+"en": "The next step is bigger than a font. ELiS describes the body, not words, so it can write any sign language; it has been tested on twenty others, and Brazil alone has 35 Indigenous sign languages, almost none of them written down. Plau and Barros are preparing a proposal to add ELiS to Unicode, the standard that lets every phone and computer understand text. Today only one sign-language script, SignWriting, is in it.",
+"es": "El próximo paso es más grande que una fuente. ELiS describe el cuerpo, no palabras, por eso puede escribir cualquier lengua de señas; ya se probó en otras veinte, y solo Brasil tiene 35 lenguas de señas indígenas, casi ninguna registrada por escrito. Plau y Estelita preparan una propuesta para incluir ELiS en Unicode, el estándar que permite que todo teléfono y computadora entienda un texto. Hoy, solo una escritura de lenguas de señas, SignWriting, forma parte de él."
+},
+"“Com uma fonte fácil de usar, ": {
+"en": "“Once a font is easy to use, ",
+"es": "“Con una fuente fácil de usar, "
+},
+"a pessoa começa a normalizar a possibilidade da escrita das línguas de sinais.”": {
+"en": "people start to see it as natural that sign languages can be written.”",
+"es": "la gente empieza a ver como algo normal que las lenguas de señas se puedan escribir.”"
+},
+"Mariângela Estelita Barros, no filme": {
+"en": "Mariângela Estelita Barros, in the film",
+"es": "Mariângela Estelita Barros, en la película"
+},
+"Sistema de escrita ELiS": {
+"en": "ELiS writing system",
+"es": "Sistema de escritura ELiS"
+},
+"Primeira fonte ELiS (2010)": {
+"en": "First ELiS font (2010)",
+"es": "Primera fuente ELiS (2010)"
+},
+"Primeiro contato": {
+"en": "First contact",
+"es": "Primer contacto"
+},
+"Luísa de Castro Freitas (diagramadora, Tutti Editora)": {
+"en": "Luísa de Castro Freitas (layout designer, Tutti Editora)",
+"es": "Luísa de Castro Freitas (maquetadora, Tutti Editora)"
+},
+"Projeto": {
+"en": "Project",
+"es": "Proyecto"
+},
+"Pro bono da Plau": {
+"en": "Pro bono by Plau",
+"es": "Pro bono de Plau"
+},
+"Carlos Mignot, Gabriela Fiks e Mariana Navarro": {
+"en": "Carlos Mignot, Gabriela Fiks and Mariana Navarro",
+"es": "Carlos Mignot, Gabriela Fiks y Mariana Navarro"
+},
+"Gestão de conteúdo": {
+"en": "Content management",
+"es": "Gestión de contenido"
+},
+"Filme": {
+"en": "Film",
+"es": "Película"
+},
+"Noo Works, com Libras da Etc Filmes": {
+"en": "Noo Works, with Libras by Etc Filmes",
+"es": "Noo Works, con Libras de Etc Filmes"
+},
+"Agradecimento": {
+"en": "Thanks",
+"es": "Agradecimiento"
+},
+"Créditos": {
+"en": "Credits",
+"es": "Créditos"
+},
+"CONTINUE NO GUIA": {
+"en": "CONTINUE IN THE GUIDE",
+"es": "SIGUE EN LA GUÍA"
+},
+"A fonte ELiS é gratuita. No guia, você digita em ELiS no navegador, consulta o mapa de teclas e baixa os arquivos.": {
+"en": "The ELiS font is free. In the guide you can type ELiS in the browser, look up the key map and download the files.",
+"es": "La fuente ELiS es gratuita. En la guía puedes escribir en ELiS en el navegador, consultar el mapa de teclas y descargar los archivos."
+},
+"Abrir o guia de uso": {
+"en": "Open the user guide",
+"es": "Abrir la guía de uso"
+},
+"Guia de uso": {
+"en": "User guide",
+"es": "Guía de uso"
+},
+"A história": {
+"en": "The story",
+"es": "La historia"
+},
+"ELiS, guia de uso": {
+"en": "ELiS, user guide",
+"es": "ELiS, guía de uso"
+},
+"Páginas do site": {
+"en": "Site pages",
+"es": "Páginas del sitio"
+},
+"COMO NASCERAM A ESCRITA E A FONTE": {
+"en": "HOW THE SCRIPT AND THE FONT CAME TO BE",
+"es": "CÓMO NACIERON LA ESCRITURA Y LA FUENTE"
+},
+"A história da ELiS": {
+"en": "The story of ELiS",
+"es": "La historia de ELiS"
+},
+"A história da ELiS – Escrita das Línguas de Sinais": {
+"en": "The story of ELiS – Writing of Sign Languages",
+"es": "La historia de ELiS – Escritura de las Lenguas de Señas"
+},
+"A linguista Mariângela Estelita Barros criou a ELiS em 1998 para escrever as línguas de sinais. Esta é a história dessa escrita, do caderno ao teclado.": {
+"en": "Linguist Mariângela Estelita Barros created ELiS in 1998 to write sign languages. This is the story of that script, from notebook to keyboard.",
+"es": "La lingüista Mariângela Estelita Barros creó ELiS en 1998 para escribir las lenguas de señas. Esta es la historia de esa escritura, del cuaderno al teclado."
+},
+"Foi um começo, mas o sistema ainda carecia de melhorias…": {
+"en": "It was a start, but the system still needed improvement…",
+"es": "Fue un comienzo, pero el sistema todavía necesitaba mejoras…"
+},
+"“Essa ajuda, tão essencial quanto inesperada, ": {
+"en": "“That help, as essential as it was unexpected, ",
+"es": "“Esa ayuda, tan esencial como inesperada, "
+},
+"me emocionou muito.”": {
+"en": "moved me deeply.”",
+"es": "me emocionó mucho.”"
+}
+}

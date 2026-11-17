@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+.DS_Store
+__pycache__/
+
+# Odisseia e Compasso são fontes comerciais da Plau. O site as usa, mas elas ficam só no servidor.
+dist/fonts/Compasso*.woff2
+dist/fonts/Odisseia*.woff2
+
+.openai/

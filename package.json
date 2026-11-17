@@ -1,0 +1,19 @@
+{
+  "name": "elis-guia",
+  "private": true,
+  "description": "Guia interativo da fonte ELiS. O site publicado fica em dist/.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "python3 i18n/build.py",
+    "test": "npm run test:build && npm run test:e2e",
+    "test:build": "python3 i18n/build.py --check && python3 -m unittest discover -s tests/build -p 'test_*.py'",
+    "test:e2e": "playwright test",
+    "test:watch": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "1.65.1"
+  }
+}

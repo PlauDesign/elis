@@ -1,0 +1,96 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  # Never cancel a run on main midway, so a deploy is not interrupted.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  testes:
+    name: Testes
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Instalar o navegador de teste
+        run: npx playwright install --with-deps chromium
+
+      - name: Conferir sintaxe dos scripts do site
+        run: for f in dist/*.js; do node --check "$f"; done
+
+      - name: Rodar testes
+        run: npm test
+
+      - name: Guardar relatório dos testes
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-playwright
+          path: playwright-report
+          retention-days: 7
+
+  deploy:
+    name: Deploy
+    needs: testes
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: producao
+      url: https://elis-libras.com.br
+    concurrency:
+      group: deploy-producao
+      cancel-in-progress: false
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Conferir os segredos de deploy
+        run: |
+          for name in DEPLOY_HOST DEPLOY_USER DEPLOY_SSH_KEY DEPLOY_KNOWN_HOSTS; do
+            if [ -z "${!name}" ]; then echo "::error::Falta o segredo $name. Veja a seção Deploy no CLAUDE.md."; exit 1; fi
+          done
+
+      - name: Preparar a chave SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy
+          chmod 600 ~/.ssh/deploy
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      # The server key only accepts rsync into the site folder (rrsync), so the destination is the folder itself.
+      # Files are added or updated; nothing is deleted on the server.
+      - name: Enviar dist/ para o servidor
+        run: rsync -rlz --checksum --exclude '.DS_Store' -e 'ssh -i ~/.ssh/deploy -o StrictHostKeyChecking=yes -o BatchMode=yes' dist/ "$DEPLOY_USER@$DEPLOY_HOST:"
+
+      - name: Conferir o site no ar
+        run: |
+          for page in / /en.html /es.html; do
+            curl -fsS -o /dev/null "https://elis-libras.com.br$page" || { echo "::error::$page não respondeu depois do deploy"; exit 1; }
+          done
+          curl -fsS https://elis-libras.com.br/ | grep -q "$(grep -o 'style.css?v=[a-z0-9-]*' dist/index.html)" || { echo "::error::O site no ar não mostra a versão recém-enviada"; exit 1; }
