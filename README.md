@@ -25,7 +25,7 @@ Use Node 20 ou mais novo. `npm run build` regenera as páginas em inglês e espa
 
 ### Odisseia e Compasso
 
-O site é composto em Odisseia e Compasso, fontes comerciais da Plau. Elas não fazem parte deste repositório nem da licença aberta: ficam só no servidor do site. Em uma cópia local, o site aparece com as fontes de reserva do sistema, e os testes levam isso em conta.
+O site é composto em Odisseia e Compasso, fontes comerciais da Plau. Elas não fazem parte deste repositório nem da licença aberta. Em uma cópia local, o site aparece com as fontes de reserva do sistema, e os testes levam isso em conta.
 
 ## Licença
 
