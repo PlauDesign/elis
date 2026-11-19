@@ -71,17 +71,17 @@
 "en": "The ELiS font brings this system to the computer. In this guide, you can try the writing, look up the keys and explore how the glyphs relate to the body.",
 "es": "La fuente ELiS lleva este sistema a la computadora. En esta guía puedes probar la escritura, consultar las teclas y explorar la relación entre los glifos y el cuerpo."
 },
-"O sistema tem 95 visografemas básicos, organizados em quatro grupos.": {
-"en": "The system has 95 basic visographemes, organized into four groups.",
-"es": "El sistema tiene 95 visografemas básicos, organizados en cuatro grupos."
+"O sistema tem 96 visografemas básicos, organizados em quatro grupos.": {
+"en": "The system has 96 basic visographemes, organized into four groups.",
+"es": "El sistema tiene 96 visografemas básicos, organizados en cuatro grupos."
 },
 "Configuração de dedos": {
 "en": "Finger configuration",
 "es": "Configuración de dedos"
 },
-"Como os dedos se configuram.": {
-"en": "How the fingers are shaped.",
-"es": "Cómo se configuran los dedos."
+"A posição dos dedos.": {
+"en": "The position of the fingers.",
+"es": "La posición de los dedos."
 },
 "Orientação da palma": {
 "en": "Palm orientation",
@@ -379,9 +379,9 @@
 "en": "Where the sign happens.",
 "es": "Dónde sucede la seña."
 },
-"Explore 28 referências de cabeça, tronco e membros. Escolha uma região e veja sua entrada em ELiS.": {
-"en": "Explore 28 references on the head, trunk and limbs. Choose a region and see its ELiS input.",
-"es": "Explora 28 referencias de cabeza, tronco y extremidades. Elige una región y ve su entrada en ELiS."
+"Explore os 35 pontos de articulação da cabeça, tronco e membros. Escolha uma região e veja sua entrada em ELiS.": {
+"en": "Explore the 35 points of articulation on the head, trunk and limbs. Choose a region and see its ELiS input.",
+"es": "Explora los 35 puntos de articulación de la cabeza, el tronco y las extremidades. Elige una región y ve su entrada en ELiS."
 },
 "Rosto": {
 "en": "Face",
@@ -487,9 +487,9 @@
 "en": "The underline indicates touch",
 "es": "El subrayado indica el toque"
 },
-"Na reunião do projeto, o traço simples indica contato simples ou de passagem; dois traços, dois toques; três, três ou mais. São glifos da fonte, não o botão de sublinhar do editor.": {
-"en": "In the project meeting, a single stroke indicates single or passing contact; two strokes, two touches; three, three or more. They are glyphs of the font, not the editor’s underline button.",
-"es": "En la reunión del proyecto, el trazo simple indica contacto simple o de paso; dos trazos, dos toques; tres, tres o más. Son glifos de la fuente, no el botón de subrayar del editor."
+"Na reunião do projeto, o traço simples indica contato simples ou de passagem; dois traços, dois toques em diferentes áreas do mesmo ponto de articulação; três, três ou mais. São glifos da fonte, não o botão de sublinhar do editor.": {
+"en": "In the project meeting, a single stroke indicates single or passing contact; two strokes, two touches on different areas of the same point of articulation; three, three or more. They are glyphs of the font, not the editor’s underline button.",
+"es": "En la reunión del proyecto, el trazo simple indica contacto simple o de paso; dos trazos, dos toques en distintas áreas del mismo punto de articulación; tres, tres o más. Son glifos de la fuente, no el botón de subrayar del editor."
 },
 "Uma primeira associação": {
 "en": "A first association",
@@ -667,9 +667,9 @@
 "en": "key map",
 "es": "mapa de teclas"
 },
-". Maiúsculas, minúsculas e acentos representam entradas diferentes. A fonte desenha os sinais; não traduz português para Libras.": {
-"en": ". Capital letters, lowercase letters and accents are different inputs. The font draws the signs; it does not translate Portuguese into Libras.",
-"es": ". Mayúsculas, minúsculas y acentos son entradas diferentes. La fuente dibuja las señas; no traduce del portugués a Libras."
+". Maiúsculas, minúsculas e acentos representam entradas diferentes. A fonte escreve os sinais; não traduz português para Libras.": {
+"en": ". Capital letters, lowercase letters and accents are different inputs. The font writes the signs; it does not translate Portuguese into Libras.",
+"es": ". Mayúsculas, minúsculas y acentos son entradas diferentes. La fuente escribe las señas; no traduce del portugués a Libras."
 },
 "Revise e compartilhe": {
 "en": "Review and share",
@@ -1199,7 +1199,7 @@
 "en": "movement",
 "es": "movimiento"
 },
-"BONITO, digitado num teclado comum como ": {
+"BONITO, digitado em um teclado comum como ": {
 "en": "BONITO (“beautiful”), typed on an ordinary keyboard as ",
 "es": "BONITO, escrito en un teclado común como "
 },
@@ -1279,11 +1279,11 @@
 "en": "point of articulation",
 "es": "punto de articulación"
 },
-"Estelita chama esses caracteres de visografemas. Escritos sempre nessa ordem, dedos, palma, ponto e movimento, eles formam um sinal.": {
-"en": "Barros calls its characters visographemes. Written in that fixed order, fingers, palm, place and movement, they spell a sign.",
-"es": "Estelita llama a estos caracteres visografemas. Escritos siempre en ese orden, dedos, palma, punto y movimiento, forman una seña."
+"Estelita chama esses caracteres de visografemas. Escritos sempre nessa ordem, dedos, palma, ponto de articulação e movimento, eles formam um sinal.": {
+"en": "Barros calls its characters visographemes. Written in that fixed order, fingers, palm, point of articulation and movement, they spell a sign.",
+"es": "Estelita llama a estos caracteres visografemas. Escritos siempre en ese orden, dedos, palma, punto de articulación y movimiento, forman una seña."
 },
-"Para desenvolver a escrita, ela largou um emprego rentável em Goiânia e se mudou para Florianópolis com os dois filhos, vivendo de bolsa, até concluir o doutorado em 2008. No ano seguinte entrou para a Faculdade de Letras da UFG, onde ensina ELiS até hoje.": {
+"Para desenvolver a escrita, ela largou um emprego rentável em Goiânia e se mudou para Florianópolis com os dois filhos, vivendo de bolsa, até concluir o doutorado em 2008. No ano seguinte, entrou para a Faculdade de Letras da UFG, onde ensina ELiS até hoje.": {
 "en": "To develop it further, she left a well-paid job in Goiânia and moved to Florianópolis with her two children, living on a research grant, to complete a doctorate in 2008. A year later she joined the Faculty of Letters at UFG, where she still teaches ELiS today.",
 "es": "Para desarrollar la escritura, dejó un empleo bien pagado en Goiânia y se mudó a Florianópolis con sus dos hijos, viviendo de una beca, hasta terminar el doctorado en 2008. Al año siguiente entró en la Facultad de Letras de la UFG, donde enseña ELiS hasta hoy."
 },
@@ -1315,13 +1315,13 @@
 "en": "Books that no one would publish",
 "es": "Libros que nadie quería publicar"
 },
-"Com os alunos, traduziu doze contos dos irmãos Grimm para a Libras escrita. As editoras recusaram: o público era pequeno demais, diziam, para ter apelo comercial. Então, em 2021, a filha dela, a designer Marília Barros, abriu uma pequena editora de impressão sob demanda, a Tutti Editora, só para publicar os livros. Os contos, de Rapunzel a O príncipe sapo, podem ser lidos de graça no site. Estelita espera que eles marquem uma geração de crianças surdas que vão crescer lendo histórias na sua primeira língua.": {
-"en": "With her students she translated twelve Grimm fairy tales into written Libras. Publishers turned them down: the audience was too small, they said, to be commercial. So in 2021 her daughter, the designer Marília Barros, opened a small print-on-demand publisher, Tutti Editora, just to get the books out. The tales, from Rapunzel to The Frog Prince, can now be read free online. Barros hopes they will shape a generation of Deaf children who grow up reading stories in their first language.",
-"es": "Con sus alumnos tradujo doce cuentos de los hermanos Grimm a la Libras escrita. Las editoriales los rechazaron: el público era demasiado pequeño, decían, para ser comercial. Entonces, en 2021, su hija, la diseñadora Marília Barros, abrió una pequeña editorial de impresión bajo demanda, Tutti Editora, solo para publicar los libros. Los cuentos, de Rapunzel a El príncipe rana, se pueden leer gratis en línea. Estelita espera que marquen a una generación de niños sordos que crecerán leyendo historias en su primera lengua."
+"Com os alunos, traduziu doze contos dos irmãos Grimm para a Libras escrita. As editoras recusaram: o público era pequeno demais, diziam, para ter apelo comercial. Então, em 2021, a filha dela, a designer Marília Barros, abriu uma pequena editora de impressão sob demanda, a Tutti Editora, só para publicar os livros. Os contos Rapunzel, O príncipe sapo e vários outros podem ser lidos de graça no site. Estelita espera que eles marquem uma geração de crianças surdas que vão crescer lendo histórias na sua primeira língua.": {
+"en": "With her students she translated twelve Grimm fairy tales into written Libras. Publishers turned them down: the audience was too small, they said, to be commercial. So in 2021 her daughter, the designer Marília Barros, opened a small print-on-demand publisher, Tutti Editora, just to get the books out. Rapunzel, The Frog Prince and several other tales can now be read free online. Barros hopes they will shape a generation of Deaf children who grow up reading stories in their first language.",
+"es": "Con sus alumnos tradujo doce cuentos de los hermanos Grimm a la Libras escrita. Las editoriales los rechazaron: el público era demasiado pequeño, decían, para ser comercial. Entonces, en 2021, su hija, la diseñadora Marília Barros, abrió una pequeña editorial de impresión bajo demanda, Tutti Editora, solo para publicar los libros. Rapunzel, El príncipe rana y varios otros cuentos se pueden leer gratis en línea. Estelita espera que marquen a una generación de niños sordos que crecerán leyendo historias en su primera lengua."
 },
-"Aí a fonte antiga não deu mais conta. Os livros seguintes eram enormes: um curso de 700 páginas de língua de sinais americana escrito para brasileiros, e um dicionário Libras/ELiS–português que levou onze anos. Os programas de diagramação modernos não aceitavam a fonte antiga, e a diagramação do livro de ASL travou. Ela foi pesquisar quanto custaria uma fonte nova e leu que poderia passar de cem mil reais.": {
-"en": "Then the old font gave out. Her next books were enormous: a 700-page course in American Sign Language written for Brazilians, and a Libras/ELiS–Portuguese dictionary that had taken eleven years. Modern layout software could not handle the old font, and the layout of the ASL book stalled. She looked up what a new font would cost and read that it could run to more than R$100,000.",
-"es": "Entonces la fuente antigua ya no alcanzó. Los libros siguientes eran enormes: un curso de 700 páginas de lengua de señas estadounidense escrito para brasileños y un diccionario Libras/ELiS–portugués que llevó once años. Los programas de maquetación modernos no aceptaban la fuente antigua, y la maquetación del libro de ASL se detuvo. Buscó cuánto costaría una fuente nueva y leyó que podía superar los cien mil reales."
+"Aí a fonte antiga não deu mais conta. Os livros seguintes eram enormes: um curso de 700 páginas de língua de sinais americana escrito para brasileiros, e um dicionário Libras/ELiS–português que levou onze anos para ser concluído. Os programas de diagramação modernos não aceitavam a fonte antiga, e a diagramação do livro de ASL travou. Ela foi pesquisar quanto custaria uma fonte nova e leu que poderia passar de cem mil reais.": {
+"en": "Then the old font gave out. Her next books were enormous: a 700-page course in American Sign Language written for Brazilians, and a Libras/ELiS–Portuguese dictionary that took eleven years to complete. Modern layout software could not handle the old font, and the layout of the ASL book stalled. She looked up what a new font would cost and read that it could run to more than R$100,000.",
+"es": "Entonces la fuente antigua ya no alcanzó. Los libros siguientes eran enormes: un curso de 700 páginas de lengua de señas estadounidense escrito para brasileños y un diccionario Libras/ELiS–portugués que llevó once años terminar. Los programas de maquetación modernos no aceptaban la fuente antigua, y la maquetación del libro de ASL se detuvo. Buscó cuánto costaría una fuente nueva y leyó que podía superar los cien mil reales."
 },
 "“Novamente, ": {
 "en": "“Once again, ",
@@ -1395,9 +1395,9 @@
 "en": "Written for the next generation",
 "es": "Escrita para la próxima generación"
 },
-"A nova ELiS tem quatro estilos, 404 glifos e um guia online gratuito, este site, onde qualquer pessoa pode escrever em ELiS no navegador, achar cada tecla e ver em que parte do corpo cada sinal acontece. As fontes são gratuitas, sob a licença SIL Open Font License, honrando a promessa que Estelita fez ao Bill há quinze anos. A Plau também encomendou um filme ao estúdio Noo Works, com interpretação em Libras, para contar a história. Todo o projeto foi pro bono.": {
-"en": "The new ELiS has four styles, 404 glyphs and a free online guide, this website, where anyone can type ELiS in the browser, find every key and see where each sign happens on the body. The fonts are free under the SIL Open Font License, honouring the promise Barros made to Bill fifteen years ago. Plau also commissioned a short film from the studio Noo Works, with Libras interpretation, to tell the story. The whole project was pro bono.",
-"es": "La nueva ELiS tiene cuatro estilos, 404 glifos y una guía en línea gratuita, este sitio, donde cualquier persona puede escribir en ELiS en el navegador, encontrar cada tecla y ver en qué parte del cuerpo ocurre cada seña. Las fuentes son gratuitas, bajo la licencia SIL Open Font License, cumpliendo la promesa que Estelita le hizo a Bill hace quince años. Plau también le encargó una película al estudio Noo Works, con interpretación en Libras, para contar la historia. Todo el proyecto fue pro bono."
+"A nova ELiS tem quatro estilos, 404 glifos e um guia online gratuito: neste site, qualquer pessoa pode escrever em ELiS no navegador, achar cada tecla e ver em que parte do corpo cada sinal acontece. As fontes são gratuitas, sob a licença SIL Open Font License, honrando a promessa que Estelita fez ao Bill há quinze anos. A Plau também encomendou um filme ao estúdio Noo Works, com interpretação em Libras, para contar a história. Todo o projeto foi pro bono.": {
+"en": "The new ELiS has four styles, 404 glyphs and a free online guide: on this website, anyone can type ELiS in the browser, find every key and see where each sign happens on the body. The fonts are free under the SIL Open Font License, honouring the promise Barros made to Bill fifteen years ago. Plau also commissioned a short film from the studio Noo Works, with Libras interpretation, to tell the story. The whole project was pro bono.",
+"es": "La nueva ELiS tiene cuatro estilos, 404 glifos y una guía en línea gratuita: en este sitio, cualquier persona puede escribir en ELiS en el navegador, encontrar cada tecla y ver en qué parte del cuerpo ocurre cada seña. Las fuentes son gratuitas, bajo la licencia SIL Open Font License, cumpliendo la promesa que Estelita le hizo a Bill hace quince años. Plau también le encargó una película al estudio Noo Works, con interpretación en Libras, para contar la historia. Todo el proyecto fue pro bono."
 },
 "O próximo passo é maior que uma fonte. A ELiS descreve o corpo, e não palavras, por isso pode escrever qualquer língua de sinais; já foi testada em outras vinte, e só o Brasil tem 35 línguas indígenas de sinais, quase nenhuma registrada por escrito. A Plau e Estelita preparam uma proposta para incluir a ELiS no Unicode, o padrão que permite a todo celular e computador entender um texto. Hoje, só uma escrita de línguas de sinais, a SignWriting, faz parte dele.": {
 "en": "The next step is bigger than a font. ELiS describes the body, not words, so it can write any sign language; it has been tested on twenty others, and Brazil alone has 35 Indigenous sign languages, almost none of them written down. Plau and Barros are preparing a proposal to add ELiS to Unicode, the standard that lets every phone and computer understand text. Today only one sign-language script, SignWriting, is in it.",
