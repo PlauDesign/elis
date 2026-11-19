@@ -4,6 +4,8 @@ Site estático, sem build de front-end. O que é publicado fica em `dist/`.
 A página principal é `dist/index.html`, em português. `dist/en.html` e `dist/es.html` são geradas por `i18n/build.py` e não devem ser editadas à mão.
 A página `dist/historia.html` traz o artigo sobre a história da ELiS, com estilo próprio em `dist/historia.css`. `dist/historia-en.html` e `dist/historia-es.html` são geradas do mesmo jeito.
 
+A página `dist/sinal.html` é um estudo em 3D do sinal BONITO (`dist/sinal.js`, `dist/sinal.css`, com o three.js em `dist/vendor/`). Essa página só existe em português e fica fora dos buscadores (`noindex`). O mesmo boneco aparece no guia, na seção que lê a palavra BONITO, nos três idiomas; lá o three.js só é baixado quando a seção se aproxima da tela. O movimento ainda aguarda revisão linguística.
+
 ## Fluxo de trabalho (TDD)
 
 1. Antes de mudar o comportamento do site, escreva ou ajuste um teste que descreva o resultado esperado e confirme que ele falha.

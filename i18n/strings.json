@@ -459,9 +459,57 @@
 "en": "Try this example",
 "es": "Probar este ejemplo"
 },
-"Esta animação acompanha a escrita; não demonstra a execução do sinal com as mãos. Para isso, é necessária uma referência gestual validada. ": {
-"en": "This animation follows the writing; it does not demonstrate how the sign is made with the hands. That requires a validated signed reference. ",
-"es": "Esta animación acompaña la escritura; no demuestra la ejecución de la seña con las manos. Para eso se necesita una referencia gestual validada. "
+"O boneco é um estudo de movimento, ainda em revisão linguística: segue a escrita do exemplo e um vídeo de referência, com tempo e posições aproximados. Não substitui uma demonstração gestual validada. ": {
+"en": "The figure is a movement study, still under linguistic review: it follows the writing of the example and a reference video, with approximate timing and positions. It does not replace a validated signed demonstration. ",
+"es": "El muñeco es un estudio de movimiento, todavía en revisión lingüística: sigue la escritura del ejemplo y un video de referencia, con tiempo y posiciones aproximados. No sustituye una demostración gestual validada. "
+},
+"Ver o vídeo de referência, da Incluir Tecnologia.": {
+"en": "See the reference video, by Incluir Tecnologia.",
+"es": "Ver el video de referencia, de Incluir Tecnologia."
+},
+"Boneco em 3D que executa o sinal BONITO em Libras": {
+"en": "3D figure making the sign BONITO (beautiful) in Libras",
+"es": "Muñeco en 3D que ejecuta la seña BONITO en Libras"
+},
+"Arraste para girar · use a roda ou as setas para aproximar e girar": {
+"en": "Drag to rotate · use the wheel or the arrow keys to zoom and rotate",
+"es": "Arrastra para girar · usa la rueda o las flechas para acercar y girar"
+},
+"Não foi possível desenhar o boneco em 3D neste navegador. A leitura da escrita continua disponível.": {
+"en": "The 3D figure could not be drawn in this browser. The reading of the writing is still available.",
+"es": "No se pudo dibujar el muñeco en 3D en este navegador. La lectura de la escritura sigue disponible."
+},
+"Vista do boneco": {
+"en": "View of the figure",
+"es": "Vista del muñeco"
+},
+"Frente": {
+"en": "Front",
+"es": "Frente"
+},
+"Perfil": {
+"en": "Side",
+"es": "Perfil"
+},
+"Detalhe da mão": {
+"en": "Hand close-up",
+"es": "Detalle de la mano"
+},
+"Reproduzir sinal": {
+"en": "Play sign",
+"es": "Reproducir seña"
+},
+"Reiniciar": {
+"en": "Restart",
+"es": "Reiniciar"
+},
+"Velocidade": {
+"en": "Speed",
+"es": "Velocidad"
+},
+"Percurso": {
+"en": "Progress",
+"es": "Recorrido"
 },
 "Ver o exemplo na publicação de Barros.": {
 "en": "See the example in Barros’s publication.",
