@@ -10,7 +10,7 @@ const anatomyPoints=[
 {key:'U',name:T('Olho'),group:T('Cabeça'),view:'face',xy:[483,130],radius:[17,10],pin:true},
 {key:'I',name:T('Maçã do rosto'),group:T('Cabeça'),view:'face',xy:[548,152],radius:[17,12]},
 {key:'O',name:T('Nariz'),group:T('Cabeça'),view:'face',xy:[512,159],radius:[15,19],pin:true},
-{key:'P',name:T('Buço'),group:T('Cabeça'),view:'face',xy:[512,177],radius:[17,6]},
+{key:'P',name:T('Lábio superior'),group:T('Cabeça'),view:'face',xy:[512,177],radius:[17,6]},
 {key:'A',name:T('Boca'),group:T('Cabeça'),view:'face',xy:[512,189],radius:[25,10],pin:true},
 {key:'S',name:T('Dentes'),group:T('Cabeça'),view:'face',xy:[512,189],radius:[21,8],note:T('Os dentes ficam dentro da boca. O destaque é aproximado: a figura não mostra essa estrutura interna.')},
 {key:'D',name:T('Bochecha'),group:T('Cabeça'),view:'face',xy:[476,175],radius:[18,19],pin:true},
