@@ -1522,5 +1522,21 @@
 "me emocionou muito.”": {
 "en": "moved me deeply.”",
 "es": "me emocionó mucho.”"
+},
+"Contribua": {
+"en": "Contribute",
+"es": "Contribuye"
+},
+"O código deste site e os arquivos da fonte ELiS estão abertos no GitHub. Correções e sugestões são bem-vindas.": {
+"en": "The code for this website and the ELiS font files are open on GitHub. Corrections and suggestions are welcome.",
+"es": "El código de este sitio y los archivos de la fuente ELiS están abiertos en GitHub. Las correcciones y sugerencias son bienvenidas."
+},
+"Repositório da ELiS no GitHub": {
+"en": "ELiS repository on GitHub",
+"es": "Repositorio de ELiS en GitHub"
+},
+"Contribua com a ELiS no ": {
+"en": "Contribute to ELiS on ",
+"es": "Contribuye a ELiS en "
 }
 }
