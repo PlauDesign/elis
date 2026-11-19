@@ -32,3 +32,32 @@ test('o ZIP da fonte e a licença estão disponíveis', async ({ request }) => {
   const license = await request.get('/downloads/OFL.txt');
   expect(await license.text()).toContain('SIL Open Font License, Version 1.1');
 });
+
+const REPO = 'https://github.com/PlauDesign/elis';
+const CONTRIBUTE = {
+  PT: { name: 'Contribua com a ELiS no GitHub', footer: 'Repositório da ELiS no GitHub' },
+  EN: { name: 'Contribute to ELiS on GitHub', footer: 'ELiS repository on GitHub' },
+  ES: { name: 'Contribuye a ELiS en GitHub', footer: 'Repositorio de ELiS en GitHub' },
+};
+const STORY_PAGES = [
+  { path: '/historia.html', code: 'PT' },
+  { path: '/historia-en.html', code: 'EN' },
+  { path: '/historia-es.html', code: 'ES' },
+];
+
+for (const p of [...PAGES, ...STORY_PAGES]) {
+  test(`${p.path}: o header leva ao repositório no GitHub`, async ({ page }) => {
+    await page.goto(p.path);
+    const link = page.locator('header').getByRole('link', { name: CONTRIBUTE[p.code].name });
+    await expect(link).toHaveAttribute('href', REPO);
+    await expect(link).toBeVisible();
+  });
+}
+
+for (const p of PAGES) {
+  test(`${p.code}: o rodapé convida a contribuir no GitHub`, async ({ page }) => {
+    await page.goto(p.path);
+    const link = page.locator('footer').getByRole('link', { name: CONTRIBUTE[p.code].footer });
+    await expect(link).toHaveAttribute('href', REPO);
+  });
+}
