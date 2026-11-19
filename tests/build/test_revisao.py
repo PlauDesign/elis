@@ -24,6 +24,32 @@ class RevisaoEstelitaTest(unittest.TestCase):
         self.assertRevised('historia.html', 'Os contos Rapunzel, O príncipe sapo e vários outros podem ser lidos', 'de Rapunzel a O príncipe sapo')
         self.assertRevised('historia.html', 'levou onze anos para ser concluído.', 'levou onze anos.')
         self.assertRevised('historia.html', 'um guia online gratuito: neste site, qualquer pessoa', 'este site, onde qualquer pessoa')
+        self.assertRevised('historia.html', 'Por que a Libras, língua da comunidade surda brasileira, não tinha uma forma escrita que as pessoas de fato usassem?', 'Porque a Libras')
+        self.assertRevised('historia.html', 'Ver as histórias contadas com as mãos desaparecerem quando as mãos param. Receber cada prova', 'Significa histórias contadas')
+        self.assertRevised('historia.html', 'ela largou um emprego com bom salário em Goiânia', 'emprego rentável')
+        self.assertRevised('historia.html', 'o público era pequeno demais para ter apelo comercial. Então, em 2021, sua filha,', 'diziam')
+        self.assertRevised('historia.html', 'a Tutti Editora, dedicada a publicar os livros.', 'só para publicar')
+        self.assertRevised('historia.html', 'Foi nesse momento que a fonte antiga não deu mais conta.', 'Aí a fonte antiga')
+        self.assertRevised('historia.html', 'poderia passar das centenas de milhares de reais.', 'passar de cem mil reais')
+        self.assertRevised('historia.html', '<span class="hl">me vi de mãos atadas.”</span>', 'vi-me')
+        self.assertRevised('historia.html', 'não tenho como comissionar uma fonte”', 'não tenho como comprar uma fonte”')
+        self.assertRevised('historia.html', 'A reunião aconteceu online em 5 de julho de 2024.', 'A reunião, online, foi')
+        self.assertRevised('historia.html', 'A Plau topou o desafio na hora.', 'A Plau topou ali mesmo.')
+        self.assertRevised('historia.html', 'não teria como comissionar o desenho de uma fonte. Foi então que ouviu que a Plau faria o trabalho <i>pro bono</i>.', 'não teria como comprar uma fonte')
+
+    def test_links_unicode(self):
+        for page in ('historia.html', 'historia-en.html', 'historia-es.html'):
+            with self.subTest(page=page):
+                text = read(page)
+                self.assertIn('<a href="https://home.unicode.org/" target="_blank" rel="noopener">Unicode</a>', text)
+                self.assertIn('<a href="https://www.unicode.org/charts/PDF/U1D800.pdf" target="_blank" rel="noopener">SignWriting</a>', text)
+
+    def test_credito_projeto(self):
+        self.assertRevised('historia.html', '<dt>Projeto</dt><dd>Plau</dd>', 'Pro bono da Plau')
+
+    def test_engenharia_antes_de_design(self):
+        text = read('historia.html')
+        self.assertLess(text.index('<dt>Engenharia tipográfica</dt>'), text.index('<dt>Design</dt>'))
 
     def test_guia(self):
         self.assertRevised('index.html', 'O sistema tem 96 visografemas básicos', 'O sistema tem 95 visografemas')

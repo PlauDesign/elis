@@ -37,6 +37,7 @@ KEEP_TEXTS = {
     'Um texto escrito em Libras/ELiS', 'Libras_ELiS.pdf', 'Teclas detalhadas beta.pdf', 'Compasso', 'Odisseia',
     'SIL Open Font License 1.1', 'Plau', 'Rodrigo Saiani', 'Aline Caruso', 'Noo Works', 'André Quelhas / Bárbara Abbês',
     'Marcio Sal', 'William Dimas', 'Valter Vinícius Costa', 'Rainer Erich Scheichelbauer (Glyphs)', 'Mariângela Estelita Barros (UFG)', 'João Muri / Camila Inácio', 'Mayara Gomes', 'Analu Rodrigues', 'Kathlyn Giaccomini', 'Etc Filmes',
+    'pro bono', 'Unicode', 'SignWriting',
 }
 
 
