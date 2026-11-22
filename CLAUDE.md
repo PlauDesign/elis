@@ -40,4 +40,6 @@ O GitHub Actions (`.github/workflows/ci.yml`) roda `npm test` em todo PR e em to
 
 Depois que um PR é mesclado, o push para `main` roda os testes e, se passarem, publica `dist/` em elis-libras.com.br com rsync por SSH. O deploy só adiciona ou atualiza arquivos; nada é apagado no servidor. Se os testes falharem, nada é publicado.
 
+Um push para a branch `staging` faz o mesmo, mas publica em elis-libras.com.br/staging/, com `noindex` em todas as páginas, para a equipe revisar antes de mesclar. O deploy de produção não toca nessa pasta.
+
 O deploy usa estes segredos do repositório: `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY` e `DEPLOY_KNOWN_HOSTS`. A chave pública correspondente fica no `authorized_keys` do servidor, restrita com `rrsync` à pasta do site, então ela não abre um shell nem escreve fora dessa pasta.

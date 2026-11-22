@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
   pull_request:
 
 permissions:
@@ -94,3 +94,55 @@ jobs:
             curl -fsS -o /dev/null "https://elis-libras.com.br$page" || { echo "::error::$page não respondeu depois do deploy"; exit 1; }
           done
           curl -fsS https://elis-libras.com.br/ | grep -q "$(grep -o 'style.css?v=[a-z0-9-]*' dist/index.html)" || { echo "::error::O site no ar não mostra a versão recém-enviada"; exit 1; }
+
+  # A branch staging vai para elis-libras.com.br/staging/, fora dos buscadores, para a equipe revisar antes de mesclar.
+  deploy-staging:
+    name: Deploy de staging
+    needs: testes
+    if: github.event_name == 'push' && github.ref == 'refs/heads/staging'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: staging
+      url: https://elis-libras.com.br/staging/
+    concurrency:
+      group: deploy-staging
+      cancel-in-progress: false
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Conferir os segredos de deploy
+        run: |
+          for name in DEPLOY_HOST DEPLOY_USER DEPLOY_SSH_KEY DEPLOY_KNOWN_HOSTS; do
+            if [ -z "${!name}" ]; then echo "::error::Falta o segredo $name. Veja a seção Deploy no CLAUDE.md."; exit 1; fi
+          done
+
+      - name: Tirar as páginas de staging dos buscadores
+        run: |
+          for f in dist/*.html; do
+            grep -q 'name="robots"' "$f" || sed -i 's|<meta charset="utf-8">|<meta charset="utf-8"><meta name="robots" content="noindex, nofollow">|' "$f"
+            grep -q 'name="robots"' "$f" || { echo "::error::$f ficou sem noindex"; exit 1; }
+          done
+
+      - name: Preparar a chave SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy
+          chmod 600 ~/.ssh/deploy
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      # Mesma chave restrita do deploy de produção, mas o destino é a subpasta staging/.
+      - name: Enviar dist/ para staging/
+        run: rsync -rlz --checksum --exclude '.DS_Store' -e 'ssh -i ~/.ssh/deploy -o StrictHostKeyChecking=yes -o BatchMode=yes' dist/ "$DEPLOY_USER@$DEPLOY_HOST:staging/"
+
+      - name: Conferir o staging no ar
+        run: |
+          for page in / /en.html /es.html; do
+            curl -fsS -o /dev/null "https://elis-libras.com.br/staging$page" || { echo "::error::staging$page não respondeu depois do deploy"; exit 1; }
+          done
+          curl -fsS https://elis-libras.com.br/staging/ | grep -q 'noindex' || { echo "::error::O staging no ar está sem noindex"; exit 1; }
