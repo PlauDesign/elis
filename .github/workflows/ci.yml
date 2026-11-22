@@ -129,6 +129,13 @@ jobs:
             grep -q 'name="robots"' "$f" || { echo "::error::$f ficou sem noindex"; exit 1; }
           done
 
+      # As fontes de texto são comerciais e não estão no repositório; no servidor elas ficam em /fonts/.
+      # O staging usa essas mesmas fontes, para manter a tipografia do site original.
+      - name: Usar as fontes de texto de produção
+        run: |
+          sed -i -E "s#url\('fonts/((Compasso|Odisseia)[^']*)'\)#url('../fonts/\1')#g" dist/style.css
+          [ "$(grep -o "url('../fonts/" dist/style.css | wc -l)" -eq 4 ] || { echo "::error::As fontes de texto não foram redirecionadas"; exit 1; }
+
       - name: Preparar a chave SSH
         run: |
           install -m 700 -d ~/.ssh
@@ -146,3 +153,6 @@ jobs:
             curl -fsS -o /dev/null "https://elis-libras.com.br/staging$page" || { echo "::error::staging$page não respondeu depois do deploy"; exit 1; }
           done
           curl -fsS https://elis-libras.com.br/staging/ | grep -q 'noindex' || { echo "::error::O staging no ar está sem noindex"; exit 1; }
+          for font in $(grep -o "\.\./fonts/[^']*" dist/style.css); do
+            curl -fsS -o /dev/null "https://elis-libras.com.br/staging/$font" || { echo "::error::A fonte $font não está disponível para o staging"; exit 1; }
+          done
