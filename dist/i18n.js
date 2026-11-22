@@ -155,7 +155,14 @@ en: {
 'Outros caracteres codificados na fonte, sem classificação linguística indicada.': 'Other characters encoded in the font, with no linguistic classification given.',
 'Entrada copiada. Cole no seu editor e aplique ELiS.': 'Input copied. Paste it in your editor and apply ELiS.',
 'A cópia automática não está disponível. Selecione e copie a entrada exibida acima.': 'Automatic copying is not available. Select and copy the input shown above.',
-'Não foi possível carregar os detalhes das teclas. Os cartões inserem direto no laboratório.': 'The key details could not be loaded. The cards insert straight into the lab.'
+'Não foi possível carregar os detalhes das teclas. Os cartões inserem direto no laboratório.': 'The key details could not be loaded. The cards insert straight into the lab.',
+'Ponto de articulação': 'Point of articulation',
+'Tipo de movimento': 'Type of movement',
+'Rosto, sem sublinhado': 'Face, no underline',
+'Contato simples ou de passagem': 'Single or passing contact',
+'Dois toques em diferentes áreas do mesmo ponto de articulação': 'Two touches on different areas of the same point of articulation',
+'Três ou mais toques': 'Three or more touches',
+'para escrever o visografema de {0}': 'to write the visographeme for the {0}',
 },
 es: {
 '(abre em nova aba)': '(se abre en una pestaña nueva)',
@@ -310,7 +317,14 @@ es: {
 'Outros caracteres codificados na fonte, sem classificação linguística indicada.': 'Otros caracteres codificados en la fuente, sin clasificación lingüística indicada.',
 'Entrada copiada. Cole no seu editor e aplique ELiS.': 'Entrada copiada. Pégala en tu editor y aplica ELiS.',
 'A cópia automática não está disponível. Selecione e copie a entrada exibida acima.': 'La copia automática no está disponible. Selecciona y copia la entrada que aparece arriba.',
-'Não foi possível carregar os detalhes das teclas. Os cartões inserem direto no laboratório.': 'No se pudieron cargar los detalles de las teclas. Las tarjetas insertan directo en el laboratorio.'
+'Não foi possível carregar os detalhes das teclas. Os cartões inserem direto no laboratório.': 'No se pudieron cargar los detalles de las teclas. Las tarjetas insertan directo en el laboratorio.',
+'Ponto de articulação': 'Punto de articulación',
+'Tipo de movimento': 'Tipo de movimiento',
+'Rosto, sem sublinhado': 'Rostro, sin subrayado',
+'Contato simples ou de passagem': 'Contacto simple o de paso',
+'Dois toques em diferentes áreas do mesmo ponto de articulação': 'Dos toques en diferentes áreas del mismo punto de articulación',
+'Três ou mais toques': 'Tres o más toques',
+'para escrever o visografema de {0}': 'para escribir el visografema de {0}',
 }
 };
 function T(text, ...args) {

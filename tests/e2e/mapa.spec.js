@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 
 test('mostra os nove filtros de grupo', async ({ page }) => {
   await expect(page.locator('.category-nav button')).toHaveText([
-    'Todos', 'Dedos', 'Palma', 'Articulação', 'Movimento', 'Diacríticos', 'Pontuação', 'Números', 'Complementares',
+    'Todos', 'Dedos', 'Palma', 'Ponto de articulação', 'Tipo de movimento', 'Diacríticos', 'Pontuação', 'Números', 'Complementares',
   ]);
 });
 

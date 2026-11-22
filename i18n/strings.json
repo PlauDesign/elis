@@ -15,18 +15,6 @@
 "en": "Try it",
 "es": "Prueba"
 },
-"Mapa de teclas": {
-"en": "Key map",
-"es": "Mapa de teclas"
-},
-"Combinações": {
-"en": "Combinations",
-"es": "Combinaciones"
-},
-"Corpo e glifos": {
-"en": "Body and glyphs",
-"es": "Cuerpo y glifos"
-},
 "Baixar a ELiS": {
 "en": "Download ELiS",
 "es": "Descargar ELiS"
@@ -67,49 +55,13 @@
 "en": " to record sign languages such as Libras (Brazilian Sign Language) in writing.",
 "es": " para registrar por escrito lenguas de señas como la Libras (Lengua de Señas Brasileña)."
 },
-"A fonte ELiS leva esse sistema ao computador. Neste guia, você pode experimentar a escrita, consultar as teclas e explorar a relação entre os glifos e o corpo.": {
-"en": "The ELiS font brings this system to the computer. In this guide, you can try the writing, look up the keys and explore how the glyphs relate to the body.",
-"es": "La fuente ELiS lleva este sistema a la computadora. En esta guía puedes probar la escritura, consultar las teclas y explorar la relación entre los glifos y el cuerpo."
-},
-"O sistema tem 96 visografemas básicos, organizados em quatro grupos.": {
-"en": "The system has 96 basic visographemes, organized into four groups.",
-"es": "El sistema tiene 96 visografemas básicos, organizados en cuatro grupos."
-},
-"Configuração de dedos": {
-"en": "Finger configuration",
-"es": "Configuración de dedos"
-},
-"A posição dos dedos.": {
-"en": "The position of the fingers.",
-"es": "La posición de los dedos."
-},
 "Orientação da palma": {
 "en": "Palm orientation",
 "es": "Orientación de la palma"
 },
-"Para onde a palma se orienta.": {
-"en": "Which way the palm faces.",
-"es": "Hacia dónde se orienta la palma."
-},
 "Ponto de articulação": {
 "en": "Point of articulation",
 "es": "Punto de articulación"
-},
-"Onde o sinal é articulado.": {
-"en": "Where the sign is articulated.",
-"es": "Dónde se articula la seña."
-},
-"Movimento": {
-"en": "Movement",
-"es": "Movimiento"
-},
-"Movimentos com e sem as mãos.": {
-"en": "Movements with and without the hands.",
-"es": "Movimientos con y sin las manos."
-},
-"01 / LABORATÓRIO DE ESCRITA": {
-"en": "01 / WRITING LAB",
-"es": "01 / LABORATORIO DE ESCRITURA"
 },
 "Experimente a escrita.": {
 "en": "Try the writing.",
@@ -146,14 +98,6 @@
 "O exemplo é um teste de digitação, sem significado de sinal atribuído. A fonte não traduz palavras em português para Libras.": {
 "en": "The example is a typing test, with no sign meaning assigned. The font does not translate Portuguese words into Libras.",
 "es": "El ejemplo es una prueba de escritura, sin significado de seña atribuido. La fuente no traduce palabras del portugués a Libras."
-},
-"02 / CONSULTA": {
-"en": "02 / REFERENCE",
-"es": "02 / CONSULTA"
-},
-"Entradas organizadas conforme “teclas detalhadas beta”. Todos os desenhos usam os arquivos ELiS, versão 2.004.": {
-"en": "Inputs organized according to the “teclas detalhadas beta” chart. All drawings use the ELiS files, version 2.004.",
-"es": "Entradas organizadas según el cuadro “teclas detalhadas beta”. Todos los dibujos usan los archivos ELiS, versión 2.004."
 },
 "Detalhes do glifo": {
 "en": "Glyph details",
@@ -231,61 +175,9 @@
 "en": " from the input menu in the menu bar. Press Option and Shift to see the alternatives. If the menu does not appear, turn it on in System Settings → Keyboard → Text Input → Edit.",
 "es": " desde el menú de entrada de la barra de menús. Presiona Opción y Mayús para ver las alternativas. Si el menú no aparece, actívalo en Ajustes del Sistema → Teclado → Entrada de texto → Editar."
 },
-"Uma tecla, uma sequência ou uma variante?": {
-"en": "A key, a sequence or a variant?",
-"es": "¿Una tecla, una secuencia o una variante?"
-},
-"Cada caractere é uma entrada": {
-"en": "Each character is an input",
-"es": "Cada carácter es una entrada"
-},
-"Maiúsculas e minúsculas são diferentes: ": {
-"en": "Capital and lowercase letters are different: ",
-"es": "Mayúsculas y minúsculas son diferentes: "
-},
 " e ": {
 "en": " and ",
 "es": " y "
-},
-" não se trocam.": {
-"en": " are not interchangeable.",
-"es": " no se intercambian."
-},
-"Acentos também contam: ": {
-"en": "Accents count too: ",
-"es": "Los acentos también cuentan: "
-},
-" difere de ": {
-"en": " differs from ",
-"es": " es distinto de "
-},
-"Símbolos parecidos também: ": {
-"en": "So do similar symbols: ",
-"es": "Los símbolos parecidos también: "
-},
-"Use o caractere completo mostrado no mapa.": {
-"en": "Use the complete character shown in the map.",
-"es": "Usa el carácter completo que aparece en el mapa."
-},
-"Combinações e variantes": {
-"en": "Combinations and variants",
-"es": "Combinaciones y variantes"
-},
-"Combinações como ": {
-"en": "Combinations such as ",
-"es": "Combinaciones como "
-},
-" são digitadas em sequência, sem espaços, no Windows e no Mac.": {
-"en": " are typed in sequence, without spaces, on Windows and Mac.",
-"es": " se escriben en secuencia, sin espacios, en Windows y en Mac."
-},
-"Elas não têm um código Unicode próprio.": {
-"en": "They do not have their own Unicode code.",
-"es": "No tienen un código Unicode propio."
-},
-"As variantes automáticas do filtro Todos nem sempre correspondem a uma tecla.": {
-"en": "The automatic variants in the All filter do not always match a key.",
-"es": "Las variantes automáticas del filtro Todos no siempre corresponden a una tecla."
 },
 "Base: mapa de caracteres dos arquivos ELiS. Instruções: ": {
 "en": "Source: character map of the ELiS files. Instructions: ",
@@ -303,33 +195,13 @@
 "en": "Mac shortcuts",
 "es": "atajos de Mac"
 },
-"03 / RECURSOS DA FONTE": {
-"en": "03 / FONT FEATURES",
-"es": "03 / RECURSOS DE LA FUENTE"
-},
-"Pequenas sequências.": {
-"en": "Short sequences.",
-"es": "Pequeñas secuencias."
-},
-"Novos desenhos.": {
-"en": "New drawings.",
-"es": "Nuevos dibujos."
-},
 "Sublinhados de contato": {
 "en": "Contact underlines",
 "es": "Subrayados de contacto"
 },
-"No ponto de articulação, indicam contato com a região representada: simples ou de passagem (um traço), dois toques (dois traços), três ou mais (três traços). ": {
-"en": "At the point of articulation, they indicate contact with the region represented: single or passing (one stroke), two touches (two strokes), three or more (three strokes). ",
-"es": "En el punto de articulación, indican contacto con la región representada: simple o de paso (un trazo), dos toques (dos trazos), tres o más (tres trazos). "
-},
 "Experimente no corpo.": {
 "en": "Try it on the body.",
 "es": "Pruébalo en el cuerpo."
-},
-"Digite apóstrofo simples ": {
-"en": "Type a straight apostrophe ",
-"es": "Escribe un apóstrofo simple "
 },
 ", o número ": {
 "en": ", the number ",
@@ -338,18 +210,6 @@
 " ou ": {
 "en": " or ",
 "es": " o "
-},
-" e uma entrada compatível, sem espaços.": {
-"en": " and a compatible input, without spaces.",
-"es": " y una entrada compatible, sin espacios."
-},
-"Entradas compatíveis": {
-"en": "Compatible inputs",
-"es": "Entradas compatibles"
-},
-"A–Z, Ç, x, *, #, \\, _, @, &amp;, $ e %. As regras também aceitam apóstrofos curvos ‘ e ’, além de ª e º nos lugares de A e O.": {
-"en": "A–Z, Ç, x, *, #, \\, _, @, &amp;, $ and %. The rules also accept curly apostrophes ‘ and ’, as well as ª and º in place of A and O.",
-"es": "A–Z, Ç, x, *, #, \\, _, @, &amp;, $ y %. Las reglas también aceptan apóstrofos curvos ‘ y ’, además de ª y º en lugar de A y O."
 },
 "Letras repetidas": {
 "en": "Repeated letters",
@@ -363,22 +223,6 @@
 "en": "These are typographic demonstrations. The linguistic use of each combination follows the rules of ELiS.",
 "es": "Son demostraciones tipográficas. El uso lingüístico de cada combinación sigue las reglas de ELiS."
 },
-"A combinação não se formou?": {
-"en": "Did the combination not form?",
-"es": "¿La combinación no se formó?"
-},
-"Confira a sequência e o suporte às substituições contextuais OpenType do seu editor. A fonte usa os recursos rclt e calt; o resultado pode variar entre aplicativos.": {
-"en": "Check the sequence and your editor’s support for OpenType contextual substitutions. The font uses the rclt and calt features; the result can vary between applications.",
-"es": "Revisa la secuencia y el soporte de tu editor para las sustituciones contextuales OpenType. La fuente usa las funciones rclt y calt; el resultado puede variar entre aplicaciones."
-},
-"04 / EXPLORAÇÃO VISUAL": {
-"en": "04 / VISUAL EXPLORATION",
-"es": "04 / EXPLORACIÓN VISUAL"
-},
-"Onde o sinal acontece.": {
-"en": "Where the sign happens.",
-"es": "Dónde sucede la seña."
-},
 "Explore os 35 pontos de articulação da cabeça, tronco e membros. Escolha uma região e veja sua entrada em ELiS.": {
 "en": "Explore the 35 points of articulation on the head, trunk and limbs. Choose a region and see its ELiS input.",
 "es": "Explora los 35 puntos de articulación de la cabeza, el tronco y las extremidades. Elige una región y ve su entrada en ELiS."
@@ -391,73 +235,13 @@
 "en": "Body",
 "es": "Cuerpo"
 },
-"Os botões mostram os glifos da região. Toque para ver o nome e a tecla. Figura de apoio gerada por IA. A marcação localiza uma região; não demonstra a execução de um sinal nem define o lado do corpo.": {
-"en": "The buttons show the glyphs for each region. Tap to see the name and the key. Supporting figure generated by AI. The marking locates a region; it does not demonstrate how a sign is produced or define the side of the body.",
-"es": "Los botones muestran los glifos de la región. Toca para ver el nombre y la tecla. Figura de apoyo generada por IA. La marca ubica una región; no demuestra la ejecución de una seña ni define el lado del cuerpo."
-},
 "Digite ": {
 "en": "Type ",
 "es": "Escribe "
 },
-"Como representar o contato": {
-"en": "How to represent contact",
-"es": "Cómo representar el contacto"
-},
-" Forma base": {
-"en": " Base form",
-"es": " Forma base"
-},
 " Um traço": {
 "en": " One stroke",
 "es": " Un trazo"
-},
-" Dois traços": {
-"en": " Two strokes",
-"es": " Dos trazos"
-},
-" Três traços": {
-"en": " Three strokes",
-"es": " Tres trazos"
-},
-"Este teste mostra apenas o ponto de articulação e seu contato. Um sinal também pode exigir configuração de dedos, orientação da palma e movimento.": {
-"en": "This test shows only the point of articulation and its contact. A sign may also require finger configuration, palm orientation and movement.",
-"es": "Esta prueba muestra solo el punto de articulación y su contacto. Una seña también puede requerir configuración de dedos, orientación de la palma y movimiento."
-},
-"UM SINAL, QUATRO GRUPOS": {
-"en": "ONE SIGN, FOUR GROUPS",
-"es": "UNA SEÑA, CUATRO GRUPOS"
-},
-"Leia a palavra “BONITO” em ELiS.": {
-"en": "Read the word “BONITO” (beautiful) in ELiS.",
-"es": "Lee la palabra “BONITO” (bonito) en ELiS."
-},
-"Uma leitura animada do exemplo apresentado por Barros (2016). A sequência reúne configuração de dedos, orientação da palma, ponto de articulação e movimento.": {
-"en": "An animated reading of the example presented by Barros (2016). The sequence brings together finger configuration, palm orientation, point of articulation and movement.",
-"es": "Una lectura animada del ejemplo presentado por Barros (2016). La secuencia reúne configuración de dedos, orientación de la palma, punto de articulación y movimiento."
-},
-"01 · Dedos": {
-"en": "01 · Fingers",
-"es": "01 · Dedos"
-},
-"02 · Palma": {
-"en": "02 · Palm",
-"es": "02 · Palma"
-},
-"03 · Articulação": {
-"en": "03 · Articulation",
-"es": "03 · Articulación"
-},
-"04 · Movimento": {
-"en": "04 · Movement",
-"es": "04 · Movimiento"
-},
-"Reproduzir leitura": {
-"en": "Play reading",
-"es": "Reproducir lectura"
-},
-"Experimentar este exemplo": {
-"en": "Try this example",
-"es": "Probar este ejemplo"
 },
 "O boneco é um estudo de movimento, ainda em revisão linguística: segue a escrita do exemplo e um vídeo de referência, com tempo e posições aproximados. Não substitui uma demonstração gestual validada. ": {
 "en": "The figure is a movement study, still under linguistic review: it follows the writing of the example and a reference video, with approximate timing and positions. It does not replace a validated signed demonstration. ",
@@ -499,57 +283,9 @@
 "en": "Play sign",
 "es": "Reproducir seña"
 },
-"Reiniciar": {
-"en": "Restart",
-"es": "Reiniciar"
-},
-"Velocidade": {
-"en": "Speed",
-"es": "Velocidad"
-},
-"Percurso": {
-"en": "Progress",
-"es": "Recorrido"
-},
 "Ver o exemplo na publicação de Barros.": {
 "en": "See the example in Barros’s publication.",
 "es": "Ver el ejemplo en la publicación de Barros."
-},
-"Região não é contato": {
-"en": "Region is not contact",
-"es": "Región no es contacto"
-},
-"Q corresponde ao rosto. No exemplo BONITO de Barros (2016), a mão fica ": {
-"en": "Q corresponds to the face. In Barros’s BONITO example (2016), the hand stays ",
-"es": "Q corresponde al rostro. En el ejemplo BONITO de Barros (2016), la mano queda "
-},
-"à frente do rosto": {
-"en": "in front of the face",
-"es": "delante del rostro"
-},
-". Marcar uma região na figura não significa tocar nela.": {
-"en": ". Marking a region on the figure does not mean touching it.",
-"es": ". Marcar una región en la figura no significa tocarla."
-},
-"O sublinhado informa o toque": {
-"en": "The underline indicates touch",
-"es": "El subrayado indica el toque"
-},
-"Na reunião do projeto, o traço simples indica contato simples ou de passagem; dois traços, dois toques em diferentes áreas do mesmo ponto de articulação; três, três ou mais. São glifos da fonte, não o botão de sublinhar do editor.": {
-"en": "In the project meeting, a single stroke indicates single or passing contact; two strokes, two touches on different areas of the same point of articulation; three, three or more. They are glyphs of the font, not the editor’s underline button.",
-"es": "En la reunión del proyecto, el trazo simple indica contacto simple o de paso; dos trazos, dos toques en distintas áreas del mismo punto de articulación; tres, tres o más. Son glifos de la fuente, no el botón de subrayar del editor."
-},
-"Uma primeira associação": {
-"en": "A first association",
-"es": "Una primera asociación"
-},
-"Os nomes e as teclas seguem o quadro de 2016 e o mapa do projeto. As sete referências da mão continuam no mapa de teclas; precisam de vistas próprias para distinguir palma, dorso e dedos.": {
-"en": "The names and keys follow the 2016 chart and the project map. The seven hand references remain in the key map; they need their own views to tell palm, back and fingers apart.",
-"es": "Los nombres y las teclas siguen el cuadro de 2016 y el mapa del proyecto. Las siete referencias de la mano siguen en el mapa de teclas; necesitan vistas propias para distinguir palma, dorso y dedos."
-},
-"05 / INSTALAÇÃO E USO": {
-"en": "05 / INSTALLATION AND USE",
-"es": "05 / INSTALACIÓN Y USO"
 },
 "ELiS NO SEU COMPUTADOR E NO SEU SITE": {
 "en": "ELiS ON YOUR COMPUTER AND YOUR WEBSITE",
@@ -935,10 +671,6 @@
 "en": ", for example. It is a combination built into the font, not the editor’s underline command. See ",
 "es": ", por ejemplo. Es una combinación de la fuente, no el comando de subrayar del editor. Consulta "
 },
-" para os significados e as exceções de uso.": {
-"en": " for the meanings and usage exceptions.",
-"es": " para los significados y las excepciones de uso."
-},
 "Por que uma combinação não se forma no meu editor?": {
 "en": "Why doesn’t a combination form in my editor?",
 "es": "¿Por qué una combinación no se forma en mi editor?"
@@ -1195,10 +927,6 @@
 "en": "BONITO in ELiS: tgçQÄ",
 "es": "BONITO en ELiS: tgçQÄ"
 },
-"Etapas da leitura": {
-"en": "Reading steps",
-"es": "Pasos de la lectura"
-},
 "Retrato de Mariângela Estelita Barros": {
 "en": "Portrait of Mariângela Estelita Barros",
 "es": "Retrato de Mariângela Estelita Barros"
@@ -1210,10 +938,6 @@
 "Pular para o conteúdo": {
 "en": "Skip to content",
 "es": "Saltar al contenido"
-},
-"Os quatro grupos de visografemas": {
-"en": "The four groups of visographemes",
-"es": "Los cuatro grupos de visografemas"
 },
 "História": {
 "en": "Story",
@@ -1586,5 +1310,253 @@
 "Contribua com a ELiS no ": {
 "en": "Contribute to ELiS on ",
 "es": "Contribuye a ELiS en "
+},
+"Os grupos": {
+"en": "The groups",
+"es": "Los grupos"
+},
+"Onde é realizado": {
+"en": "Where it is made",
+"es": "Dónde se realiza"
+},
+"Mapa de caracteres": {
+"en": "Character map",
+"es": "Mapa de caracteres"
+},
+"Recursos da fonte": {
+"en": "Font features",
+"es": "Recursos de la fuente"
+},
+"Teste a ELiS": {
+"en": "Try ELiS",
+"es": "Prueba ELiS"
+},
+"A fonte ELiS permite representar graficamente os sinais das línguas de sinais por meio de símbolos chamados visografemas. No total, temos um sistema com 96 visografemas básicos organizados em quatro grupos.": {
+"en": "The ELiS font lets you represent the signs of sign languages graphically through symbols called visographemes. In all, the system has 96 basic visographemes organized into four groups.",
+"es": "La fuente ELiS permite representar gráficamente las señas de las lenguas de señas mediante símbolos llamados visografemas. En total, el sistema tiene 96 visografemas básicos organizados en cuatro grupos."
+},
+"Neste site, você poderá conhecer melhor o projeto, entender como funciona o sistema de escrita da ELiS e experimentar a fonte em primeira mão.": {
+"en": "On this website you can learn more about the project, understand how the ELiS writing system works and try the font for yourself.",
+"es": "En este sitio podrás conocer mejor el proyecto, entender cómo funciona el sistema de escritura ELiS y probar la fuente de primera mano."
+},
+"01 / O SISTEMA": {
+"en": "01 / THE SYSTEM",
+"es": "01 / EL SISTEMA"
+},
+"Os grupos de visografemas.": {
+"en": "The groups of visographemes.",
+"es": "Los grupos de visografemas."
+},
+"Nas línguas de sinais, os sinais são construídos a partir da combinação de movimentos visuais. A combinação desses elementos forma uma unidade de significado, assim como a combinação de sons forma as palavras nas línguas orais.": {
+"en": "In sign languages, signs are built by combining visual movements. Together, these elements form a unit of meaning, just as combining sounds forms words in spoken languages.",
+"es": "En las lenguas de señas, las señas se construyen combinando movimientos visuales. La combinación de estos elementos forma una unidad de significado, así como la combinación de sonidos forma las palabras en las lenguas orales."
+},
+"Os movimentos visuais das línguas de sinais representados pela fonte ELiS são compostos por:": {
+"en": "The visual movements of sign languages that the ELiS font represents are made up of:",
+"es": "Los movimientos visuales de las lenguas de señas que representa la fuente ELiS se componen de:"
+},
+"Configuração dos dedos:": {
+"en": "Finger configuration:",
+"es": "Configuración de los dedos:"
+},
+"É o formato que as mãos assumem durante o movimento. Existem visografemas para representar tanto o formato do polegar quanto dos demais dedos.": {
+"en": "The shape the hands take during the movement. There are visographemes for the shape of the thumb and for the other fingers.",
+"es": "Es la forma que adoptan las manos durante el movimiento. Hay visografemas para representar tanto la forma del pulgar como la de los demás dedos."
+},
+"Orientação da palma:": {
+"en": "Palm orientation:",
+"es": "Orientación de la palma:"
+},
+"Para onde a palma da mão está orientada durante o movimento.": {
+"en": "Where the palm of the hand faces during the movement.",
+"es": "Hacia dónde está orientada la palma de la mano durante el movimiento."
+},
+"Ponto de articulação:": {
+"en": "Point of articulation:",
+"es": "Punto de articulación:"
+},
+"Onde o sinal é realizado. Pode ser na cabeça, no tronco, na mão ou nos chamados membros, como braço, punho e perna, entre outros.": {
+"en": "Where the sign is made. It can be on the head, the trunk, the hand or the limbs, such as the arm, wrist and leg, among others.",
+"es": "Dónde se realiza la seña. Puede ser en la cabeza, el tronco, la mano o los llamados miembros, como el brazo, la muñeca y la pierna, entre otros."
+},
+"Tipo de movimento:": {
+"en": "Type of movement:",
+"es": "Tipo de movimiento:"
+},
+"Como as mãos, os braços e os demais membros se comportam durante a realização do sinal.": {
+"en": "How the hands, arms and other limbs behave while the sign is made.",
+"es": "Cómo se comportan las manos, los brazos y los demás miembros durante la realización de la seña."
+},
+"As expressões faciais e corporais também participam dessa construção. A combinação desses elementos dá forma e significado a cada sinal.": {
+"en": "Facial and body expressions also take part in this construction. Together, these elements give each sign its form and meaning.",
+"es": "Las expresiones faciales y corporales también participan en esta construcción. La combinación de estos elementos da forma y significado a cada seña."
+},
+"Cada um desses quatro grupos é composto por diversos elementos. A ELiS representa cada um deles por meio de um desenho específico, chamado ": {
+"en": "Each of these four groups is made up of many elements. ELiS represents each of them with a specific drawing, called a ",
+"es": "Cada uno de estos cuatro grupos está compuesto por diversos elementos. ELiS representa cada uno de ellos con un dibujo específico, llamado "
+},
+"visografema": {
+"en": "visographeme",
+"es": "visografema"
+},
+". A combinação desses desenhos permite representar graficamente os sinais das línguas de sinais.": {
+"en": ". Combining these drawings makes it possible to represent the signs of sign languages graphically.",
+"es": ". La combinación de estos dibujos permite representar gráficamente las señas de las lenguas de señas."
+},
+"UM EXEMPLO": {
+"en": "AN EXAMPLE",
+"es": "UN EJEMPLO"
+},
+"A palavra BONITO.": {
+"en": "The word BONITO (beautiful).",
+"es": "La palabra BONITO."
+},
+"Primeiro, veja o sinal em Libras. Depois, como ele é escrito em ELiS.": {
+"en": "First, see the sign in Libras. Then see how it is written in ELiS.",
+"es": "Primero, mira la seña en Libras. Después, cómo se escribe en ELiS."
+},
+"BONITO, em Libras": {
+"en": "BONITO, in Libras",
+"es": "BONITO, en Libras"
+},
+"BONITO, em ELiS": {
+"en": "BONITO, in ELiS",
+"es": "BONITO, en ELiS"
+},
+"Dedos": {
+"en": "Fingers",
+"es": "Dedos"
+},
+"Polegar na posição horizontal": {
+"en": "Thumb in horizontal position",
+"es": "Pulgar en posición horizontal"
+},
+"Demais dedos estendidos": {
+"en": "Other fingers extended",
+"es": "Demás dedos extendidos"
+},
+"Palma": {
+"en": "Palm",
+"es": "Palma"
+},
+"Palma da mão para trás": {
+"en": "Palm facing back",
+"es": "Palma de la mano hacia atrás"
+},
+"Tipo de movimento": {
+"en": "Type of movement",
+"es": "Tipo de movimiento"
+},
+"Tamborilar de dedos": {
+"en": "Finger drumming",
+"es": "Tamborileo de dedos"
+},
+"02 / EXPLORAÇÃO VISUAL": {
+"en": "02 / VISUAL EXPLORATION",
+"es": "02 / EXPLORACIÓN VISUAL"
+},
+"Onde o sinal é realizado.": {
+"en": "Where the sign is made.",
+"es": "Dónde se realiza la seña."
+},
+"Os botões mostram os visografemas da região. Toque para ver o nome e a tecla. Figura de apoio gerada por IA. A marcação localiza uma região; não demonstra a execução de um sinal nem define o lado do corpo.": {
+"en": "The buttons show the visographemes for each region. Tap to see the name and the key. Supporting figure generated by AI. The marker locates a region; it does not demonstrate how a sign is made or define the side of the body.",
+"es": "Los botones muestran los visografemas de la región. Toca para ver el nombre y la tecla. Figura de apoyo generada por IA. La marca ubica una región; no demuestra la ejecución de una seña ni define el lado del cuerpo."
+},
+"03 / A ELiS": {
+"en": "03 / ELiS",
+"es": "03 / LA ELiS"
+},
+"A ELiS é composta por 96 visografemas divididos em 4 grupos: dedos, palma, ponto de articulação e tipo de movimento. Cada visografema é posicionado estrategicamente no teclado comum do computador.": {
+"en": "ELiS is made up of 96 visographemes divided into 4 groups: fingers, palm, point of articulation and type of movement. Each visographeme is placed strategically on an ordinary computer keyboard.",
+"es": "ELiS está compuesta por 96 visografemas divididos en 4 grupos: dedos, palma, punto de articulación y tipo de movimiento. Cada visografema está ubicado estratégicamente en el teclado común de la computadora."
+},
+"Visografemas organizados conforme “teclas detalhadas beta”. Todos os desenhos usam os arquivos ELiS, versão 2.004.": {
+"en": "Visographemes organized according to the “detailed keys beta” chart. All drawings use the ELiS files, version 2.004.",
+"es": "Visografemas organizados según “teclas detalladas beta”. Todos los dibujos usan los archivos ELiS, versión 2.004."
+},
+"Cada tecla, um visografema": {
+"en": "One key, one visographeme",
+"es": "Cada tecla, un visografema"
+},
+"No teclado, letras maiúsculas e minúsculas são caracteres diferentes da fonte ELiS. Pressionar ": {
+"en": "On the keyboard, uppercase and lowercase letters are different characters in the ELiS font. Pressing ",
+"es": "En el teclado, las letras mayúsculas y minúsculas son caracteres distintos de la fuente ELiS. Pulsar "
+},
+" entrega um visografema diferente do que se tem ao pressionar ": {
+"en": " gives a different visographeme from pressing ",
+"es": " da un visografema distinto del que se obtiene al pulsar "
+},
+"O mesmo vale para acentos e símbolos parecidos: ": {
+"en": "The same goes for accents and similar symbols: ",
+"es": "Lo mismo vale para los acentos y los símbolos parecidos: "
+},
+" são visografemas diferentes.": {
+"en": " are different visographemes.",
+"es": " son visografemas distintos."
+},
+"Alguns desenhos são formados por uma sequência de teclas digitadas juntas, sem espaço, como os sublinhados de contato. Veja em ": {
+"en": "Some drawings are formed by a sequence of keys typed together, with no space, such as the contact underlines. See ",
+"es": "Algunos dibujos se forman con una secuencia de teclas escritas juntas, sin espacio, como los subrayados de contacto. Mira "
+},
+"04 / RECURSOS DA FONTE": {
+"en": "04 / FONT FEATURES",
+"es": "04 / RECURSOS DE LA FUENTE"
+},
+"Recursos da fonte.": {
+"en": "Font features.",
+"es": "Recursos de la fuente."
+},
+"Embaixo de um visografema de ponto de articulação, um sublinhado indica que a mão toca a região. O número de traços mostra como é esse contato. Veja no exemplo do rosto:": {
+"en": "Under a point-of-articulation visographeme, an underline shows that the hand touches the region. The number of strokes shows what that contact is like. See the example of the face:",
+"es": "Debajo de un visografema de punto de articulación, un subrayado indica que la mano toca la región. El número de trazos muestra cómo es ese contacto. Mira el ejemplo del rostro:"
+},
+"Como digitar": {
+"en": "How to type it",
+"es": "Cómo escribirlo"
+},
+"Digite um apóstrofo ": {
+"en": "Type an apostrophe ",
+"es": "Escribe un apóstrofo "
+},
+", o número de traços (": {
+"en": ", the number of strokes (",
+"es": ", el número de trazos ("
+},
+") e a tecla do ponto de articulação, tudo junto, sem espaços. Por exemplo: ": {
+"en": ") and the key for the point of articulation, all together with no spaces. For example: ",
+"es": ") y la tecla del punto de articulación, todo junto, sin espacios. Por ejemplo: "
+},
+"Quais visografemas aceitam sublinhado": {
+"en": "Which visographemes take an underline",
+"es": "Qué visografemas aceptan subrayado"
+},
+"Os pontos de articulação das teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ e %. A fonte também aceita os apóstrofos curvos ‘ e ’, e ª e º no lugar de A e O.": {
+"en": "Point-of-articulation keys A–Z, Ç, x, *, #, \\, _, @, &amp;, $ and %. The font also accepts the curly apostrophes ‘ and ’, and ª and º in place of A and O.",
+"es": "Los puntos de articulación de las teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ y %. La fuente también acepta los apóstrofos curvos ‘ y ’, y ª y º en lugar de A y O."
+},
+"Os visografemas não se conectaram automaticamente?": {
+"en": "The visographemes did not join automatically?",
+"es": "¿Los visografemas no se unieron automáticamente?"
+},
+"Confira se as teclas foram digitadas na ordem certa, sem espaços entre elas. Alguns editores de texto não aplicam a troca automática de desenhos da fonte. Se isso acontecer, teste a mesma sequência no laboratório deste site ou em outro aplicativo.": {
+"en": "Check that the keys were typed in the right order, with no spaces between them. Some text editors do not apply the font’s automatic drawing substitution. If that happens, try the same sequence in this website’s lab or in another app.",
+"es": "Revisa que las teclas se hayan escrito en el orden correcto, sin espacios entre ellas. Algunos editores de texto no aplican el cambio automático de dibujos de la fuente. Si eso ocurre, prueba la misma secuencia en el laboratorio de este sitio o en otra aplicación."
+},
+"05 / TESTE A ELiS": {
+"en": "05 / TRY ELiS",
+"es": "05 / PRUEBA ELiS"
+},
+"06 / INSTALAÇÃO E USO": {
+"en": "06 / INSTALLATION AND USE",
+"es": "06 / INSTALACIÓN Y USO"
+},
+"mapa de caracteres": {
+"en": "character map",
+"es": "mapa de caracteres"
+},
+" para os significados de cada sublinhado.": {
+"en": " for what each underline means.",
+"es": " para los significados de cada subrayado."
 }
 }

@@ -124,21 +124,19 @@ for (const g of GUIDE) {
     await expect(page.locator('#sinal-canvas')).toHaveAccessibleName(/BONITO/);
     await expect(page.locator('#sinal-play')).toHaveText(g.play);
     await expect(page.locator('[data-vista-alvo="frente"]')).toHaveText(g.front);
-    await page.locator('#sinal-speed').selectOption('0.5');
     await page.locator('#sinal-play').click();
     await expect(page.locator('#sinal-play')).toHaveText(g.pause);
   });
 }
 
-test('no guia, a etapa Movimento executa o sinal no boneco e as outras voltam à mão aberta', async ({ page }) => {
+test('no guia, um só botão executa o sinal no boneco, que termina com a mão fechada', async ({ page }) => {
   await page.goto('/');
   const stage = page.locator('.word-motion #sinal-stage');
   await stage.scrollIntoViewIfNeeded();
   await expect(stage).toHaveAttribute('data-render', 'webgl');
-  await page.locator('.motion-tabs [data-step="3"]').click();
-  await expect(stage).toHaveAttribute('data-mao', 'fechada', { timeout: 20000 });
-  await page.locator('.motion-tabs [data-step="0"]').click();
   await expect(stage).toHaveAttribute('data-mao', 'aberta');
+  await page.locator('#sinal-play').click();
+  await expect(stage).toHaveAttribute('data-mao', 'fechada', { timeout: 20000 });
   await expect(page.locator('.word-motion .caption')).toContainText('estudo de movimento');
 });
 

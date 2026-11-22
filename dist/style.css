@@ -146,3 +146,28 @@ header .header-github svg{flex-shrink:0}
 @media(max-width:800px){header .header-github{height:38px;padding:0 10px}header .header-github-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
 .credits ul+h3{margin-top:28px}.credits h3+p{font-size:.8rem;margin:0 0 10px}
 @media(max-width:480px){.header-actions{flex-shrink:1;min-width:0}}
+/* Revisão de Ana Laura Ferraz: introdução com chamada para o download, seção dos grupos e legendas. */
+main .intro .intro-video{margin-bottom:20px}
+.intro .intro-download.primary-button{display:flex;width:100%;margin:0 0 64px;padding:18px 24px;font-size:1.25rem;font-weight:700}
+@media(max-width:800px){.intro .intro-download.primary-button{margin-bottom:40px}}
+.groups-text{max-width:780px;margin-top:24px}
+.groups-text p{font-size:1.05rem;line-height:1.65}
+.groups-list{margin:0 0 1.25rem;padding-left:1.4em}
+.groups-list li{margin-bottom:14px;line-height:1.55}
+.groups-list li::marker{color:var(--accent);font-weight:700}
+.groups-list strong{display:block}
+.bonito-elis .motion-word .elis,[data-palette] .bonito-elis .motion-word .elis:not(.active){opacity:1}
+.bonito-parts{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:10px}
+.bonito-parts li{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.bonito-parts strong{grid-column:2}
+.bonito-parts li>span:last-child{grid-column:2;color:var(--muted)}
+.bonito-num{grid-row:1/span 2;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--on-brand);font-weight:700;font-size:.9rem}
+.section-lead{max-width:780px;font-size:1.05rem;line-height:1.65;margin:-8px 0 28px}
+.note>ul{margin:12px 0 0;padding-left:20px}
+.note>ul li{line-height:1.55}
+.note>ul li+li{margin-top:8px}
+.note>ul li::marker{color:var(--accent)}
+#recursos h4{margin:24px 0 6px;font-size:1rem;font-weight:700;color:var(--ink)}
+.underline-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.underline-grid .glyph-label{font-size:.75rem;line-height:1.3;color:var(--muted);text-align:center}
+@media(max-width:640px){.underline-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
