@@ -219,3 +219,9 @@ main .intro .intro-video{margin-bottom:20px}
 .bonito-step[aria-pressed="true"] strong{color:var(--accent)}
 .bonito-elis .motion-word .elis,[data-palette] .bonito-elis .motion-word .elis:not(.active){opacity:.38;transition:opacity .15s,color .15s}
 .bonito-elis .motion-word .elis.active,.bonito-elis .motion-word .elis.hover{opacity:1;color:inherit;background:rgba(255,255,255,.18);border-radius:5px}
+
+/* Recursos da fonte: respiro entre o título, a abertura e a explicação dos sublinhados. */
+#recursos>.section-lead{margin-top:24px}
+.contact-article h3{margin:0 0 12px;font-size:clamp(1.3rem,2vw,1.75rem);line-height:1.15}
+.contact-article>p{max-width:780px;margin:0 0 12px;line-height:1.6}
+.contact-article{margin-top:48px}

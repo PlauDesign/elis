@@ -69,7 +69,14 @@ test('os recursos da fonte mostram os quatro sublinhados no rosto e a nova pergu
   const recursos = page.locator('#recursos');
   await expect(recursos.locator('h2')).toHaveText('Recursos da fonte.');
   await expect(recursos.locator('.contact-card .glyph-label')).toHaveText([
-    'Sem contato', 'Um toque', 'Dois toques', 'Três ou mais toques']);
+    'Sem contato', 'Contato simples ou de passagem', 'Dois toques', 'Três ou mais toques']);
+  await expect(recursos.locator('.section-lead')).toContainText('A fonte ELiS possui dois recursos únicos');
+  await expect(recursos.locator('h3')).toHaveText(['Sublinhado significa contato', 'Como digitar', 'Ligaduras']);
+  await expect(recursos).toContainText('um traço significa contato simples ou de passagem, dois traços são dois toques e três traços, três ou mais toques');
+  await expect(recursos).toContainText('Alguns visografemas de dedos possuem ligaduras');
+  // A frase sobre apóstrofos curvos e ª/º explica o motivo: o editor troca os caracteres sozinho.
+  await expect(recursos).toContainText('Alguns editores de texto trocam caracteres sozinhos');
+  await expect(recursos).not.toContainText('Letras repetidas');
   await expect(recursos.locator('.note strong')).toHaveText('Os visografemas não se conectaram automaticamente?');
   await expect(recursos).not.toContainText('Entradas compatíveis');
 });
