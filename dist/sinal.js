@@ -44,9 +44,9 @@ let progress = 0, playing = false, last = 0, dirty = true;
 function setProgress(p, fromRange = false) {
   progress = clamp(p, 0, 1);
   const value = Math.round(progress * 100);
-  if (!fromRange) range.value = String(value);
-  percent.textContent = `${value}%`;
-  range.setAttribute('aria-valuetext', `${value}%`);
+  if (range && !fromRange) range.value = String(value);
+  if (percent) percent.textContent = `${value}%`;
+  range?.setAttribute('aria-valuetext', `${value}%`);
   stage.dataset.mao = handState(progress);
   dirty = true;
 }
@@ -60,8 +60,8 @@ play.addEventListener('click', () => {
   if (!playing && progress >= 1) setProgress(0);
   setPlaying(!playing);
 });
-document.querySelector('#sinal-restart').addEventListener('click', () => { setPlaying(false); setProgress(0); });
-range.addEventListener('input', () => { setPlaying(false); setProgress(Number(range.value) / 100, true); });
+document.querySelector('#sinal-restart')?.addEventListener('click', () => { setPlaying(false); setProgress(0); });
+range?.addEventListener('input', () => { setPlaying(false); setProgress(Number(range.value) / 100, true); });
 document.addEventListener('visibilitychange', () => { if (document.hidden) setPlaying(false); });
 
 // Na página do estudo, as etapas da escrita são deste script; no guia, são do guide.js.
@@ -340,7 +340,7 @@ function start() {
       // Um quadro lento atrasa o sinal em vez de pular um trecho dele.
       const step = last ? Math.min(now - last, 50) : 0;
       last = now;
-      setProgress(progress + step / DURATION * Number(speed.value));
+      setProgress(progress + step / DURATION * Number(speed?.value ?? 1));
       if (progress >= 1) setPlaying(false);
     }
     const k = reducedMotion.matches ? 1 : 0.16;
@@ -370,7 +370,7 @@ function fallback() {
   const tick = now => {
     requestAnimationFrame(tick);
     if (!playing) { previous = 0; return; }
-    setProgress(progress + (previous ? now - previous : 0) / DURATION * Number(speed.value));
+    setProgress(progress + (previous ? now - previous : 0) / DURATION * Number(speed?.value ?? 1));
     previous = now;
     if (progress >= 1) setPlaying(false);
   };

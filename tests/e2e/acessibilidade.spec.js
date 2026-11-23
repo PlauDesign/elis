@@ -33,7 +33,7 @@ for (const p of PAGES) {
     await page.keyboard.press('Escape');
     await page.locator('#anatomy-pins button').nth(3).click();
     await page.locator('[data-view="face"]').click();
-    await page.locator('#motion-play').click();
+    await page.locator('#sinal-play').click();
     expect(await violations(page)).toEqual([]);
   });
 

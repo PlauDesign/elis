@@ -43,11 +43,11 @@
 /* No guia: o quadro do boneco fica ao lado da leitura da palavra BONITO. */
 .sinal-embed{padding:0;margin-top:24px;min-width:0}
 .sinal-embed .sinal-controls{margin-top:8px}
-@media(min-width:1000px){
-.word-motion{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto auto auto 1fr auto;column-gap:clamp(24px,3vw,48px);align-items:start}
-.word-motion>:first-child,.word-motion>.caption{grid-column:1/-1}
-.word-motion>.sinal-embed{grid-column:1;grid-row:2/span 4;margin-top:0}
-.word-motion>:is(.motion-display,.motion-tabs,#motion-description,.motion-controls){grid-column:2}
-.word-motion>.motion-tabs{justify-self:start}
-.word-motion>.caption{margin-top:24px}
-}
+/* BONITO em Libras (o boneco) ao lado de BONITO em ELiS (a escrita com a legenda). */
+.bonito-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);align-items:start;margin-top:24px}
+.bonito-grid h4{margin:0 0 14px;font-size:1.5rem;font-stretch:75%;font-weight:700;line-height:1.15}
+.bonito-libras .sinal-embed{margin-top:0}
+.sinal.sinal-embed .sinal-controls #sinal-play{margin-top:4px;width:100%;font-size:1.125rem;font-weight:700;background:var(--accent);border-color:var(--accent);color:var(--on-brand)}
+.sinal.sinal-embed .sinal-controls #sinal-play:hover{background:var(--brand-hover);border-color:var(--brand-hover)}
+@media(max-width:900px){.bonito-grid{grid-template-columns:minmax(0,1fr)}}
+

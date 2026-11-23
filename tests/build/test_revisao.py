@@ -52,10 +52,11 @@ class RevisaoEstelitaTest(unittest.TestCase):
         self.assertLess(text.index('<dt>Engenharia tipográfica</dt>'), text.index('<dt>Design</dt>'))
 
     def test_guia(self):
-        self.assertRevised('index.html', 'O sistema tem 96 visografemas básicos', 'O sistema tem 95 visografemas')
-        self.assertRevised('index.html', 'A posição dos dedos.', 'Como os dedos se configuram.')
+        # A revisão de Ana Laura Ferraz (novembro de 2026) reescreveu a introdução e os grupos; o conteúdo de Estelita continua.
+        self.assertRevised('index.html', '96 visografemas básicos organizados em quatro grupos', 'O sistema tem 95 visografemas')
+        self.assertNotIn('Como os dedos se configuram.', read('index.html'))
         self.assertRevised('index.html', 'Explore os 35 pontos de articulação da cabeça, tronco e membros.', 'Explore 28 referências')
-        self.assertRevised('index.html', 'dois toques em diferentes áreas do mesmo ponto de articulação;', 'dois traços, dois toques;')
+        self.assertRevised('app.js', "T('Dois toques em diferentes áreas do mesmo ponto de articulação')", 'dois traços, dois toques;')
         self.assertRevised('index.html', 'A fonte escreve os sinais;', 'A fonte desenha os sinais;')
 
     def test_labio_superior(self):
