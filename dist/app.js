@@ -34,7 +34,7 @@ const fold=text=>text.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
 function searchKeys(query){const name=fold(query),hex=/^(?:u\+)?([0-9a-f]{4})$/i.exec(query)?.[1]?.toUpperCase(),exact=[],named=[];for(const cat of categories)for(const group of cat.groups)Array.from(group.keys).forEach((key,i)=>{const label=group.labels?.[i]||'',item={key,label};if(key===query||key.codePointAt(0).toString(16).toUpperCase().padStart(4,'0')===hex)exact.push(item);else if(name.length>1&&fold(label+' '+group.name+' '+cat.name).includes(name))named.push(item)});return [...exact,...named]}
 function showSearch(query){document.querySelectorAll('.category-nav button').forEach(b=>b.setAttribute('aria-pressed','false'));const found=searchKeys(query),root=$('#map-content');root.replaceChildren();const p=document.createElement('p');p.className='map-explanation';p.setAttribute('role','status');p.textContent=found.length?T(found.length===1?'{0} símbolo encontrado.':'{0} símbolos encontrados.',found.length):T('Nenhum símbolo encontrado. Confira maiúsculas e acentos, ou busque por um nome, como testa.');root.append(p);if(found.length){const grid=document.createElement('div');grid.className='glyph-grid';found.forEach(f=>grid.append(card(f.key,f.label)));root.append(grid)}}
 searchField.addEventListener('input',()=>{const query=searchField.value.trim();if(query)showSearch(query);else showCategory(category)});
-[['Q',T('Rosto, sem sublinhado')],["'1Q",T('Contato simples ou de passagem')],["'2Q",T('Dois toques em diferentes áreas do mesmo ponto de articulação')],["'3Q",T('Três ou mais toques')]].forEach(([s,l])=>$('#underline-demos').append(card(s,l,true)));['dd','ddd','hh','hhh','pp','ppp'].forEach(s=>$('#repeat-demos').append(card(s,'',true)));
+['dd','ddd','hh','hhh','pp','ppp'].forEach(s=>$('#repeat-demos').append(card(s,'',true)));
 showCategory(category);render();
 Promise.all(['400 40px ELiS','700 40px ELiS','italic 400 40px ELiS','italic 700 40px ELiS'].map(v=>document.fonts.load(v))).then(fonts=>{if(fonts.some(f=>!f.length))throw new Error('Fonte ausente')}).catch(()=>{$('#font-status').textContent=T('Não foi possível carregar todos os estilos da fonte. Recarregue a página para tentar novamente.')});
 const mc=document.modelContext;
@@ -43,3 +43,34 @@ if(mc?.registerTool){try{Promise.resolve(mc.registerTool({name:'configure_elis_p
 document.querySelectorAll('a[target="_blank"]').forEach(a=>{const s=document.createElement('span');s.className='sr-only';s.textContent=' '+T('(abre em nova aba)');a.append(s);});
 // O foco dentro do vídeo (outro domínio) não aciona :focus na página; marca a moldura enquanto ele estiver lá.
 {const v=document.querySelector('.intro-video');if(v){const sync=()=>v.classList.toggle('has-focus',document.activeElement===v.querySelector('iframe'));addEventListener('blur',()=>setTimeout(sync));addEventListener('focus',sync);document.addEventListener('focusin',sync);}}
+
+// Sublinhados de contato: cada cartão mostra no rosto onde e quantas vezes a mão toca.
+(()=>{const demo=document.getElementById('contact-demo');if(!demo)return;
+const NS='http://www.w3.org/2000/svg',HOME=[598,232],hand=demo.querySelector('.contact-hand'),marks=demo.querySelector('.contact-marks'),
+text=document.getElementById('contact-text'),key=document.getElementById('contact-key'),cards=[...demo.querySelectorAll('.contact-card')],
+reduce=matchMedia('(prefers-reduced-motion: reduce)');
+const plans=[
+ {key:'Q',title:T('Sem sublinhado.'),text:T('O visografema indica só o local: a mão fica perto do rosto, sem tocar'),near:[566,168],taps:[]},
+ {key:"'1Q",title:T('Um traço.'),text:T('A mão toca o rosto uma vez'),taps:[[549,166]]},
+ {key:"'2Q",title:T('Dois traços.'),text:T('Dois toques em diferentes áreas do mesmo ponto de articulação'),taps:[[541,98],[549,168]]},
+ {key:"'3Q",title:T('Três traços.'),text:T('A mão toca o rosto três ou mais vezes'),taps:[[546,156],[550,168],[546,180]]}];
+let pos=HOME,run=0;
+const place=p=>{pos=p;hand.style.transform=`translate(${p[0]}px,${p[1]}px)`};
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+const move=async(to,ms=420)=>{const a=hand.animate([{transform:`translate(${pos[0]}px,${pos[1]}px)`},{transform:`translate(${to[0]}px,${to[1]}px)`}],{duration:ms,easing:'ease-in-out'});place(to);await a.finished.catch(()=>{})};
+function mark([x,y],n,ripple){const g=document.createElementNS(NS,'g');g.setAttribute('class','contact-mark');g.setAttribute('transform',`translate(${x} ${y})`);
+ const c=document.createElementNS(NS,'circle');c.setAttribute('r','6');const t=document.createElementNS(NS,'text');t.textContent=n;g.append(c,t);marks.append(g);
+ if(ripple){const r=document.createElementNS(NS,'circle');r.setAttribute('class','contact-ripple');r.setAttribute('r','6');g.prepend(r);r.animate([{r:6,opacity:.9},{r:16,opacity:0}],{duration:500,easing:'ease-out'}).finished.then(()=>r.remove(),()=>{})}}
+async function play(i){const id=++run,plan=plans[i];marks.replaceChildren();hand.getAnimations().forEach(a=>a.cancel());
+ if(reduce.matches){plan.taps.forEach((p,n)=>mark(p,n+1,false));place(plan.taps.at(-1)||plan.near);return}
+ place(HOME);await wait(150);
+ if(!plan.taps.length){await move(plan.near,520);if(id!==run)return;await wait(700);if(id!==run)return;await move(HOME,420);return}
+ for(const [n,p] of plan.taps.entries()){await move(p,n?260:460);if(id!==run)return;mark(p,n+1,true);await wait(260);if(id!==run)return;
+  if(n<plan.taps.length-1){const q=plan.taps[n+1];await move([(p[0]+q[0])/2+8,(p[1]+q[1])/2],180);if(id!==run)return}}
+ await wait(300);if(id===run)await move(HOME,420)}
+function select(i,animate=true){cards.forEach((c,n)=>c.setAttribute('aria-pressed',String(n===i)));const plan=plans[i];
+ text.replaceChildren();const b=document.createElement('strong');b.textContent=plan.title;text.append(b,' '+plan.text+'.');key.textContent=plan.key;
+ demo.dataset.contact=i;if(animate)play(i);else{run++;marks.replaceChildren();place(HOME)}}
+cards.forEach((c,n)=>c.addEventListener('click',()=>select(n)));
+document.getElementById('contact-play').addEventListener('click',()=>play(+demo.dataset.contact||0));
+select(0,false)})();

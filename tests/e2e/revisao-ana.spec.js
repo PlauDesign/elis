@@ -64,9 +64,34 @@ test('o mapa de caracteres começa explicando os grupos e usa os nomes completos
 test('os recursos da fonte mostram os quatro sublinhados no rosto e a nova pergunta', async ({ page }) => {
   const recursos = page.locator('#recursos');
   await expect(recursos.locator('h2')).toHaveText('Recursos da fonte.');
-  await expect(recursos.locator('#underline-demos .glyph-label')).toHaveText([
-    'Rosto, sem sublinhado', 'Contato simples ou de passagem',
-    'Dois toques em diferentes áreas do mesmo ponto de articulação', 'Três ou mais toques']);
+  await expect(recursos.locator('.contact-card .glyph-label')).toHaveText([
+    'Sem contato', 'Um toque', 'Dois toques', 'Três ou mais toques']);
   await expect(recursos.locator('.note strong')).toHaveText('Os visografemas não se conectaram automaticamente?');
   await expect(recursos).not.toContainText('Entradas compatíveis');
+});
+
+// Figma "ELiS — Social launch", frame Recursos da Fonte: um visografema com os sublinhados,
+// lado a lado, e um exemplo que mostra no rosto o que cada um quer dizer.
+test('cada sublinhado do rosto mostra no exemplo onde e quantas vezes a mão toca', async ({ page }) => {
+  const demo = page.locator('#contact-demo');
+  const cards = demo.locator('.contact-card');
+  await expect(cards).toHaveCount(4);
+  await expect(cards.locator('.elis')).toHaveText(['Q', "'1Q", "'2Q", "'3Q"]);
+  await expect(cards.first()).toHaveAttribute('aria-pressed', 'true');
+  await expect(demo.locator('#contact-play')).toHaveText('Reproduzir exemplo');
+
+  const exemplo = demo.locator('.contact-stage');
+  await expect(exemplo.locator('.contact-mark')).toHaveCount(0);
+  await expect(demo.locator('#contact-text')).toContainText('sem tocar');
+
+  await cards.nth(2).click();
+  await expect(cards.nth(2)).toHaveAttribute('aria-pressed', 'true');
+  await expect(cards.first()).toHaveAttribute('aria-pressed', 'false');
+  await expect(demo.locator('#contact-text')).toContainText('Dois toques em diferentes áreas do mesmo ponto de articulação');
+  await expect(demo.locator('#contact-key')).toHaveText("'2Q");
+  await expect(exemplo.locator('.contact-mark')).toHaveCount(2, { timeout: 6000 });
+
+  await cards.nth(3).click();
+  await expect(demo.locator('#contact-key')).toHaveText("'3Q");
+  await expect(exemplo.locator('.contact-mark')).toHaveCount(3, { timeout: 6000 });
 });

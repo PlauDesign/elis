@@ -1558,5 +1558,29 @@
 " para os significados de cada sublinhado.": {
 "en": " for what each underline means.",
 "es": " para los significados de cada subrayado."
+},
+"Sem contato": {
+"en": "No contact",
+"es": "Sin contacto"
+},
+"Um toque": {
+"en": "One touch",
+"es": "Un toque"
+},
+"Dois toques": {
+"en": "Two touches",
+"es": "Dos toques"
+},
+"Três ou mais toques": {
+"en": "Three or more touches",
+"es": "Tres o más toques"
+},
+"Reproduzir exemplo": {
+"en": "Play example",
+"es": "Reproducir ejemplo"
+},
+"Sublinhados do visografema de rosto": {
+"en": "Underlines of the face visographeme",
+"es": "Subrayados del visografema de rostro"
 }
 }
