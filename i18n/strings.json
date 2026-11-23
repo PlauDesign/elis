@@ -1355,33 +1355,17 @@
 "en": "The visual movements of sign languages that the ELiS font represents are made up of:",
 "es": "Los movimientos visuales de las lenguas de señas que representa la fuente ELiS se componen de:"
 },
-"Configuração dos dedos:": {
-"en": "Finger configuration:",
-"es": "Configuración de los dedos:"
-},
 "É o formato que as mãos assumem durante o movimento. Existem visografemas para representar tanto o formato do polegar quanto dos demais dedos.": {
 "en": "The shape the hands take during the movement. There are visographemes for the shape of the thumb and for the other fingers.",
 "es": "Es la forma que adoptan las manos durante el movimiento. Hay visografemas para representar tanto la forma del pulgar como la de los demás dedos."
-},
-"Orientação da palma:": {
-"en": "Palm orientation:",
-"es": "Orientación de la palma:"
 },
 "Para onde a palma da mão está orientada durante o movimento.": {
 "en": "Where the palm of the hand faces during the movement.",
 "es": "Hacia dónde está orientada la palma de la mano durante el movimiento."
 },
-"Ponto de articulação:": {
-"en": "Point of articulation:",
-"es": "Punto de articulación:"
-},
 "Onde o sinal é realizado. Pode ser na cabeça, no tronco, na mão ou nos chamados membros, como braço, punho e perna, entre outros.": {
 "en": "Where the sign is made. It can be on the head, the trunk, the hand or the limbs, such as the arm, wrist and leg, among others.",
 "es": "Dónde se realiza la seña. Puede ser en la cabeza, el tronco, la mano o los llamados miembros, como el brazo, la muñeca y la pierna, entre otros."
-},
-"Tipo de movimento:": {
-"en": "Type of movement:",
-"es": "Tipo de movimiento:"
 },
 "Como as mãos, os braços e os demais membros se comportam durante a realização do sinal.": {
 "en": "How the hands, arms and other limbs behave while the sign is made.",
@@ -1590,5 +1574,9 @@
 "Mariângela Estelita Barros explica o contato no rosto lendo o sinal MULHER, na palestra ": {
 "en": "Mariângela Estelita Barros explains contact on the face by reading the sign WOMAN, in the talk ",
 "es": "Mariângela Estelita Barros explica el contacto en el rostro leyendo la seña MUJER, en la charla "
+},
+"Configuração dos dedos": {
+"en": "Finger configuration",
+"es": "Configuración de los dedos"
 }
 }

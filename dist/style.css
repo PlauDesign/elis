@@ -198,3 +198,24 @@ main .intro .intro-video{margin-bottom:20px}
 .contact-source{margin:0;font-size:.85rem;line-height:1.45;color:var(--muted)}
 .contact-source a{color:var(--brand-text);text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.contact-demo{grid-template-columns:1fr;gap:20px}.contact-cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 8px}.contact-card .elis{font-size:clamp(40px,12vw,64px);border-radius:10px;outline-offset:2px;margin-bottom:6px}.contact-place,.contact-card .glyph-label{font-size:.75rem;line-height:1.25}}
+
+/* Grupos em quatro colunas numeradas, como no site no ar. */
+.groups-list{list-style:none;margin:36px 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.6vw,40px)}
+.groups-list li{margin:0;padding:18px 0 0;border-top:1px solid var(--line);line-height:1.45}
+.groups-list .group-num{display:block;margin-bottom:18px;font:clamp(2.4rem,4.2vw,3.75rem)/1 'Odisseia',monospace;color:var(--accent)}
+.groups-list h3{margin:0;font-size:clamp(1.2rem,1.8vw,1.6rem);line-height:1.15}
+.groups-list p{margin:10px 0 0;font-size:1rem;line-height:1.45}
+@media(max-width:800px){.groups-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}}
+.groups-list+.groups-text{margin-top:0}
+
+/* Legenda do BONITO: cada item é uma etapa da leitura. */
+.bonito-parts{gap:4px}
+.bonito-parts li{display:block;padding:0;border-bottom:1px solid var(--line)}
+.bonito-step{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:12px;align-items:baseline;width:100%;margin:4px 0;padding:8px;border:0;border-radius:6px;background:none;color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.bonito-step strong{grid-column:2}
+.bonito-step>span:last-child{grid-column:2;color:var(--muted)}
+.bonito-step:hover{background:var(--hover)}
+.bonito-step[aria-pressed="true"]{background:var(--soft)}
+.bonito-step[aria-pressed="true"] strong{color:var(--accent)}
+.bonito-elis .motion-word .elis,[data-palette] .bonito-elis .motion-word .elis:not(.active){opacity:.38;transition:opacity .15s,color .15s}
+.bonito-elis .motion-word .elis.active,.bonito-elis .motion-word .elis.hover{opacity:1;color:inherit;background:rgba(255,255,255,.18);border-radius:5px}

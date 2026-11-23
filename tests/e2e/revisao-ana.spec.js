@@ -26,8 +26,12 @@ test('a introdução explica os visografemas e leva ao download', async ({ page 
 test('a seção dos grupos lista os quatro grupos, com "tipo de movimento"', async ({ page }) => {
   const grupos = page.locator('#grupos');
   await expect(grupos.locator('h2')).toHaveText('Os grupos de visografemas.');
-  await expect(grupos.locator('.groups-list > li strong')).toHaveText(
-    ['Configuração dos dedos:', 'Orientação da palma:', 'Ponto de articulação:', 'Tipo de movimento:']);
+  await expect(grupos.locator('.groups-list > li h3')).toHaveText(
+    ['Configuração dos dedos', 'Orientação da palma', 'Ponto de articulação', 'Tipo de movimento']);
+  // Como no site no ar: quatro colunas, cada uma com o número do grupo em destaque.
+  await expect(grupos.locator('.groups-list > li .group-num')).toHaveText(['01', '02', '03', '04']);
+  const colunas = await grupos.locator('.groups-list').evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length);
+  expect(colunas).toBe(test.info().project.name === 'mobile' ? 2 : 4);
   await expect(grupos).toContainText('chamado visografema');
 });
 
@@ -107,4 +111,23 @@ test('o rosto do exemplo usa uma imagem própria, em alta resolução, e leva à
   const video = demo.locator('a.contact-video');
   await expect(video).toHaveAttribute('href', 'https://www.youtube.com/watch?v=Du7E6w-wR-0&t=1830s');
   await expect(video).toContainText('ELiS: do básico ao acabamento');
+});
+
+test('na legenda do BONITO, a etapa 4 (tipo de movimento) faz o boneco executar o sinal, como no site no ar', async ({ page }) => {
+  const legenda = page.locator('#grupos .bonito-parts');
+  await legenda.scrollIntoViewIfNeeded();
+  const etapas = legenda.locator('button[data-step]');
+  await expect(etapas).toHaveCount(5);
+  await expect(etapas.first()).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('.motion-word [data-part="0"]')).toHaveClass(/active/);
+
+  await legenda.getByRole('button', { name: /Ponto de articulação/ }).click();
+  await expect(page.locator('.motion-word [data-part="3"]')).toHaveClass(/active/);
+  await expect(page.locator('.motion-word [data-part="0"]')).not.toHaveClass(/active/);
+
+  const movimento = legenda.getByRole('button', { name: /Tipo de movimento/ });
+  await movimento.click();
+  await expect(movimento).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('.motion-word [data-part="4"]')).toHaveClass(/active/);
+  await expect(page.locator('#sinal-stage')).not.toHaveAttribute('data-mao', 'aberta', { timeout: 5000 });
 });
