@@ -195,10 +195,6 @@
 "en": "Mac shortcuts",
 "es": "atajos de Mac"
 },
-"Sublinhados de contato": {
-"en": "Contact underlines",
-"es": "Subrayados de contacto"
-},
 "Experimente no corpo.": {
 "en": "Try it on the body.",
 "es": "Pruébalo en el cuerpo."
@@ -210,14 +206,6 @@
 " ou ": {
 "en": " or ",
 "es": " o "
-},
-"Letras repetidas": {
-"en": "Repeated letters",
-"es": "Letras repetidas"
-},
-"As sequências abaixo se combinam automaticamente em um único desenho. Digite as letras seguidas, sem espaços.": {
-"en": "The sequences below combine automatically into a single drawing. Type the letters one after another, without spaces.",
-"es": "Las secuencias de abajo se combinan automáticamente en un único dibujo. Escribe las letras seguidas, sin espacios."
 },
 "São demonstrações tipográficas. O uso linguístico de cada combinação segue as regras da ELiS.": {
 "en": "These are typographic demonstrations. The linguistic use of each combination follows the rules of ELiS.",
@@ -1491,10 +1479,6 @@
 "en": "Font features.",
 "es": "Recursos de la fuente."
 },
-"Embaixo de um visografema de ponto de articulação, um sublinhado indica que a mão toca a região. O número de traços mostra como é esse contato. Veja no exemplo do rosto:": {
-"en": "Under a point-of-articulation visographeme, an underline shows that the hand touches the region. The number of strokes shows what that contact is like. See the example of the face:",
-"es": "Debajo de un visografema de punto de articulación, un subrayado indica que la mano toca la región. El número de trazos muestra cómo es ese contacto. Mira el ejemplo del rostro:"
-},
 "Como digitar": {
 "en": "How to type it",
 "es": "Cómo escribirlo"
@@ -1514,10 +1498,6 @@
 "Quais visografemas aceitam sublinhado": {
 "en": "Which visographemes take an underline",
 "es": "Qué visografemas aceptan subrayado"
-},
-"Os pontos de articulação das teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ e %. A fonte também aceita os apóstrofos curvos ‘ e ’, e ª e º no lugar de A e O.": {
-"en": "Point-of-articulation keys A–Z, Ç, x, *, #, \\, _, @, &amp;, $ and %. The font also accepts the curly apostrophes ‘ and ’, and ª and º in place of A and O.",
-"es": "Los puntos de articulación de las teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ y %. La fuente también acepta los apóstrofos curvos ‘ y ’, y ª y º en lugar de A y O."
 },
 "Os visografemas não se conectaram automaticamente?": {
 "en": "The visographemes did not join automatically?",
@@ -1547,10 +1527,6 @@
 "en": "No contact",
 "es": "Sin contacto"
 },
-"Um toque": {
-"en": "One touch",
-"es": "Un toque"
-},
 "Dois toques": {
 "en": "Two touches",
 "es": "Dos toques"
@@ -1578,5 +1554,41 @@
 "Configuração dos dedos": {
 "en": "Finger configuration",
 "es": "Configuración de los dedos"
+},
+"A fonte ELiS possui dois recursos únicos: três tipos de sublinhado, que mudam em parte o significado dos visografemas de ponto de articulação, e ligaduras automáticas para certos visografemas que representam dedos.": {
+"en": "The ELiS font has two unique features: three kinds of underline, which partly change the meaning of point-of-articulation visographemes, and automatic ligatures for certain visographemes that represent fingers.",
+"es": "La fuente ELiS tiene dos recursos únicos: tres tipos de subrayado, que cambian en parte el significado de los visografemas de punto de articulación, y ligaduras automáticas para ciertos visografemas que representan dedos."
+},
+"Sublinhado significa contato": {
+"en": "An underline means contact",
+"es": "El subrayado significa contacto"
+},
+"Sublinhados embaixo de visografemas de ponto de articulação indicam que a mão toca a região de uma forma específica. O número de traços mostra como é esse contato: um traço significa contato simples ou de passagem, dois traços são dois toques e três traços, três ou mais toques.": {
+"en": "Underlines beneath point-of-articulation visographemes show that the hand touches the region in a specific way. The number of strokes shows what that contact is like: one stroke means single or passing contact, two strokes mean two touches, and three strokes mean three or more touches.",
+"es": "Los subrayados bajo los visografemas de punto de articulación indican que la mano toca la región de una forma específica. El número de trazos muestra cómo es ese contacto: un trazo significa contacto simple o de paso, dos trazos son dos toques y tres trazos, tres o más toques."
+},
+"Veja abaixo, como exemplo, o visografema de “Rosto” (Q) com os diferentes sublinhados.": {
+"en": "See below, as an example, the “Face” visographeme (Q) with the different underlines.",
+"es": "Mira abajo, como ejemplo, el visografema de “Rostro” (Q) con los distintos subrayados."
+},
+"Contato simples ou de passagem": {
+"en": "Single or passing contact",
+"es": "Contacto simple o de paso"
+},
+"Alguns editores de texto trocam caracteres sozinhos: o apóstrofo reto vira um apóstrofo curvo (‘ ou ’) e, depois de um número, A e O viram ª e º. O sublinhado funciona mesmo com essas trocas.": {
+"en": "Some text editors swap characters on their own: the straight apostrophe becomes a curly one (‘ or ’) and, after a number, A and O become ª and º. The underline works even with these swaps.",
+"es": "Algunos editores de texto cambian caracteres por su cuenta: el apóstrofo recto se vuelve curvo (‘ o ’) y, después de un número, A y O se vuelven ª y º. El subrayado funciona incluso con esos cambios."
+},
+"Ligaduras": {
+"en": "Ligatures",
+"es": "Ligaduras"
+},
+"Alguns visografemas de dedos possuem ligaduras: eles se combinam automaticamente em um único desenho quando as letras são digitadas seguidas, sem espaços. Veja abaixo os visografemas que têm esse recurso.": {
+"en": "Some finger visographemes have ligatures: they combine automatically into a single drawing when the letters are typed in a row, with no spaces. See below the visographemes that have this feature.",
+"es": "Algunos visografemas de dedos tienen ligaduras: se combinan automáticamente en un solo dibujo cuando las letras se escriben seguidas, sin espacios. Mira abajo los visografemas que tienen este recurso."
+},
+"Os pontos de articulação das teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ e %.": {
+"en": "Point-of-articulation keys A–Z, Ç, x, *, #, \\, _, @, &amp;, $ and %.",
+"es": "Los puntos de articulación de las teclas A–Z, Ç, x, *, #, \\, _, @, &amp;, $ y %."
 }
 }

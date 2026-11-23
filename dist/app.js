@@ -51,7 +51,7 @@ text=document.getElementById('contact-text'),key=document.getElementById('contac
 reduce=matchMedia('(prefers-reduced-motion: reduce)');
 const plans=[
  {key:'Q',title:T('Sem sublinhado.'),text:T('O visografema indica só o local: a mão fica perto do rosto, sem tocar'),near:[566,168],taps:[]},
- {key:"'1Q",title:T('Um traço.'),text:T('A mão toca o rosto uma vez'),taps:[[549,166]]},
+ {key:"'1Q",title:T('Um traço.'),text:T('Contato simples ou de passagem: a mão toca o rosto uma vez ou passa por ele'),taps:[[549,166]]},
  {key:"'2Q",title:T('Dois traços.'),text:T('Dois toques em diferentes áreas do mesmo ponto de articulação'),taps:[[541,98],[549,168]]},
  {key:"'3Q",title:T('Três traços.'),text:T('A mão toca o rosto três ou mais vezes'),taps:[[546,156],[550,168],[546,180]]}];
 let pos=HOME,run=0;
