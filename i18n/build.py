@@ -32,6 +32,7 @@ LOCAL_HREF = re.compile(r'href="(\./|historia\.html)(#[^"]*)?"')
 KEEP = re.compile(r'^\s*([\d\s./·:–-]*|[^A-Za-zÀ-ÿ]*|.{0,3})\s*$')
 # Proper names, product names, file names and codes are the same in every language.
 KEEP_TEXTS = {
+    'ELiS: do básico ao acabamento',
     'ELiS', 'Mariângela Estelita Barros', '64 px', 'qgçQà', 'tgçQÄ', 'Regular · ELiS', 'Windows', 'Ctrl + V',
     'Windows/Mac:', '.ttf', '.woff2', 'Site', 'MAC / macOS', 'PC / WINDOWS', 'Jornal UFG',
     'Um texto escrito em Libras/ELiS', 'Libras_ELiS.pdf', 'Teclas detalhadas beta.pdf', 'Compasso', 'Odisseia',

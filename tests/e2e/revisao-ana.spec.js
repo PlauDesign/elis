@@ -95,3 +95,16 @@ test('cada sublinhado do rosto mostra no exemplo onde e quantas vezes a mão toc
   await expect(demo.locator('#contact-key')).toHaveText("'3Q");
   await expect(exemplo.locator('.contact-mark')).toHaveCount(3, { timeout: 6000 });
 });
+
+test('o rosto do exemplo usa uma imagem própria, em alta resolução, e leva à explicação de Estelita', async ({ page }) => {
+  const demo = page.locator('#contact-demo');
+  const rosto = demo.locator('.contact-stage svg image');
+  await expect(rosto).toHaveAttribute('href', /assets\/elis-rosto\.png/);
+  const largura = await page.evaluate(async (url) => {
+    const img = new Image(); img.src = url; await img.decode(); return img.naturalWidth;
+  }, await rosto.getAttribute('href'));
+  expect(largura).toBeGreaterThanOrEqual(800);
+  const video = demo.locator('a.contact-video');
+  await expect(video).toHaveAttribute('href', 'https://www.youtube.com/watch?v=Du7E6w-wR-0&t=1830s');
+  await expect(video).toContainText('ELiS: do básico ao acabamento');
+});
