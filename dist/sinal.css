@@ -51,3 +51,24 @@
 .sinal.sinal-embed .sinal-controls #sinal-play:hover{background:var(--brand-hover);border-color:var(--brand-hover)}
 @media(max-width:900px){.bonito-grid{grid-template-columns:minmax(0,1fr)}}
 
+/* Celular: o boneco e a leitura em ELiS cabem na mesma tela. O palco fica baixo e preso sob o menu,
+   e a palavra e as cinco etapas ficam compactas logo abaixo, para dar para ver o boneco reagir a cada toque. */
+@media(max-width:800px){
+.bonito-grid{row-gap:8px;margin-top:16px}
+.bonito-grid :is(.bonito-libras,.bonito-elis,.sinal-embed){display:contents}
+.bonito-grid h4{margin:0;font-size:1.2rem}
+.bonito-grid .bonito-elis h4{margin-top:6px}
+.bonito-grid .sinal-stage{position:sticky;top:64px;z-index:3;aspect-ratio:auto;height:clamp(150px,27svh,220px);max-height:none;border-radius:14px;box-shadow:0 0 0 8px var(--wash)}
+.bonito-grid .sinal-hint{display:none}
+.bonito-grid .sinal-vistas{margin-top:0;gap:6px}
+.bonito-grid .sinal-vistas button{flex:1 1 auto;min-height:36px;padding:6px 10px;font-size:.85rem}
+.bonito-grid .sinal-controls{margin-top:0}
+.sinal.sinal-embed .sinal-controls #sinal-play{margin-top:0;min-height:42px;padding:8px 14px;font-size:1rem}
+.bonito-grid .motion-display{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:18px;padding:8px 14px}
+.bonito-grid .motion-word{min-height:0}
+.bonito-grid .motion-word .elis{font-size:38px;line-height:1.3}
+.bonito-grid .motion-display>code{margin-top:0;font-size:.85rem}
+.bonito-grid .bonito-parts{margin-top:0;gap:0}
+.bonito-grid .bonito-step{display:flex;flex-wrap:wrap;align-items:center;column-gap:8px;min-height:36px;margin:1px 0;padding:4px 6px;font-size:.8125rem;line-height:1.25}
+.bonito-grid .bonito-num{width:22px;height:22px;font-size:.8rem;flex-shrink:0}
+}
