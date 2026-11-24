@@ -73,3 +73,18 @@ test('a busca por nome encontra o movimento', async ({ page }) => {
   await page.locator('#map-search').fill('tamborilar');
   await expect(page.locator('#map-content .glyph-card kbd')).toHaveText(['Ä']);
 });
+
+// Barros (2016, p. 205) nomeia os básicos de Demais dedos: fechado, muito curvo, curvo, inclinado e estendido.
+// Os desenhos com ponto ou traço aparecem como variantes do básico, sem um significado inventado.
+test('cada visografema de Demais dedos mostra um nome', async ({ page }) => {
+  await page.locator('.category-nav [data-category=dedos]').click();
+  const grupo = page.locator('#map-content .map-group').nth(1);
+  await expect(grupo.locator('.glyph-card kbd')).toHaveText(['u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k']);
+  await expect(grupo.locator('.glyph-card .glyph-label')).toHaveText([
+    'Muito curvo', 'Variante de muito curvo, com ponto', 'Curvo', 'Variante de curvo, com traço', 'Variante de curvo, com ponto',
+    'Inclinado', 'Variante de inclinado, com traço', 'Variante de inclinado, com ponto',
+    'Estendido', 'Variante de estendido, com traço', 'Variante de inclinado, cruzada', 'Fechado']);
+  await grupo.locator('.glyph-card').first().click();
+  await expect(page.locator('#key-dialog-title')).toHaveText('Muito curvo');
+  await expect(page.locator('#key-description')).toHaveText('Demais dedos: Muito curvo.');
+});
