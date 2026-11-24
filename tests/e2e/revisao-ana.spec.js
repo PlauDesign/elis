@@ -30,6 +30,10 @@ test('a seção dos grupos lista os quatro grupos, com "tipo de movimento"', asy
     ['Configuração dos dedos', 'Orientação da palma', 'Ponto de articulação', 'Tipo de movimento']);
   // Como no site no ar: quatro colunas, cada uma com o número do grupo em destaque.
   await expect(grupos.locator('.groups-list > li .group-num')).toHaveText(['01', '02', '03', '04']);
+  // Os números usam a Compasso condensada dos títulos, não a fonte monoespaçada.
+  const numero = await grupos.locator('.group-num').first().evaluate(el => { const c = getComputedStyle(el); return [c.fontFamily, c.fontWeight]; });
+  expect(numero[0]).toMatch(/^["']?Compasso/);
+  expect(numero[1]).toBe('700');
   const colunas = await grupos.locator('.groups-list').evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length);
   expect(colunas).toBe(test.info().project.name === 'mobile' ? 2 : 4);
   await expect(grupos).toContainText('chamado visografema');
@@ -137,4 +141,29 @@ test('na legenda do BONITO, a etapa 4 (tipo de movimento) faz o boneco executar 
   await expect(movimento).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('.motion-word [data-part="4"]')).toHaveClass(/active/);
   await expect(page.locator('#sinal-stage')).not.toHaveAttribute('data-mao', 'aberta', { timeout: 5000 });
+});
+
+// No celular, o boneco e a leitura em ELiS precisam caber juntos na tela: tocar em uma etapa
+// só faz sentido se der para ver o boneco reagir.
+test('@mobile no celular, o boneco, a palavra em ELiS e as cinco etapas cabem na mesma tela', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 664 });
+  const palco = page.locator('#sinal-stage');
+  const menu = await page.locator('.sidebar').boundingBox();
+  await palco.evaluate((el, alturaMenu) => window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - alturaMenu - 8), menu.height);
+  await expect(palco).toBeInViewport({ ratio: 1 });
+  await expect(page.locator('#sinal-play')).toBeInViewport({ ratio: 1 });
+  await expect(page.locator('.bonito-elis .motion-word')).toBeInViewport({ ratio: 1 });
+  for (const etapa of await page.locator('.bonito-step').all()) await expect(etapa).toBeInViewport({ ratio: 1 });
+  // A dica de mouse e teclado não cobre o boneco em telas de toque.
+  await expect(page.locator('.sinal-hint')).toBeHidden();
+});
+
+test('@mobile no celular, o boneco continua visível enquanto a leitura em ELiS rola', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 520 });
+  const palco = page.locator('#sinal-stage');
+  await page.locator('.bonito-step').last().evaluate(el => el.scrollIntoView({ block: 'end' }));
+  await expect(palco).toBeInViewport({ ratio: 1 });
+  const menu = await page.locator('.sidebar').boundingBox();
+  const caixa = await palco.boundingBox();
+  expect(caixa.y).toBeGreaterThanOrEqual(menu.y + menu.height - 1);
 });
