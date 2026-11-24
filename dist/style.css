@@ -202,7 +202,7 @@ main .intro .intro-video{margin-bottom:20px}
 /* Grupos em quatro colunas numeradas, como no site no ar. */
 .groups-list{list-style:none;margin:36px 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.6vw,40px)}
 .groups-list li{margin:0;padding:18px 0 0;border-top:1px solid var(--line);line-height:1.45}
-.groups-list .group-num{display:block;margin-bottom:18px;font:clamp(2.4rem,4.2vw,3.75rem)/1 'Odisseia',monospace;color:var(--accent)}
+.groups-list .group-num{display:block;margin-bottom:18px;font:700 clamp(2.4rem,4.2vw,3.75rem)/1 'Compasso',sans-serif;font-stretch:75%;font-variation-settings:'wdth' 75,'wght' 700;font-variant-numeric:proportional-nums;font-feature-settings:'pnum';color:var(--accent)}
 .groups-list h3{margin:0;font-size:clamp(1.2rem,1.8vw,1.6rem);line-height:1.15}
 .groups-list p{margin:10px 0 0;font-size:1rem;line-height:1.45}
 @media(max-width:800px){.groups-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}}

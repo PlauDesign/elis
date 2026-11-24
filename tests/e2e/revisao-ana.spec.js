@@ -30,6 +30,10 @@ test('a seção dos grupos lista os quatro grupos, com "tipo de movimento"', asy
     ['Configuração dos dedos', 'Orientação da palma', 'Ponto de articulação', 'Tipo de movimento']);
   // Como no site no ar: quatro colunas, cada uma com o número do grupo em destaque.
   await expect(grupos.locator('.groups-list > li .group-num')).toHaveText(['01', '02', '03', '04']);
+  // Os números usam a Compasso condensada dos títulos, não a fonte monoespaçada.
+  const numero = await grupos.locator('.group-num').first().evaluate(el => { const c = getComputedStyle(el); return [c.fontFamily, c.fontWeight]; });
+  expect(numero[0]).toMatch(/^["']?Compasso/);
+  expect(numero[1]).toBe('700');
   const colunas = await grupos.locator('.groups-list').evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length);
   expect(colunas).toBe(test.info().project.name === 'mobile' ? 2 : 4);
   await expect(grupos).toContainText('chamado visografema');
